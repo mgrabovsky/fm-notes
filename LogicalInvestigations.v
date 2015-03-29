@@ -134,11 +134,13 @@ Section Chapter4.
     unfold not.
     intros H1 H2.
     assert (H2' := H2).
+    (* same as [contradict H2'.] in this case *)
     destruct H2'.
     left; intro HP.
     destruct H2.
     right.
-    exact (H1 HP).
+    (* same as [exact (H1 HP).] *)
+    apply H1, HP.
   Qed.
 
   (* TODO: could be shorter? *)
@@ -184,7 +186,7 @@ Section Chapter5.
     apply H with x, H0.
   Qed.
 
-  Theorem thm19a : (C \/ ~C) -> (exists x : T, True) -> (C -> (exists x, P x)) ->
+  Theorem thm19a : (C \/ ~C) -> (exists _ : T, True) -> (C -> (exists x, P x)) ->
     (exists x, C -> P x).
   Proof.
     intros Hdec Hinhab Himpl.
@@ -203,7 +205,38 @@ Section Chapter5.
     intros H HC.
     destruct H.
     exists x.
-    exact (H HC).
+    (* same as [exact (H HC).] *)
+    apply H, HC.
+  Qed.
+
+  (* Now it's getting funky *)
+  Theorem thm20a : (C \/ ~C) -> (exists _ : T, True) -> (~(forall x, P x) ->
+    (exists x, ~P x)) -> ((forall x, P x) -> C) -> (exists x, P x -> C).
+  Proof.
+    intros Hdec Hinhab Hmarkov H0.
+    destruct Hdec.
+    - destruct Hinhab as [x _].
+      exists x.
+      intro; assumption.
+    (* TODO: What's going on around here? It seems that we're introduction the
+     * consequent of the [~(forall ...) -> (exists ~...)] hypothesis, so we first
+     * need to prove the antecedent. BUT, generally, [destruct] doesn't act on
+     * implications, so we're probably [destruct]ing on the [ex] here *)
+    - destruct Hmarkov.
+      + red.
+        intro.
+        contradict H.
+        (* or [exact (H0 H1).] *)
+        apply H0, H1.
+      + exists x.
+        intro; contradiction.
+  Qed.
+
+  Theorem thm20b : (exists x, P x -> C) -> (forall x, P x) -> C.
+  Proof.
+    intros Hex Huniv.
+    destruct Hex as [x H].
+    apply H, Huniv.
   Qed.
 End Chapter5.
 
