@@ -37,6 +37,8 @@ Section Chapter3.
     absurd P; assumption.
   Qed.
 
+  (* TODO: below here: check for [intro ...; destruct] and
+   * [exfalso/contradiction] v. [absurd/elim] *)
   Theorem thm5 : P -> ~~P.
   Proof.
     intro.
@@ -63,7 +65,7 @@ Section Chapter3.
   Proof.
     intros Hnimpl HP.
     contradict Hnimpl.
-    (* TODO: there must be a faster way, e.g. [exact (fun _ => Hnimpl).] *)
+    (* TODO: there must be a shorter way to generate [exact (fun _ => Hnimpl).] *)
     intro; assumption.
   Qed.
 End Chapter3.
@@ -74,12 +76,138 @@ Section Chapter4.
 
   Theorem thm9 : (P \/ ~P) -> ~~P -> P.
   Proof.
-    intros Hclassical HnnP.
-    destruct Hclassical; [|contradict HnnP]; assumption.
+    intros Hdec HnnP.
+    destruct Hdec; [| contradict HnnP]; assumption.
   Qed.
 
-  (* TODO: ... &c. *)
+  Theorem thm10 : ~~(P \/ ~P).
+  Proof. 
+    red.
+    intro H.
+    (* duplicate the hypothesis *)
+    assert (H' := H).
+    contradict H'.
+    (* we don't have evidence for [P], so we prove its negation *)
+    right.
+    contradict H.
+    left; assumption.
+  Qed.
+
+  Theorem thm11 : (~P \/ ~Q) -> ~(P /\ Q).
+  Proof.
+    intro.
+    destruct H; contradict H; apply H.
+  Qed.
+
+  (* an alternative proof of Theorem 11 *)
+  Theorem thm11a : (~P \/ ~Q) -> ~(P /\ Q).
+  Proof.
+    intro H.
+    contradict H.
+    destruct H as [HP HQ].
+    contradict HP.
+    destruct HP; [assumption | contradiction].
+  Qed.
+
+  Theorem thm12 : ~(P \/ Q) -> (~P /\ ~Q).
+  Proof.
+    intro H.
+    split; contradict H; [left | right]; assumption.
+  Qed.
+
+  Theorem thm13 : (~P /\ ~Q) -> ~(P \/ Q).
+  Proof.
+    intro H.
+    destruct H as [H1 H2].
+    contradict H1.
+    destruct H1; [assumption | contradiction].
+  Qed.
+
+  Theorem thm14 : (~P \/ Q) -> P -> Q.
+  Proof.
+    intros H0 HP.
+    destruct H0; [contradiction | assumption].
+  Qed.
+
+  Theorem thm15 : (P -> Q) -> ~~(~P \/ Q).
+  Proof.
+    unfold not.
+    intros H1 H2.
+    assert (H2' := H2).
+    destruct H2'.
+    left; intro HP.
+    destruct H2.
+    right.
+    exact (H1 HP).
+  Qed.
+
+  (* TODO: could be shorter? *)
+  Theorem thm16 : ((P -> Q) /\ ((P \/ ~P) \/ (Q \/ ~Q))) -> (~P \/ Q).
+  Proof.
+    intro H; destruct H, H0, H0.
+    - right; apply H, H0.
+    - left; assumption.
+    - right; assumption.
+    - left.
+      contradict H.
+      red; intro.
+      assert (HQ := H1 H).
+      contradiction.
+  Qed.
 End Chapter4.
 
-(* vim: set et ts=2 sw=2: *)
+(* * 5. First-Order Logic: All and Exists *)
+Section Chapter5.
+  Variables (T : Type) (C : Prop) (P : T -> Prop).
+
+  Theorem thm17a : (C -> (forall x, P x)) -> (forall x, (C -> P x)).
+  Proof.
+    intros; apply H; assumption.
+  Qed.
+
+  Theorem thm17b : (forall x, (C -> P x)) -> (C -> (forall x, P x)).
+  Proof.
+    intros; apply H; assumption.
+  Qed.
+
+  Theorem thm18a : ((exists x, P x) -> C) -> (forall x, P x -> C).
+  Proof.
+    intros.
+    apply H.
+    exists x.
+    assumption.
+  Qed.
+
+  Theorem thm18b : (forall x, P x -> C) -> ((exists x, P x) -> C).
+  Proof.
+    intros ? [x H0].
+    apply H with x, H0.
+  Qed.
+
+  Theorem thm19a : (C \/ ~C) -> (exists x : T, True) -> (C -> (exists x, P x)) ->
+    (exists x, C -> P x).
+  Proof.
+    intros Hdec Hinhab Himpl.
+    destruct Hdec as [HC | HnC].
+    - destruct (Himpl HC) as [x HPx].
+      exists x.
+      (* TODO: is there a shorthand for this? *)
+      intro; assumption.
+    - destruct Hinhab as [x _].
+      exists x.
+      intro H; contradiction.
+  Qed.
+
+  Theorem thm19b : (exists x, C -> P x) -> C -> (exists x, P x).
+  Proof.
+    intros H HC.
+    destruct H.
+    exists x.
+    exact (H HC).
+  Qed.
+End Chapter5.
+
+(* TODO: ... &c. *)
+
+(* vim: set et ts=2 sts=2 sw=2: *)
 
