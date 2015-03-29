@@ -77,11 +77,11 @@ Section Chapter4.
   Theorem thm9 : (P \/ ~P) -> ~~P -> P.
   Proof.
     intros Hdec HnnP.
-    destruct Hdec; [| contradict HnnP]; assumption.
+    destruct Hdec; [ | contradict HnnP]; assumption.
   Qed.
 
   Theorem thm10 : ~~(P \/ ~P).
-  Proof. 
+  Proof.
     red.
     intro H.
     (* duplicate the hypothesis *)
@@ -237,6 +237,73 @@ Section Chapter5.
     intros Hex Huniv.
     destruct Hex as [x H].
     apply H, Huniv.
+  Qed.
+
+  Theorem thm21a : (exists _ : T, True) -> ((exists x, P x) \/ C) ->
+    (exists x, P x \/ C).
+  Proof.
+    intros.
+    destruct H0 as [[x HPx] | HC].
+    - exists x.
+      left; assumption.
+    - destruct H as [x _].
+      exists x.
+      right; assumption.
+  Qed.
+
+  Theorem thm21b : (exists x, P x \/ C) -> ((exists x, P x) \/ C).
+  Proof.
+    (* TODO: [intro ? destruct ?] can be replaced by [intros [?|?].] *)
+    intro H.
+    destruct H as [x [? | ?]].
+    - left; exists x; assumption.
+    - right; assumption.
+  Qed.
+
+  Theorem thm22a : ((forall x, P x) \/ C) -> (forall x, P x \/ C).
+  Proof.
+    intros [H x | H].
+    - left; apply H.
+    - right; assumption.
+  Qed.
+
+  Theorem thm22b : (C \/ ~C) -> (forall x, P x \/ C) -> ((forall x, P x) \/ C).
+  Proof.
+    intros [HC | HnC] H.
+    - right; assumption.
+    - left.
+      intro x.
+      destruct (H x); [assumption | contradiction].
+  Qed.
+
+  Theorem thm23a : ((exists x, P x) /\ C) -> (exists x, P x /\ C).
+  Proof.
+    intros [[x H] HC].
+    exists x.
+    split; assumption.
+  Qed.
+
+  Theorem thm23b : (exists x, P x /\ C) -> ((exists x, P x) /\ C).
+  Proof.
+    intros [x [H HC]].
+    split; [exists x | ]; assumption.
+  Qed.
+
+  Theorem thm24a : ((forall x, P x) /\ C) -> (forall x, P x /\ C).
+  Proof.
+    intros [H HC x].
+    split; [apply H | apply HC].
+  Qed.
+
+  Theorem thm24b : (exists _ : T, True) -> (forall x, P x /\ C) ->
+    ((forall x, P x) /\ C).
+  Proof.
+    intros Hinhab H0.
+    split.
+    - intro x; apply H0.
+    - destruct Hinhab as [x _].
+      (* or [destruct (H0 x) as [_ HC]. exact HC] *)
+      apply (proj2 (H0 x)).
   Qed.
 End Chapter5.
 
