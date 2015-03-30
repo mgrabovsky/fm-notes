@@ -37,12 +37,10 @@ Section Chapter3.
     absurd P; assumption.
   Qed.
 
-  (* TODO: below here: check for [intro ...; destruct] and
-   * [exfalso/contradiction] v. [absurd/elim] *)
   Theorem thm5 : P -> ~~P.
   Proof.
     intro.
-    (* this transforms [H : P |- ~~P] into [H : ~P |- ~P] -- a contraposition *)
+    (* this transforms [H : P |- ~~P] into [H : ~P |- ~P] -- kinda contraposition *)
     contradict H.
     assumption.
   Qed.
@@ -57,15 +55,14 @@ Section Chapter3.
   Theorem thm7 : (P -> ~P) -> P -> Q.
   Proof.
     intros Himpl HP.
-    exfalso.
-    apply Himpl; assumption.
+    elim Himpl; assumption.
   Qed.
 
   Theorem thm8 : ~(P -> Q) -> P -> ~Q.
   Proof.
     intros Hnimpl HP.
     contradict Hnimpl.
-    (* TODO: there must be a shorter way to generate [exact (fun _ => Hnimpl).] *)
+    (* TODO: is there a shorthand for this? *)
     intro; assumption.
   Qed.
 End Chapter3.
@@ -95,7 +92,7 @@ Section Chapter4.
 
   Theorem thm11 : (~P \/ ~Q) -> ~(P /\ Q).
   Proof.
-    intro.
+    intro H.
     destruct H; contradict H; apply H.
   Qed.
 
@@ -117,16 +114,15 @@ Section Chapter4.
 
   Theorem thm13 : (~P /\ ~Q) -> ~(P \/ Q).
   Proof.
-    intro H.
-    destruct H as [H1 H2].
+    intros [H1 H2].
+    (* doesn't matter which one *)
     contradict H1.
     destruct H1; [assumption | contradiction].
   Qed.
 
   Theorem thm14 : (~P \/ Q) -> P -> Q.
   Proof.
-    intros H0 HP.
-    destruct H0; [contradiction | assumption].
+    intros [? | ?] HP; [contradiction | assumption].
   Qed.
 
   Theorem thm15 : (P -> Q) -> ~~(~P \/ Q).
@@ -143,18 +139,16 @@ Section Chapter4.
     apply H1, HP.
   Qed.
 
-  (* TODO: could be shorter? *)
   Theorem thm16 : ((P -> Q) /\ ((P \/ ~P) \/ (Q \/ ~Q))) -> (~P \/ Q).
   Proof.
-    intro H; destruct H, H0, H0.
+    intros [H H0].
+    destruct H0, H0.
     - right; apply H, H0.
     - left; assumption.
     - right; assumption.
     - left.
-      contradict H.
-      red; intro.
-      assert (HQ := H1 H).
-      contradiction.
+      contradict H0.
+      apply H, H0.
   Qed.
 End Chapter4.
 
@@ -193,10 +187,10 @@ Section Chapter5.
     destruct Hdec as [HC | HnC].
     - destruct (Himpl HC) as [x HPx].
       exists x.
-      (* TODO: is there a shorthand for this? *)
       intro; assumption.
     - destruct Hinhab as [x _].
       exists x.
+      (* TODO: again, is there a shorthand for this? *)
       intro H; contradiction.
   Qed.
 
@@ -225,6 +219,8 @@ Section Chapter5.
     - destruct Hmarkov.
       + red.
         intro.
+        (* [contradict] is sometimes the same as [elim], but additionally removes the
+         * hypothesis from the context *)
         contradict H.
         (* or [exact (H0 H1).] *)
         apply H0, H1.
@@ -234,28 +230,25 @@ Section Chapter5.
 
   Theorem thm20b : (exists x, P x -> C) -> (forall x, P x) -> C.
   Proof.
-    intros Hex Huniv.
-    destruct Hex as [x H].
+    intros [x H] Huniv.
     apply H, Huniv.
   Qed.
 
   Theorem thm21a : (exists _ : T, True) -> ((exists x, P x) \/ C) ->
     (exists x, P x \/ C).
   Proof.
-    intros.
+    intros Hex H0.
     destruct H0 as [[x HPx] | HC].
     - exists x.
       left; assumption.
-    - destruct H as [x _].
+    - destruct Hex as [x _].
       exists x.
       right; assumption.
   Qed.
 
   Theorem thm21b : (exists x, P x \/ C) -> ((exists x, P x) \/ C).
   Proof.
-    (* TODO: [intro ? destruct ?] can be replaced by [intros [?|?].] *)
-    intro H.
-    destruct H as [x [? | ?]].
+    intros [x [? | ?]].
     - left; exists x; assumption.
     - right; assumption.
   Qed.
@@ -306,8 +299,6 @@ Section Chapter5.
       apply (proj2 (H0 x)).
   Qed.
 End Chapter5.
-
-(* TODO: ... &c. *)
 
 (* vim: set et ts=2 sts=2 sw=2: *)
 
