@@ -1,9 +1,16 @@
-(* This is a collection of proofs of propositions from the
- * <http://www.nuprl.org/MathLibrary/LogicalInvestigations/ "Logical Investigations,
- * with the Nuprl Proof Assistant"> document
+(* Compile documentation with [coqdoc --utf8] *)
+(** printing ~( $\lnot\lnot$ #¬(# *)
+(** printing ~~( $\lnot\lnot$ #¬¬(# *)
+(** printing ~~(~ $\lnot\lnot$ #¬¬(¬# *)
+(** printing ~~ $\lnot\lnot$ #¬¬# *)
+
+(**
+ This is a collection of proofs of propositions from the
+ #<a href="http://www.nuprl.org/MathLibrary/LogicalInvestigations/">Logical Investigations,
+ with the Nuprl Proof Assistant</a># document
  *)
 
-(* * 2. The Minimal Implicational Calculus *)
+(** * 2. The Minimal Implicational Calculus *)
 Section Chapter2.
   Variables A B C : Prop.
 
@@ -26,21 +33,21 @@ Section Chapter2.
   Qed.
 End Chapter2.
 
-(* * 3. False Propositions and Negation *)
+(** * 3. False Propositions and Negation *)
 Section Chapter3.
   Variables P Q : Prop.
 
   Theorem thm4 : ~P -> P -> Q.
   Proof.
     intros.
-    (* or just [contradiction.] *)
+    (** or just [contradiction.] *)
     absurd P; assumption.
   Qed.
 
   Theorem thm5 : P -> ~~P.
   Proof.
     intro.
-    (* this transforms [H : P |- ~~P] into [H : ~P |- ~P] -- kinda contraposition *)
+    (** this transforms [H : P |- ~~P] into [H : ~P |- ~P] -- kinda contraposition *)
     contradict H.
     assumption.
   Qed.
@@ -67,7 +74,7 @@ Section Chapter3.
   Qed.
 End Chapter3.
 
-(* * 4. Conjunction and Disjunction *)
+(** * 4. Conjunction and Disjunction *)
 Section Chapter4.
   Variables P Q : Prop.
 
@@ -81,10 +88,10 @@ Section Chapter4.
   Proof.
     red.
     intro H.
-    (* duplicate the hypothesis *)
+    (** duplicate the hypothesis *)
     assert (H' := H).
     contradict H'.
-    (* we don't have evidence for [P], so we prove its negation *)
+    (** we don't have evidence for [P], so we prove its negation *)
     right.
     contradict H.
     left; assumption.
@@ -96,7 +103,7 @@ Section Chapter4.
     destruct H; contradict H; apply H.
   Qed.
 
-  (* an alternative proof of Theorem 11 *)
+  (** an alternative proof of Theorem 11 *)
   Theorem thm11a : (~P \/ ~Q) -> ~(P /\ Q).
   Proof.
     intro H.
@@ -115,7 +122,7 @@ Section Chapter4.
   Theorem thm13 : (~P /\ ~Q) -> ~(P \/ Q).
   Proof.
     intros [H1 H2].
-    (* doesn't matter which one *)
+    (** doesn't matter which one *)
     contradict H1.
     destruct H1; [assumption | contradiction].
   Qed.
@@ -130,12 +137,12 @@ Section Chapter4.
     unfold not.
     intros H1 H2.
     assert (H2' := H2).
-    (* same as [contradict H2'.] in this case *)
+    (** same as [contradict H2'.] in this case *)
     destruct H2'.
     left; intro HP.
     destruct H2.
     right.
-    (* same as [exact (H1 HP).] *)
+    (** same as [exact (H1 HP).] *)
     apply H1, HP.
   Qed.
 
@@ -152,7 +159,7 @@ Section Chapter4.
   Qed.
 End Chapter4.
 
-(* * 5. First-Order Logic: All and Exists *)
+(** * 5. First-Order Logic: All and Exists *)
 Section Chapter5.
   Variables (T : Type) (C : Prop) (P : T -> Prop).
 
@@ -199,11 +206,11 @@ Section Chapter5.
     intros H HC.
     destruct H.
     exists x.
-    (* same as [exact (H HC).] *)
+    (** same as [exact (H HC).] *)
     apply H, HC.
   Qed.
 
-  (* Now it's getting funky *)
+  (** Now it's getting funky *)
   Theorem thm20a : (C \/ ~C) -> (exists _ : T, True) -> (~(forall x, P x) ->
     (exists x, ~P x)) -> ((forall x, P x) -> C) -> (exists x, P x -> C).
   Proof.
@@ -213,16 +220,16 @@ Section Chapter5.
       exists x.
       intro; assumption.
     (* TODO: What's going on around here? It seems that we're introduction the
-     * consequent of the [~(forall ...) -> (exists ~...)] hypothesis, so we first
-     * need to prove the antecedent. BUT, generally, [destruct] doesn't act on
-     * implications, so we're probably [destruct]ing on the [ex] here *)
+       consequent of the [~(forall ...) -> (exists ~...)] hypothesis, so we first
+       need to prove the antecedent. BUT, generally, [destruct] doesn't act on
+       implications, so we're probably [destruct]ing on the [ex] here *)
     - destruct Hmarkov.
       + red.
         intro.
-        (* [contradict] is sometimes the same as [elim], but additionally removes the
-         * hypothesis from the context *)
+        (** [contradict] is sometimes the same as [elim], but additionally removes the
+            hypothesis from the context *)
         contradict H.
-        (* or [exact (H0 H1).] *)
+        (** or [exact (H0 H1).] *)
         apply H0, H1.
       + exists x.
         intro; contradiction.
@@ -295,7 +302,7 @@ Section Chapter5.
     split.
     - intro x; apply H0.
     - destruct Hinhab as [x _].
-      (* or [destruct (H0 x) as [_ HC]. exact HC] *)
+      (** or [destruct (H0 x) as [_ HC]. exact HC] *)
       apply (proj2 (H0 x)).
   Qed.
 End Chapter5.
