@@ -52,6 +52,15 @@ Section Chapter3.
     assumption.
   Qed.
 
+  (** An alternative proof of Theorem 5 *)
+  Theorem thm5a : P -> ~~P.
+  Proof.
+    (** reduce the outer negation to proving false *)
+    red.
+    intros.
+    contradiction.
+  Qed.
+
   Theorem thm6 : (P -> Q) -> ~Q -> ~P.
   Proof.
     intros HPimplQ HnQ.
