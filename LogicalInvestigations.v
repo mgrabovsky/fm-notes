@@ -233,8 +233,7 @@ Section Chapter5.
        need to prove the antecedent. BUT, generally, [destruct] doesn't act on
        implications, so we're probably [destruct]ing on the [ex] here *)
     - destruct Hmarkov.
-      + red.
-        intro.
+      + intro.
         (** [contradict] is sometimes the same as [elim], but additionally removes the
             hypothesis from the context *)
         contradict H.
