@@ -16,8 +16,7 @@ Section Chapter2.
 
   Theorem thm1 : A -> B -> A.
   Proof.
-    intros.
-    assumption.
+    intros; assumption.
   Qed.
 
   Theorem thm2 : (A -> B) -> ((A -> (B -> C)) -> (A -> C)).
@@ -55,7 +54,7 @@ Section Chapter3.
   (** An alternative proof of Theorem 5 *)
   Theorem thm5a : P -> ~~P.
   Proof.
-    (** reduce the outer negation to proving false *)
+    (** reduce the outer negation so that [intros] catches both [P] and [~P] *)
     red.
     intros.
     contradiction.
@@ -95,7 +94,6 @@ Section Chapter4.
 
   Theorem thm10 : ~~(P \/ ~P).
   Proof.
-    red.
     intro H.
     (** duplicate the hypothesis *)
     assert (H' := H).
@@ -118,6 +116,7 @@ Section Chapter4.
     intro H.
     contradict H.
     destruct H as [HP HQ].
+    (** doesn't matter which one *)
     contradict HP.
     destruct HP; [assumption | contradiction].
   Qed.
@@ -130,10 +129,10 @@ Section Chapter4.
 
   Theorem thm13 : (~P /\ ~Q) -> ~(P \/ Q).
   Proof.
-    intros [H1 H2].
+    intros [HnP HnQ].
     (** doesn't matter which one *)
-    contradict H1.
-    destruct H1; [assumption | contradiction].
+    contradict HnP.
+    destruct HnP; [assumption | contradiction].
   Qed.
 
   Theorem thm14 : (~P \/ Q) -> P -> Q.
@@ -143,28 +142,28 @@ Section Chapter4.
 
   Theorem thm15 : (P -> Q) -> ~~(~P \/ Q).
   Proof.
-    unfold not.
+    red.
     intros H1 H2.
     assert (H2' := H2).
-    (** same as [contradict H2'.] in this case *)
+    (** same as [contradict H2'] in this case *)
     destruct H2'.
     left; intro HP.
     destruct H2.
     right.
-    (** same as [exact (H1 HP).] *)
+    (** same as [exact (H1 HP)] *)
     apply H1, HP.
   Qed.
 
   Theorem thm16 : ((P -> Q) /\ ((P \/ ~P) \/ (Q \/ ~Q))) -> (~P \/ Q).
   Proof.
-    intros [H H0].
-    destruct H0, H0.
-    - right; apply H, H0.
+    intros [Himpl H].
+    destruct H as [H | H], H.
+    - right; apply Himpl, H.
     - left; assumption.
     - right; assumption.
     - left.
-      contradict H0.
-      apply H, H0.
+      contradict H.
+      apply Himpl, H.
   Qed.
 End Chapter4.
 
@@ -186,8 +185,7 @@ Section Chapter5.
   Proof.
     intros.
     apply H.
-    exists x.
-    assumption.
+    exists x; assumption.
   Qed.
 
   Theorem thm18b : (forall x, P x -> C) -> ((exists x, P x) -> C).
@@ -213,7 +211,7 @@ Section Chapter5.
   Theorem thm19b : (exists x, C -> P x) -> C -> (exists x, P x).
   Proof.
     intros H HC.
-    destruct H.
+    destruct H as [x H].
     exists x.
     (** same as [exact (H HC).] *)
     apply H, HC.
