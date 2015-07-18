@@ -1,0 +1,34 @@
+This repository servers as a log of my endeavour to learn to use and understand
+the [Coq](https://coq.inria.fr/) proof assistant. It might contain proofs, attempts
+at proofs, links to related resources and much more.
+
+![](http://i.creativecommons.org/p/zero/1.0/80x15.png)
+
+## Useful resources
+
+-   [Official Coq documentation](https://coq.inria.fr/documentation)
+    -   The official documentation is OK, quite comprehensive. The description of
+        tactics is very good, there are few undocuments points.
+    -   [Reference Manual](https://coq.inria.fr/distrib/current/files/Reference-Manual.pdf) [PDF]
+    -   [Tutorial](https://coq.inria.fr/distrib/current/files/Tutorial.pdf) [PDF]
+        -   A simple and straightforward introduction to basics of proofs using Coq
+-   The [coq-club](https://sympa.inria.fr/sympa/arc/coq-club) mailing list
+-   [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf/current/toc.html)
+-   [Certified Programming with Dependent Types](http://adam.chlipala.net/cpdt/)
+-   [/r/coq](https://www.reddit.com/r/coq)
+-   [Coq in a Hurry](https://cel.archives-ouvertes.fr/file/index/docid/475807/filename/coq-hurry.pdf) [PDF]
+-   [Introduction to the Coq proof-assistant for practical software
+    verication](https://www.lri.fr/~paulin/LASER/course-notes.pdf) [PDF] course notes
+    -   Another tutorial, slightly more interesting; possibly outdated
+-   [Coq'Art](http://www.labri.fr/perso/casteran/CoqArt/index.html) – the first ever
+    book on Coq and CoC
+    -   See also [Pierre Castéran's page](http://www.labri.fr/perso/casteran/) for
+        _A Tutorial on [Co-]Inductive Types in Coq_ and _A Gentle Introduction to
+        Type Classes and Relations in Coq_
+
+## Licence
+
+Everything here is licensed under [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
+unless indicated otherwise.
+
+<!-- vim: set et ts=4 sw=4: -->
