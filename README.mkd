@@ -45,7 +45,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 
 -   [Ssreflect and MathComp](http://ssr.msr-inria.inria.fr/)
 -   [CoLoR](http://color.inria.fr/)
--   [Coq.io](http://coq.io/) and others by [Guillaume Claret](https://github.com/clarus)
+-   [Coq.io](http://coq.io/) and others by [Guillaume Claret](http://claret.me/)
+    ([GitHub](https://github.com/clarus))
 -   [Cybele](http://cybele.gforge.inria.fr/) – "A powerful tool to write proofs by reflection in Coq"
 -   [Mtac](http://plv.mpi-sws.org/mtac/) – "A Monad for Typed Tactic Programming in Coq "
 -   [coq-haskell](https://github.com/jwiegley/coq-haskell)
