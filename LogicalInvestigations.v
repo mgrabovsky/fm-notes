@@ -54,9 +54,9 @@ Section Chapter3.
   (** An alternative proof of Theorem 5 *)
   Theorem thm5a : P -> ~~P.
   Proof.
-    (** reduce the outer negation so that [intros] catches both [P] and [~P] *)
-    red.
-    intros.
+    (** we need to explicitly request the introduction of two hypotheses, because
+        Coq wouldn't automatically reduce the [~]s to [_ -> False]s *)
+    intros ? ?.
     contradiction.
   Qed.
 
