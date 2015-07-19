@@ -44,11 +44,11 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 ## Libraries and plug-ins
 
 -   [Ssreflect and MathComp](http://ssr.msr-inria.inria.fr/)
--   [CoLoR](http://color.inria.fr/)
+-   [CoLoR](http://color.inria.fr/) – "a Coq Library on rewriting and termination"
 -   [Coq.io](http://coq.io/) and others by [Guillaume Claret](http://claret.me/)
     ([GitHub](https://github.com/clarus))
--   [Cybele](http://cybele.gforge.inria.fr/) – "A powerful tool to write proofs by reflection in Coq"
--   [Mtac](http://plv.mpi-sws.org/mtac/) – "A Monad for Typed Tactic Programming in Coq "
+-   [Cybele](http://cybele.gforge.inria.fr/) – "a powerful tool to write proofs by reflection in Coq"
+-   [Mtac](http://plv.mpi-sws.org/mtac/) – "a monad for typed tactic programming in Coq "
 -   [coq-haskell](https://github.com/jwiegley/coq-haskell)
     -   Applied: [coq-pipes](https://github.com/jwiegley/coq-pipes)
 -   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned?)
