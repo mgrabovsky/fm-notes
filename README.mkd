@@ -50,10 +50,11 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [Mtac](http://plv.mpi-sws.org/mtac/) – "A Monad for Typed Tactic Programming in Coq "
 -   [coq-haskell](https://github.com/jwiegley/coq-haskell)
     -   Applied: [coq-pipes](https://github.com/jwiegley/coq-pipes)
--   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned)
+-   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned?)
     -   A. Chlipala: [_The Bedrock Structured Programming System: Combining
         Generative Metaprogramming and Hoare Logic in an Extensible Program
         Verifier_](http://adam.chlipala.net/papers/BedrockICFP13/BedrockICFP13.pdf)
+        [PDF]
 -   [Ynot](http://ynot.cs.harvard.edu/) (abandoned)
     -   A. Chlipala et al.: [_Effective Interactive Proofs for Higher-Order
         Imperative Programs_](http://ynot.cs.harvard.edu/papers/icfp09.pdf) [PDF]
