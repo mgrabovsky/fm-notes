@@ -61,6 +61,19 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   A. Chlipala et al.: [_Effective Interactive Proofs for Higher-Order
         Imperative Programs_](http://ynot.cs.harvard.edu/papers/icfp09.pdf) [PDF]
 
+## Related languages, tools and stuff
+
+-   [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php)
+-   [Idris](http://www.idris-lang.org/)
+-   [PRL](http://www.nuprl.org/)
+-   [Isabelle](https://isabelle.in.tum.de/)
+-   [HOL/Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/)
+-   [Mizar](http://mizar.org/)
+-   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/)
+-   [F7](http://research.microsoft.com/en-us/projects/f7/)
+-   [F*](https://www.fstar-lang.org/)
+-   [Why3](http://why3.lri.fr/)
+
 ## Licence
 
 Everything here is licensed under [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
