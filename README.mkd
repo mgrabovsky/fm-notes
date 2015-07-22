@@ -37,6 +37,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 
 -   [Poleiro](http://poleiro.info/)
 -   [Gagallium](http://gallium.inria.fr/blog/) – blog of the [Gallium research team](http://gallium.inria.fr/) at Inria
+-   [Coq en Stock](http://goto.ucsd.edu/~vrobert/coq-en-stock/blog/)
 -   [_Homotopy Type Theory_ blog](http://homotopytypetheory.org/blog)
     -   [Modules for Modalities](http://homotopytypetheory.org/2015/07/05/modules-for-modalities)
         – an article on Coq's module system and universe polymorphism
