@@ -67,11 +67,14 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [Idris](http://www.idris-lang.org/)
 -   [PRL](http://www.nuprl.org/)
 -   [Isabelle](https://isabelle.in.tum.de/)
--   [HOL/Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/)
+-   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/)
+-   [HOL4](http://hol.sourceforge.net/)
+-   [ProofPower](http://www.lemma-one.com/ProofPower/index/)
 -   [Mizar](http://mizar.org/)
 -   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/)
 -   [F7](http://research.microsoft.com/en-us/projects/f7/)
 -   [F*](https://www.fstar-lang.org/)
+-   [Lean](https://leanprover.github.io/)
 -   [Why3](http://why3.lri.fr/)
 
 ## Licence
