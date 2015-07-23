@@ -80,6 +80,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
     automation support
 -   [Why3](http://why3.lri.fr/)
+-   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html)
 
 ## Licence
 
