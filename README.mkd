@@ -63,6 +63,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 
 ## Related languages, tools and stuff
 
+-   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
+    automation support; looks a lot like Coq
 -   [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php) – a (relatively) new, hip dependently-typed
     functional language and proof assistant
 -   [Idris](http://www.idris-lang.org/) – another new and hip "general purpose" language with dependent
@@ -77,8 +79,6 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [F7](http://research.microsoft.com/en-us/projects/f7/)
 -   [F*](https://www.fstar-lang.org/) – "a new higher order, effectful programming language designed
     with program verification in mind"
--   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
-    automation support
 -   [Why3](http://why3.lri.fr/)
 -   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html)
 
