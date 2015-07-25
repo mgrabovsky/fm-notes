@@ -63,6 +63,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 
 ## Related languages, tools and stuff
 
+-   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
+-   [UniMath](https://github.com/UniMath/UniMath) (_Univalent Foundations_)
 -   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
     automation support; looks a lot like Coq
 -   [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php) – a (relatively) new, hip dependently-typed
