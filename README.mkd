@@ -45,6 +45,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 ## Libraries and plug-ins
 
 -   [Ssreflect and MathComp](http://ssr.msr-inria.inria.fr/)
+    -   [_Computing with Univalence_](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf)
+        (slides)
 -   [CoLoR](http://color.inria.fr/) – "a Coq Library on rewriting and termination"
 -   [Coq.io](http://coq.io/) and others by [Guillaume Claret](http://claret.me/)
     ([GitHub](https://github.com/clarus))
