@@ -19,7 +19,6 @@ Section puzzles.
     rewrite <- (assoc z x z).
     now rewrite absorp.
   Qed.
-  Print puzzle1.
 
   Lemma puzzle2 : forall x, x * x = x.
   Proof.
