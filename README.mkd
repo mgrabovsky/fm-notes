@@ -63,6 +63,16 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   A. Chlipala et al.: [_Effective Interactive Proofs for Higher-Order
         Imperative Programs_](http://ynot.cs.harvard.edu/papers/icfp09.pdf) [PDF]
 
+## Applications
+
+-   automated, certified proofs of multiple theorems
+-   [CompCert](http://compcert.inria.fr/) – verified optimising compiler of
+    a substantial subset of C99
+-   [Verasco](http://compcert.inria.fr/verasco/) – verified static analyser
+-   [JSCert: Certified JavaScript](http://jscert.org)
+    -   [_A Trusted Machnised JavaScript Specification_](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
+        (2014; [slides](http://jscert.org/popol14))
+
 ## Related languages, tools and stuff
 
 -   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
