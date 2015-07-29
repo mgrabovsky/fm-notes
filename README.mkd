@@ -75,6 +75,19 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   [_A Trusted Machnised JavaScript Specification_](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
         (2014; [slides](http://jscert.org/popol14))
 
+### Papers and articles
+
+-   [Heq: a Coq library for Heterogeneous Equality](http://sf.snu.ac.kr/gil.hur/Heq/)
+-   [_Inductive-inductive definitions_](http://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/thesis/thesis.pdf)
+-   [_Gradual Certified programming in Coq_](http://arxiv.org/abs/1506.04205)
+-   [_An intro to (co)algebra and
+    (co)induction_](http://homepages.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf)
+-   [_Canonical Structures for the Working Coq User_](https://www.reddit.com/r/Coq/comments/3erkgv/canonical_structures_for_the_working_coq_user/)
+-   [_Foundational Property-Based Testing_](https://hal.inria.fr/hal-01162898)
+    – _QuickChick_, a port of _QuickCheck_ to Coq
+-   [_How to express convergence for analysis in Coq_](https://hal.inria.fr/hal-01169321)
+    -   <http://coquelicot.saclay.inria.fr/>
+
 ## Related languages, tools and stuff
 
 -   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
