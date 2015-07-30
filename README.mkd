@@ -45,6 +45,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 ## Libraries and plug-ins
 
 -   [Ssreflect and MathComp](http://ssr.msr-inria.inria.fr/)
+    -   [_A Small Scale Reflection Extension for the Coq system_](https://hal.inria.fr/inria-00258384/en)
     -   [_Computing with Univalence_](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf)
         (slides)
 -   [CoLoR](http://color.inria.fr/) – "a Coq Library on rewriting and termination"
@@ -67,13 +68,13 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 
 ## Applications
 
--   automated, certified proofs of multiple theorems
 -   [CompCert](http://compcert.inria.fr/) – verified optimising compiler of
     a substantial subset of C99
 -   [Verasco](http://compcert.inria.fr/verasco/) – verified static analyser
 -   [JSCert: Certified JavaScript](http://jscert.org)
     -   [_A Trusted Machnised JavaScript Specification_](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
         (2014; [slides](http://jscert.org/popol14))
+-   [_A Machine-Checked Proof of the Odd Order Theorem_](http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf)
 
 ### Papers and articles
 
