@@ -59,6 +59,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     distributed systems implementations in Coq"
 -   [coq-haskell](https://github.com/jwiegley/coq-haskell)
     -   Applied: [coq-pipes](https://github.com/jwiegley/coq-pipes)
+-   [wilcoxjay/tactics](https://github.com/wilcoxjay/tactics) – some useful tactics
+    by James Wilcox
 -   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned?)
     -   A. Chlipala: [_The Bedrock Structured Programming System: Combining
         Generative Metaprogramming and Hoare Logic in an Extensible Program
