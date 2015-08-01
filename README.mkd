@@ -47,7 +47,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [Ssreflect and MathComp](http://ssr.msr-inria.inria.fr/)
     -   [_A Small Scale Reflection Extension for the Coq system_](https://hal.inria.fr/inria-00258384/en)
     -   [_Computing with Univalence_](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf)
-        (slides)
+        [PDF] (2008; slides)
 -   [CoLoR](http://color.inria.fr/) – "a Coq Library on rewriting and termination"
 -   [Coq.io](http://coq.io/) and others by [Guillaume Claret](http://claret.me/)
     ([GitHub](https://github.com/clarus))
@@ -77,6 +77,10 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   [_A Trusted Machnised JavaScript Specification_](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
         (2014; [slides](http://jscert.org/popol14))
 -   [_A Machine-Checked Proof of the Odd Order Theorem_](http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf)
+-   [_A Reflexive Formalization of a SAT Solver in Coq_](https://www.lri.fr/~conchon/publis/lescuyer-conchon-tphols08.pdf)
+    [PDF] (2008)
+-   [_Towards an effective formally certfied constraint solver_](http://cp2014.a4cp.org/sites/default/files/uploads/DuboisGotlieb-slides.pdf)
+    [PDF]\ (2014; slides)
 
 ### Papers and articles
 
