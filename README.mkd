@@ -119,6 +119,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     with program verification in mind"
 -   [Why3](http://why3.lri.fr/)
 -   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html)
+-   [jozefg/learn-tt](https://github.com/jozefg/learn-tt) – "a collection of resources for learning type theory"
 
 ## Licence
 
