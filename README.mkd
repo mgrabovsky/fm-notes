@@ -109,16 +109,20 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     types, support for theorem proving and tactics; kind of like Coq-flavoured Haskell
 -   [PRL](http://www.nuprl.org/)
 -   [Isabelle](https://isabelle.in.tum.de/)
+    -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
 -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/)
 -   [HOL4](http://hol.sourceforge.net/)
 -   [ProofPower](http://www.lemma-one.com/ProofPower/index/)
 -   [Mizar](http://mizar.org/)
 -   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/)
+-   [Milawa](https://www.cs.utexas.edu/users/jared/milawa/Web/)
+    -   [_The reflective Milawa theorem prover is sound_](https://www.cs.utexas.edu/users/jared/publications/2015-jar-milawa.pdf) (2015)
 -   [F7](http://research.microsoft.com/en-us/projects/f7/)
 -   [F*](https://www.fstar-lang.org/) – "a new higher order, effectful programming language designed
     with program verification in mind"
 -   [Why3](http://why3.lri.fr/)
 -   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html)
+-   [Verified Software Competition](http://vscomp.org/)
 -   [jozefg/learn-tt](https://github.com/jozefg/learn-tt) – "a collection of resources for learning type theory"
 
 ## Licence
