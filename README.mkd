@@ -108,6 +108,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 
 -   see also [page on the Coq website](https://coq.inria.fr/related-tools)
 -   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
+    -   [Coq for Homotopy Type Theory](http://tabareau.fr/coqhott) – a dedicated research project
 -   [UniMath](https://github.com/UniMath/UniMath) (_Univalent Foundations_)
 -   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
     automation support; looks a lot like Coq
