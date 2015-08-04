@@ -61,6 +61,9 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   Applied: [coq-pipes](https://github.com/jwiegley/coq-pipes)
 -   [wilcoxjay/tactics](https://github.com/wilcoxjay/tactics) – some useful tactics
     by James Wilcox
+-   [Verified Software Toolchain](http://vst.cs.princeton.edu/)
+    -   tons of articles around this
+    -   A. W. Appel: [_Verified Software Toolchain_](https://www.cs.princeton.edu/~appel/papers/vst.pdf)
 -   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned?)
     -   A. Chlipala: [_The Bedrock Structured Programming System: Combining
         Generative Metaprogramming and Hoare Logic in an Extensible Program
@@ -99,6 +102,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 
 ## Related languages, tools and stuff
 
+-   see also [page on the Coq website](https://coq.inria.fr/related-tools)
 -   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
 -   [UniMath](https://github.com/UniMath/UniMath) (_Univalent Foundations_)
 -   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
