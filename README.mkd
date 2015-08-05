@@ -130,6 +130,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [F7](http://research.microsoft.com/en-us/projects/f7/)
 -   [F\*](https://www.fstar-lang.org/) – "a new higher order, effectful programming language designed
     with program verification in mind"
+-   [Twelf](http://twelf.org/wiki/Main_Page)
+-   [Celf](https://clf.github.io/celf/)
 -   [Why3](http://why3.lri.fr/)
     -   [Gallery of verified programs](http://toccata.lri.fr/gallery/)
     -   [_Shepherd Your Herd of Provers_](http://research.microsoft.com/en-us/um/people/moskal/boogie2011/boogie2011_pg53.pdf) (2011)
