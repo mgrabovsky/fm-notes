@@ -67,14 +67,14 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     by James Wilcox
 -   [Verified Software Toolchain](http://vst.cs.princeton.edu/)
     -   tons of articles around this
-    -   A. W. Appel: [_Verified Software Toolchain_](https://www.cs.princeton.edu/~appel/papers/vst.pdf)
+    -   A\. W. Appel: [_Verified Software Toolchain_](https://www.cs.princeton.edu/~appel/papers/vst.pdf)
 -   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned?)
-    -   A. Chlipala: [_The Bedrock Structured Programming System: Combining
+    -   A\. Chlipala: [_The Bedrock Structured Programming System: Combining
         Generative Metaprogramming and Hoare Logic in an Extensible Program
         Verifier_](http://adam.chlipala.net/papers/BedrockICFP13/BedrockICFP13.pdf)
         [PDF]
 -   [Ynot](http://ynot.cs.harvard.edu/) (abandoned)
-    -   A. Chlipala et al.: [_Effective Interactive Proofs for Higher-Order
+    -   A\. Chlipala et al.: [_Effective Interactive Proofs for Higher-Order
         Imperative Programs_](http://ynot.cs.harvard.edu/papers/icfp09.pdf) [PDF]
 
 ## Applications
@@ -138,6 +138,19 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [Formalizing 100 Theorems](http://www.cs.ru.nl/~freek/100/index.html)
 -   [Verified Software Competition](http://vscomp.org/)
 -   [jozefg/learn-tt](https://github.com/jozefg/learn-tt) – "a collection of resources for learning type theory"
+-   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) – videos of _awesome_ talks on type theory, provers, logic, etc.; earlier editions only have lectures notes and slides published
+
+    [2015](https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html),
+    [2014](https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html),
+    [2013](https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html),
+    [2012](https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html),
+    [2011](https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html),
+    [2010](https://www.cs.uoregon.edu/research/summerschool/summer10/curriculum.html),
+    [2009](https://www.cs.uoregon.edu/research/summerschool/summer09/curriculum.html),
+    [2008](https://www.cs.uoregon.edu/research/summerschool/summer08/curriculum.html),
+    [2007](https://www.cs.uoregon.edu/research/summerschool/summer07/curriculum.html),
+    [2006](https://www.cs.uoregon.edu/research/summerschool/summer06/curriculum.html),
+    [2005](https://www.cs.uoregon.edu/research/summerschool/summer05/curriculum.html)
 
 ## Licence
 
