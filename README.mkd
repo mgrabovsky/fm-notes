@@ -79,6 +79,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 
 ## Applications
 
+-   [CertiCrypt](http://certicrypt.gforge.inria.fr/) – Computer-Aided Cryptographic Proofs in Coq
+    -   [_Formal certification of ElGamal encryption_](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.220.6617) (2008)
 -   [CompCert](http://compcert.inria.fr/) – verified optimising compiler of
     a substantial subset of C99
 -   [Verasco](http://compcert.inria.fr/verasco/) – verified static analyser
@@ -153,6 +155,9 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     [2007](https://www.cs.uoregon.edu/research/summerschool/summer07/curriculum.html),
     [2006](https://www.cs.uoregon.edu/research/summerschool/summer06/curriculum.html),
     [2005](https://www.cs.uoregon.edu/research/summerschool/summer05/curriculum.html)
+
+-   [seL4](http://sel4.org/) – first fully verified and open-sourced OS kernel
+-   [CertiKOS](http://flint.cs.yale.edu/certikos/) – "advanced development of certified OS kernels"
 
 ## Licence
 
