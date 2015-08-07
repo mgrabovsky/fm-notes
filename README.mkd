@@ -123,6 +123,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
 -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/)
 -   [HOL4](http://hol.sourceforge.net/)
+-   [MINLOG](http://www.mathematik.uni-muenchen.de/~logik/minlog)
 -   [ProofPower](http://www.lemma-one.com/ProofPower/index/)
 -   [Mizar](http://mizar.org/)
 -   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/)
