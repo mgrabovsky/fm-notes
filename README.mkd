@@ -118,7 +118,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     functional language and proof assistant
 -   [Idris](http://www.idris-lang.org/) – another new and hip "general purpose" language with dependent
     types, support for theorem proving and tactics; kind of like Coq-flavoured Haskell
--   [PRL](http://www.nuprl.org/)
+-   [PRL Project (Nuprl)](http://www.nuprl.org/)
+    -    [JonPRL](www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl)]
 -   [Isabelle](https://isabelle.in.tum.de/)
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
 -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/)
