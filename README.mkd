@@ -63,6 +63,12 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     distributed systems implementations in Coq"
 -   [coq-haskell](https://github.com/jwiegley/coq-haskell)
     -   Applied: [coq-pipes](https://github.com/jwiegley/coq-pipes)
+-   [CFML](http://www.chargueraud.org/softs/cfml/): Characteristic Formulae for ML
+    – verification of correctness and amortized complexity of OCaml programs
+    -   [A series of blog posts](http://gallium.inria.fr/~scherer/gagallium/formally-verified-complexity-with-cfml-part-1/)
+        on the Gagallium blog on verifying complexity
+-   [TLC](http://www.chargueraud.org/softs/tlc/): "a non-constructive library for Coq"
+    – extensionality as an axiom, classical logic by default, etc.
 -   [wilcoxjay/tactics](https://github.com/wilcoxjay/tactics) – some useful tactics
     by James Wilcox
 -   [Verified Software Toolchain](http://vst.cs.princeton.edu/)
@@ -116,6 +122,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     automation support; looks a lot like Coq
 -   [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php) – a (relatively) new, hip dependently-typed
     functional language and proof assistant
+    -   [Agda Tutorial](http://people.inf.elte.hu/divip/AgdaTutorial/Index.html)
 -   [Idris](http://www.idris-lang.org/) – another new and hip "general purpose" language with dependent
     types, support for theorem proving and tactics; kind of like Coq-flavoured Haskell
 -   [PRL Project (Nuprl)](http://www.nuprl.org/)
