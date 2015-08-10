@@ -127,23 +127,30 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     types, support for theorem proving and tactics; kind of like Coq-flavoured Haskell
 -   [PRL Project (Nuprl)](http://www.nuprl.org/)
     -    [JonPRL](www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl)]
--   [Isabelle](https://isabelle.in.tum.de/)
+-   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/)
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
--   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/)
--   [HOL4](http://hol.sourceforge.net/)
+-   [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/) by Michael Gordon et al. – the
+    original system for interactive theorem proving in higher-order logic
+    -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/) – small trusted core
+    -   [HOL4](http://hol.sourceforge.net/)
 -   [MINLOG](http://www.mathematik.uni-muenchen.de/~logik/minlog)
 -   [ProofPower](http://www.lemma-one.com/ProofPower/index/)
 -   [Mizar](http://mizar.org/)
--   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/)
+-   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/) – logic for modelling systems
+    and a complementary prover
 -   [Milawa](https://www.cs.utexas.edu/users/jared/milawa/Web/)
     -   [_The reflective Milawa theorem prover is sound_](https://www.cs.utexas.edu/users/jared/publications/2015-jar-milawa.pdf) (2015)
 -   [ATS language](http://www.ats-lang.org/)
--   [F7](http://research.microsoft.com/en-us/projects/f7/)
--   [F\*](https://www.fstar-lang.org/) – "a new higher order, effectful programming language designed
-    with program verification in mind"
+-   [F7](http://research.microsoft.com/en-us/projects/f7/) – extension of F#'s type
+    system with refinement types, dependent types and π-calculus-style concurrency
+-   [F\*](https://www.fstar-lang.org/) – "a new higher order, effectful programming
+    language designed with program verification in mind"
 -   [Twelf](http://twelf.org/wiki/Main_Page)
 -   [Celf](https://clf.github.io/celf/)
--   [Why3](http://why3.lri.fr/)
+-   [Eff](http://www.eff-lang.org/) – functional language with first-class effects
+    and native handling of all kinds of computatinal effects without touching monads
+-   [Why3](http://why3.lri.fr/) – platform for deductive reasoning on programs with
+    support for many external provers
     -   [Gallery of verified programs](http://toccata.lri.fr/gallery/)
     -   [_Shepherd Your Herd of Provers_](http://research.microsoft.com/en-us/um/people/moskal/boogie2011/boogie2011_pg53.pdf) (2011)
 -   [Alloy](http://alloy.mit.edu/alloy/index.html) – "a language and tool for relational models"
