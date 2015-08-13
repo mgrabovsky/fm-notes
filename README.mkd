@@ -126,9 +126,12 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   [Agda Tutorial](http://people.inf.elte.hu/divip/AgdaTutorial/Index.html)
 -   [Idris](http://www.idris-lang.org/) – another new and hip "general purpose" language with dependent
     types, support for theorem proving and tactics; kind of like Coq-flavoured Haskell
+-   [Dedukti](http://dedukti.gforge.inria.fr/) – proof checker based on the
+    λΠ-calculus; tools for translation from other proof assistants available
 -   [PRL Project (Nuprl)](http://www.nuprl.org/)
     -    [JonPRL](www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl)]
--   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/)
+-   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/);
+    small trusted meta-logical core, usually used along with HOL
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
 -   [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/) by Michael Gordon et al. – the
     original system for interactive theorem proving in higher-order logic
