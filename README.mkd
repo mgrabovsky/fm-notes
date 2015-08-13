@@ -155,9 +155,19 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   [Gallery of verified programs](http://toccata.lri.fr/gallery/)
     -   [_Shepherd Your Herd of Provers_](http://research.microsoft.com/en-us/um/people/moskal/boogie2011/boogie2011_pg53.pdf) (2011)
 -   [Alloy](http://alloy.mit.edu/alloy/index.html) – "a language and tool for relational models"
+-   [Dafny](http://research.microsoft.com/en-us/projects/dafny/) – "a language and
+    program verifier for functional correctness"
+-   [rise4fun](http://rise4fun.com/) – a collection of numerous tools, i.a. for
+    program and algorithm analaysis and verification, by Microsoft Research, CMU and
+    others that you can try right on the web page
 -   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html)
 -   [Formalizing 100 Theorems](http://www.cs.ru.nl/~freek/100/index.html)
 -   [Verified Software Competition](http://vscomp.org/)
+-   [VerifyThis](http://www.verifythis.org/) – a competition and collection of
+    problems in formal verification of algorithms and software
+-   [Profound](http://chaudhuri.info/software/profound/) – "an experiment in
+    subformula linking as an interaction method"
+    -   K\. Chaudhuri: [_Subformula Linking as an Interaction Method_](http://chaudhuri.info/papers/itp13link.pdf) [PDF]\ (2013)
 -   [jozefg/learn-tt](https://github.com/jozefg/learn-tt) – "a collection of resources for learning type theory"
 -   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) – videos of _awesome_ talks on type theory, provers, logic, etc.; earlier editions only have lectures notes and slides published
 
