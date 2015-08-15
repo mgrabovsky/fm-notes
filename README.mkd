@@ -55,7 +55,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     theories and plugins that may be useful in other Coq developments"
 -   [Equations](http://www.pps.univ-paris-diderot.fr/~sozeau/research/coq/equations.en.html) – dependent pattern matching
 -   [Mtac](http://plv.mpi-sws.org/mtac/) – "a monad for typed tactic programming in Coq "
--   [cases plug-in](https://github.com/pilki/cases) – extended suppot for `(S*)Case`
+-   [cases plug-in](https://github.com/pilki/cases) – extended support for `(S*)Case`
     as featured in _Software Foundations_
 -   [Coq.io](http://coq.io/) and others by [Guillaume Claret](http://claret.me/)
     ([GitHub](https://github.com/clarus))
@@ -161,7 +161,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [Dafny](http://research.microsoft.com/en-us/projects/dafny/) – "a language and
     program verifier for functional correctness"
 -   [rise4fun](http://rise4fun.com/) – a collection of numerous tools, i.a. for
-    program and algorithm analaysis and verification, by Microsoft Research, CMU and
+    program and algorithm analysis and verification, by Microsoft Research, CMU and
     others that you can try right on the web page
 -   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html)
 -   [Formalizing 100 Theorems](http://www.cs.ru.nl/~freek/100/index.html)
