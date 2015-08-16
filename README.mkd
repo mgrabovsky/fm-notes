@@ -3,6 +3,9 @@ the [Coq](https://coq.inria.fr/) proof assistant. It may contain proofs, attempt
 at proofs, links to related resources (blogs, articles, books), notes on type theory,
 logic, formal verification, theorem proving, automated reasoning, and much more.
 
+I do not claim completeness, correctness, consistency or usefulness of any
+information contained herein.
+
 ![](http://i.creativecommons.org/p/zero/1.0/80x15.png)
 
 ## Useful resources
@@ -10,8 +13,8 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [Official Coq documentation](https://coq.inria.fr/documentation)
     -   The official documentation is OK, quite comprehensive. The description of
         tactics is very good, there are few undocuments points.
-    -   [Reference Manual](https://coq.inria.fr/distrib/current/files/Reference-Manual.pdf) [PDF]
-    -   [Tutorial](https://coq.inria.fr/distrib/current/files/Tutorial.pdf) [PDF]
+    -   [Reference Manual](https://coq.inria.fr/distrib/current/files/Reference-Manual.pdf)
+    -   [Tutorial](https://coq.inria.fr/distrib/current/files/Tutorial.pdf)
         -   A simple and straightforward introduction to basics of proofs using Coq
 -   [Cocorico!](https://coq.inria.fr/cocorico/Home) – official wiki
 -   The [coq-club](https://sympa.inria.fr/sympa/arc/coq-club) mailing list
@@ -22,9 +25,9 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     slightly different topics; puts forth the idea of using automation whenever
     possible
 -   [/r/coq](https://www.reddit.com/r/coq)
--   [Coq in a Hurry](https://cel.archives-ouvertes.fr/file/index/docid/475807/filename/coq-hurry.pdf) [PDF]
+-   [Coq in a Hurry](https://cel.archives-ouvertes.fr/file/index/docid/475807/filename/coq-hurry.pdf)
 -   [Introduction to the Coq proof-assistant for practical software
-    verication](https://www.lri.fr/~paulin/LASER/course-notes.pdf) [PDF] course notes
+    verication](https://www.lri.fr/~paulin/LASER/course-notes.pdf) course notes
     -   Another tutorial, slightly more interesting; possibly outdated
 -   [Coq'Art](http://www.labri.fr/perso/casteran/CoqArt/index.html) – the first ever
     book on Coq and CoC
@@ -49,7 +52,7 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [Ssreflect and MathComp](http://ssr.msr-inria.inria.fr/)
     -   [_A Small Scale Reflection Extension for the Coq system_](https://hal.inria.fr/inria-00258384/en)
     -   [_Computing with Univalence_](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf)
-        [PDF] (2008; slides)
+        (2008; slides)
 -   [CoLoR](http://color.inria.fr/) – "a Coq Library on rewriting and termination"
 -   [coq-ext-lib](https://github.com/coq-ext-lib/coq-ext-lib) – "a collection of
     theories and plugins that may be useful in other Coq developments"
@@ -79,10 +82,9 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     -   A\. Chlipala: [_The Bedrock Structured Programming System: Combining
         Generative Metaprogramming and Hoare Logic in an Extensible Program
         Verifier_](http://adam.chlipala.net/papers/BedrockICFP13/BedrockICFP13.pdf)
-        [PDF]
 -   [Ynot](http://ynot.cs.harvard.edu/) (abandoned)
     -   A\. Chlipala et al.: [_Effective Interactive Proofs for Higher-Order
-        Imperative Programs_](http://ynot.cs.harvard.edu/papers/icfp09.pdf) [PDF]
+        Imperative Programs_](http://ynot.cs.harvard.edu/papers/icfp09.pdf)
 
 ## Applications
 
@@ -96,9 +98,9 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
         (2014; [slides](http://jscert.org/popol14))
 -   [_A Machine-Checked Proof of the Odd Order Theorem_](http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf)
 -   [_A Reflexive Formalization of a SAT Solver in Coq_](https://www.lri.fr/~conchon/publis/lescuyer-conchon-tphols08.pdf)
-    [PDF] (2008)
+    (2008)
 -   [_Towards an effective formally certfied constraint solver_](http://cp2014.a4cp.org/sites/default/files/uploads/DuboisGotlieb-slides.pdf)
-    [PDF]\ (2014; slides)
+    (2014; slides)
 
 ### Papers and articles
 
@@ -119,10 +121,13 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
     -   [Coq for Homotopy Type Theory](http://tabareau.fr/coqhott) – a dedicated research project
 -   [UniMath](https://github.com/UniMath/UniMath) (_Univalent Foundations_)
+
+### Proof assistants, provers and languages
+
 -   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
     automation support; looks a lot like Coq
 -   [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php) – a (relatively) new, hip dependently-typed
-    functional language and proof assistant
+    functional language and interactive theorem prover
     -   [Agda Tutorial](http://people.inf.elte.hu/divip/AgdaTutorial/Index.html)
 -   [Idris](http://www.idris-lang.org/) – another new and hip "general purpose" language with dependent
     types, support for theorem proving and tactics; kind of like Coq-flavoured Haskell
@@ -149,10 +154,13 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     system with refinement types, dependent types and π-calculus-style concurrency
 -   [F\*](https://www.fstar-lang.org/) – "a new higher order, effectful programming
     language designed with program verification in mind"
--   [Twelf](http://twelf.org/wiki/Main_Page)
--   [Celf](https://clf.github.io/celf/)
 -   [Eff](http://www.eff-lang.org/) – functional language with first-class effects
     and native handling of all kinds of computatinal effects without touching monads
+-   [Twelf](http://twelf.org/wiki/Main_Page)
+-   [Celf](https://clf.github.io/celf/)
+
+### Other tools
+
 -   [Why3](http://why3.lri.fr/) – platform for deductive reasoning on programs with
     support for many external provers
     -   [Gallery of verified programs](http://toccata.lri.fr/gallery/)
@@ -163,14 +171,24 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
 -   [rise4fun](http://rise4fun.com/) – a collection of numerous tools, i.a. for
     program and algorithm analysis and verification, by Microsoft Research, CMU and
     others that you can try right on the web page
+-   [Profound](http://chaudhuri.info/software/profound/) – "an experiment in
+    subformula linking as an interaction method"
+    -   K\. Chaudhuri: [_Subformula Linking as an Interaction Method_](http://chaudhuri.info/papers/itp13link.pdf) (2013)
+
+### Formal methods in practice
+
+-   [seL4](http://sel4.org/) – first fully verified and open-sourced OS kernel
+-   [CertiKOS](http://flint.cs.yale.edu/certikos/) – "advanced development of certified OS kernels"
+
+### Learning resources
+
+Courses, textbooks, papers, theses, competitions, influential figures in the field.
+
 -   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html)
 -   [Formalizing 100 Theorems](http://www.cs.ru.nl/~freek/100/index.html)
 -   [Verified Software Competition](http://vscomp.org/)
 -   [VerifyThis](http://www.verifythis.org/) – a competition and collection of
     problems in formal verification of algorithms and software
--   [Profound](http://chaudhuri.info/software/profound/) – "an experiment in
-    subformula linking as an interaction method"
-    -   K\. Chaudhuri: [_Subformula Linking as an Interaction Method_](http://chaudhuri.info/papers/itp13link.pdf) [PDF]\ (2013)
 -   [jozefg/learn-tt](https://github.com/jozefg/learn-tt) – "a collection of resources for learning type theory"
 -   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) – videos of _awesome_ talks on type theory, provers, logic, etc.; earlier editions only have lectures notes and slides published
 
@@ -185,9 +203,6 @@ logic, formal verification, theorem proving, automated reasoning, and much more.
     [2007](https://www.cs.uoregon.edu/research/summerschool/summer07/curriculum.html),
     [2006](https://www.cs.uoregon.edu/research/summerschool/summer06/curriculum.html),
     [2005](https://www.cs.uoregon.edu/research/summerschool/summer05/curriculum.html)
-
--   [seL4](http://sel4.org/) – first fully verified and open-sourced OS kernel
--   [CertiKOS](http://flint.cs.yale.edu/certikos/) – "advanced development of certified OS kernels"
 
 ## Licence
 
