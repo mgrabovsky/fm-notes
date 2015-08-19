@@ -142,14 +142,19 @@ information contained herein.
     original system for interactive theorem proving in higher-order logic
     -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/) – small trusted core
     -   [HOL4](http://hol.sourceforge.net/)
--   [MINLOG](http://www.mathematik.uni-muenchen.de/~logik/minlog)
--   [ProofPower](http://www.lemma-one.com/ProofPower/index/)
+-   [MINLOG](http://www.mathematik.uni-muenchen.de/~logik/minlog) – interactive proof
+    assistant based on first-order natural deduction calculus
+-   [ProofPower](http://www.lemma-one.com/ProofPower/index/) – based on higher-order
+    logic
 -   [Mizar](http://mizar.org/)
--   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/) – logic for modelling systems
-    and a complementary prover
--   [Milawa](https://www.cs.utexas.edu/users/jared/milawa/Web/)
+-   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/) (_A Computational Logic for
+    Applicative Common Lisp_) – logic for modelling systems and a complementary
+    prover; based on first-order logic
+-   [Milawa](https://www.cs.utexas.edu/users/jared/milawa/Web/) – theorem prover for
+    ACL2-like logic
     -   [_The reflective Milawa theorem prover is sound_](https://www.cs.utexas.edu/users/jared/publications/2015-jar-milawa.pdf) (2015)
--   [ATS language](http://www.ats-lang.org/)
+-   [ATS](http://www.ats-lang.org/) (_Applied Type System_) – dependently typed
+    functional languge
 -   [F7](http://research.microsoft.com/en-us/projects/f7/) – extension of F#'s type
     system with refinement types, dependent types and π-calculus-style concurrency
 -   [F\*](https://www.fstar-lang.org/) – "a new higher order, effectful programming
