@@ -1,4 +1,4 @@
-This repository servers as a log of my endeavour to learn to use and understand
+This repository serves as a log of my endeavour to learn to use and understand
 the [Coq](https://coq.inria.fr/) proof assistant. It may contain proofs, attempts
 at proofs, links to related resources (blogs, articles, books), notes on type theory,
 logic, formal verification, theorem proving, automated reasoning, and much more.
