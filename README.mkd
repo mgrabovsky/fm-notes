@@ -41,6 +41,7 @@ information contained herein.
 
 -   [Poleiro](http://poleiro.info/)
 -   [Gagallium](http://gallium.inria.fr/blog/) – blog of the [Gallium research team](http://gallium.inria.fr/) at Inria
+-   Guillaume Claret's [Coq blog](http://coq-blog.clarus.me/)
 -   [Coq en Stock](http://goto.ucsd.edu/~vrobert/coq-en-stock/blog/)
 -   [_Homotopy Type Theory_ blog](http://homotopytypetheory.org/blog)
     -   [Modules for Modalities](http://homotopytypetheory.org/2015/07/05/modules-for-modalities)
@@ -60,6 +61,9 @@ information contained herein.
 -   [Mtac](http://plv.mpi-sws.org/mtac/) – "a monad for typed tactic programming in Coq "
 -   [cases plug-in](https://github.com/pilki/cases) – extended support for `(S*)Case`
     as featured in _Software Foundations_
+-   [A Formal Library for Elliptic Curves in the Coq Proof Assistant](https://dx.doi.org/10.1007/978-3-319-08970-6_6)
+    ([GitHub](https://github.com/strub/elliptic-curves-ssr))
+-   [A Coq/SSReflect Library for Multinomials](https://github.com/strub/multinomials-ssr)
 -   [Coq.io](http://coq.io/) and others by [Guillaume Claret](http://claret.me/)
     ([GitHub](https://github.com/clarus))
 -   [Cybele](http://cybele.gforge.inria.fr/) – "a powerful tool to write proofs by reflection in Coq"
@@ -195,7 +199,9 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
 -   [VerifyThis](http://www.verifythis.org/) – a competition and collection of
     problems in formal verification of algorithms and software
 -   [jozefg/learn-tt](https://github.com/jozefg/learn-tt) – "a collection of resources for learning type theory"
--   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) – videos of _awesome_ talks on type theory, provers, logic, etc.; earlier editions only have lectures notes and slides published
+-   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) –
+    videos of _awesome_ lectures on type theory, provers, logic, etc.; earlier
+    editions only have lectures notes and slides published
 
     [2015](https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html),
     [2014](https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html),
