@@ -168,6 +168,17 @@ information contained herein.
 -   [Twelf](http://twelf.org/wiki/Main_Page)
 -   [Celf](https://clf.github.io/celf/)
 
+### SAT & SMT solvers
+
+-   [MiniSat](http://minisat.se/)
+-   [Z3](https://github.com/Z3Prover/z3)
+-   [Alt-Ergo](http://alt-ergo.ocamlpro.com/) ([academic page](http://alt-ergo.lri.fr/))
+-   [Yices](http://yices.csl.sri.com/) – non-free licence
+-   [SBV](https://leventerkok.github.io/sbv/) – SMT-based Haskell verification
+-   [funsat](https://hackage.haskell.org/package/funsat) – "a modern DPLL-style SAT solver"
+-   [_Simple SMT solver for use in an optimizing compiler_](http://www.well-typed.com/blog/103/)
+-   [international SAT competitions](http://www.satcompetition.org/)
+
 ### Other tools
 
 -   [Why3](http://why3.lri.fr/) – platform for deductive reasoning on programs with
