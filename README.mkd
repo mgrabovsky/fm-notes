@@ -90,6 +90,9 @@ information contained herein.
 -   [Ynot](http://ynot.cs.harvard.edu/) (abandoned)
     -   A\. Chlipala et al.: [_Effective Interactive Proofs for Higher-Order
         Imperative Programs_](http://ynot.cs.harvard.edu/papers/icfp09.pdf)
+-   ["Category Theory in Coq 8.5"](http://arxiv.org/abs/1505.06430) ([Bitbucket](https://bitbucket.org/amintimany/categories/); Coq Workshop 2014)
+-   [CH2O](http://robbertkrebbers.nl/research/ch2o/) – formalization of ISO C11 ([GitHub](https://github.com/robbertkrebbers/ch2o))
+    -   ["Formalizing C in Coq"](https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/ch2o.pdf) ([CoqPL 2015](https://coqpl.cs.washington.edu/))
 
 ## Applications
 
@@ -143,6 +146,7 @@ information contained herein.
 -   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/);
     small trusted meta-logical core, usually used along with HOL
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
+    -   [Isar](https://isabelle.in.tum.de/Isar/)
 -   [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/) by Michael Gordon et al. – the
     original system for interactive theorem proving in higher-order logic
     -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/) – small trusted core
@@ -151,6 +155,7 @@ information contained herein.
     assistant based on first-order natural deduction calculus
 -   [ProofPower](http://www.lemma-one.com/ProofPower/index/) – based on higher-order
     logic
+-   [Matita](http://matita.cs.unibo.it/)
 -   [Mizar](http://mizar.org/)
 -   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/) (_A Computational Logic for
     Applicative Common Lisp_) – logic for modelling systems and a complementary
