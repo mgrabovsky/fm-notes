@@ -122,6 +122,7 @@ information contained herein.
     – _QuickChick_, a port of _QuickCheck_ to Coq
 -   [_How to express convergence for analysis in Coq_](https://hal.inria.fr/hal-01169321)
     -   <http://coquelicot.saclay.inria.fr/>
+-   J\. Gross: ["Coq Bug Minimizer"](https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/bug-minimizer.pdf) (CoqPL 2015; [GitHub](https://github.com/JasonGross/coq-tools))
 
 ## Related languages, tools and stuff
 
