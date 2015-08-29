@@ -126,7 +126,9 @@ information contained herein.
 
 ## Related languages, tools and stuff
 
--   see also [page on the Coq website](https://coq.inria.fr/related-tools)
+Numerous journals, conferences and workshops, for instance, the _Journal of Automated
+Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https://coq.inria.fr/related-tools).
+
 -   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
     -   [Coq for Homotopy Type Theory](http://tabareau.fr/coqhott) – a dedicated research project
 -   [UniMath](https://github.com/UniMath/UniMath) (_Univalent Foundations_)
