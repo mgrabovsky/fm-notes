@@ -4,6 +4,11 @@ at proofs, links to related resources (blogs, articles, papers, books), notes on
 logic, type theory, formal verification, theorem proving, automated reasoning, and
 much more.
 
+I will try to only include things that seem useful, informative, interesting or cool,
+things that I forget, and tips and warnings regarding the subtleties of Coq.
+Therefore, if you want to learn Coq from scratch, I suggest you try one of the
+resources listed [below](#useful-resources).
+
 I do not claim completeness, correctness, consistency or usefulness of any
 information contained herein.
 
@@ -11,10 +16,35 @@ information contained herein.
 
 ## On Coq
 
-Coq is an interactive theorem prover and proof assistant based on an intuitionistic,
+Coq is an interactive theorem prover and proof assistant based on an intuitionistic
 constructive logic. The underlying formalism is called Calculus of Constructions
 (CoC), with an extension to the Calculus of (Co-)Inductive Constructions. Its core is
 written in OCaml.
+
+<!-- *TODO:* Slap some papers on the formal stuff around here -->
+
+## Standard tactics
+
+Standard Coq contains many tactics for working with the proof state, some of which
+may be confused easily. The documentation on tactics may be the most informative and
+thorough part of the Coq reference manual, so it's worth a read if you're looking for
+a way to make your proofs more concise. See the [Tactics Index](https://coq.inria.fr/distrib/current/refman/tactic-index.html)
+and [Chapter 8: Tactics](https://coq.inria.fr/distrib/current/refman/Reference-Manual010.html)
+in the reference manual.
+
+The Ssreflect libary (see below) contains a more sensible and consistent set of
+tactics. Although its syntax is very different from the Coq standard, don't let
+this repulse you.
+
+-   `intros` – move `forall`s and LHS's of implications to hypotheses
+    <!-- *TODO:* Say something about the relation `forall` and `->`? -->
+-   `apply`
+-   `exact` and `refine`
+    <!-- *TODO:* Compare with `apply` -->
+-   `apply`
+-   `auto` and `trivial` try to find a combination of `intro`, `apply` and
+    `assumption` that solves the goal to a certain depth. `trivial` only goes one
+    step deep.
 
 ## Useful resources
 
