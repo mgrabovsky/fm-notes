@@ -1,12 +1,20 @@
 This repository serves as a log of my endeavour to learn to use and understand
 the [Coq](https://coq.inria.fr/) proof assistant. It may contain proofs, attempts
-at proofs, links to related resources (blogs, articles, books), notes on type theory,
-logic, formal verification, theorem proving, automated reasoning, and much more.
+at proofs, links to related resources (blogs, articles, papers, books), notes on
+logic, type theory, formal verification, theorem proving, automated reasoning, and
+much more.
 
 I do not claim completeness, correctness, consistency or usefulness of any
 information contained herein.
 
 ![](http://i.creativecommons.org/p/zero/1.0/80x15.png)
+
+## On Coq
+
+Coq is an interactive theorem prover and proof assistant based on an intuitionistic,
+constructive logic. The underlying formalism is called Calculus of Constructions
+(CoC), with an extension to the Calculus of (Co-)Inductive Constructions. Its core is
+written in OCaml.
 
 ## Useful resources
 
