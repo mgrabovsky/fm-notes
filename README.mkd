@@ -34,7 +34,7 @@ in the reference manual.
 
 The Ssreflect libary (see below) contains a more sensible and consistent set of
 tactics. Although its syntax is very different from the Coq standard, don't let
-this repulse you.
+this discourage you.
 
 -   `intros` – move `forall`s and LHS's of implications to hypotheses
     <!-- *TODO:* Say something about the relation `forall` and `->`? -->
