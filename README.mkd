@@ -282,9 +282,15 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
     [2006](https://www.cs.uoregon.edu/research/summerschool/summer06/curriculum.html),
     [2005](https://www.cs.uoregon.edu/research/summerschool/summer05/curriculum.html)
 
-## Licence
+## Copyright
 
-Everything here is licensed under [CC0](http://creativecommons.org/publicdomain/zero/1.0/)
-unless indicated otherwise.
+Written in 2015 by Matěj Grabovský <matej.grabovsky at gmail>
+
+To the extent possible under law, the author has dedicated all copyright and related
+and neighboring rights to this software to the public domain worldwide. This software
+is distributed without any warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication along with this
+software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
 
 <!-- vim: set et ts=4 sw=4: -->
