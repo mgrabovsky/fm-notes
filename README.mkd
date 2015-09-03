@@ -266,7 +266,6 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
 -   [Verified Software Competition](http://vscomp.org/)
 -   [VerifyThis](http://www.verifythis.org/) – a competition and collection of
     problems in formal verification of algorithms and software
--   [jozefg/learn-tt](https://github.com/jozefg/learn-tt) – "a collection of resources for learning type theory"
 -   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) –
     videos of _awesome_ lectures on type theory, provers, logic, etc.; earlier
     editions only have lectures notes and slides published
@@ -283,6 +282,21 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
     [2006](https://www.cs.uoregon.edu/research/summerschool/summer06/curriculum.html),
     [2005](https://www.cs.uoregon.edu/research/summerschool/summer05/curriculum.html)
 
+## Type theory
+
+Danny Gratzer's [learn-tt](https://github.com/jozefg/learn-tt) is a fantastic
+resource for those interested in type and category theory. He presents all the
+terrific tools, textbooks, and papers that deal with both of these in a sensible and
+logical way, which is a quality that my repository will never have.
+
+I'll only list here resources which he doesn't mention and which I personally find
+interesting.
+
+### Dependent types
+
+-   A\. Bove, P. Dybjer: [_Dependent Types at Work_](http://www.cse.chalmers.se/~peterd/papers/DependentTypesAtWork.pdf)
+    – introduction to programming with dependent types in Agda
+
 ## Copyright
 
 Written in 2015 by Matěj Grabovský <matej.grabovsky at gmail>
@@ -292,6 +306,6 @@ and neighboring rights to this software to the public domain worldwide. This sof
 is distributed without any warranty.
 
 You should have received a copy of the CC0 Public Domain Dedication along with this
-software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
+software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 <!-- vim: set et ts=4 sw=4: -->
