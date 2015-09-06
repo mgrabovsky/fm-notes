@@ -251,6 +251,8 @@ Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https
     and native handling of all kinds of computatinal effects without touching monads
 -   [Twelf](http://twelf.org/wiki/Main_Page)
 -   [Celf](https://clf.github.io/celf/)
+-   [Prover9 and Mace4](https://www.cs.unm.edu/~mccune/prover9/) – and automated
+    theorem prover for FOL and searchr for counterexamples, respectively
 
 ### SAT & SMT solvers
 
