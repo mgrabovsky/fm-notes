@@ -208,6 +208,19 @@ Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https
     -   [Coq for Homotopy Type Theory](http://tabareau.fr/coqhott) – a dedicated research project
 -   [UniMath](https://github.com/UniMath/UniMath) (_Univalent Foundations_)
 
+### Conferences and workshops
+
+-   Symposium on Principles of Programming Languages (POPL)
+-   Summit on Advances in Programming Languages (SNAPL)
+-   Conference on Certified Programs and Proofs (CPP)
+-   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP) 
+-   [CUFP](http://cufp.org/)
+
+*Meta:*
+
+-   [Top Crypto and Security Conferences Ranking](http://icsd.i2r.a-star.edu.sg/staff/jianying/conference-ranking.html)
+-   [Top conferences security & privacy](http://academic.research.microsoft.com/RankList?entitytype=3&topdomainid=2&subdomainid=2&last=0&orderby=1)
+
 ### Proof assistants, provers and languages
 
 -   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
