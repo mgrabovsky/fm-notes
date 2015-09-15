@@ -107,13 +107,13 @@ ones are:
         -   A simple and straightforward introduction to basics of proofs using Coq
 -   [Cocorico!](https://coq.inria.fr/cocorico/Home) – official wiki
 -   The [coq-club](https://sympa.inria.fr/sympa/arc/coq-club) mailing list
--   B. C. Pierce et al.: [_Software Foundations_](http://www.cis.upenn.edu/~bcpierce/sf/current/)
+-   B\. C. Pierce et al.: [_Software Foundations_](http://www.cis.upenn.edu/~bcpierce/sf/current/)
     – probably the best introduction into Coq and theorem proving available
--   A. Chlipala: [_Certified Programming with Dependent Types_](http://adam.chlipala.net/cpdt/)
+-   A\. Chlipala: [_Certified Programming with Dependent Types_](http://adam.chlipala.net/cpdt/)
     – an awesome book to read after _Software Foundations_; a bit more advanced,
     slightly different topics; puts forth the idea of using automation whenever
     possible
--   I. Sergey: [_Programs and Proofs: Mechanizing Mathematics with Dependent Types_](http://ilyasergey.net/pnp/) (draft)
+-   I\. Sergey: [_Programs and Proofs: Mechanizing Mathematics with Dependent Types_](http://ilyasergey.net/pnp/) (draft)
 -   [/r/coq](https://www.reddit.com/r/coq)
 -   [Coq in a Hurry](https://cel.archives-ouvertes.fr/file/index/docid/475807/filename/coq-hurry.pdf)
 -   [Introduction to the Coq proof-assistant for practical software
@@ -149,8 +149,8 @@ ones are:
     theories and plugins that may be useful in other Coq developments"
 -   [Equations](http://www.pps.univ-paris-diderot.fr/~sozeau/research/coq/equations.en.html)
     – dependent pattern matching
--   [Mtac](http://plv.mpi-sws.org/mtac/) – "a monad for typed tactic programming in Coq "
--   [cases plug-in](https://github.com/pilki/cases) – extended support for `(S*)Case`
+-   [Mtac](http://plv.mpi-sws.org/mtac/) – "a monad for typed tactic programming in Coq"
+-   [cases plug-in](https://github.com/pilki/cases) – extended support for `S*Case`
     as featured in _Software Foundations_
 -   ["A Formal Library for Elliptic Curves in the Coq Proof Assistant"](https://dx.doi.org/10.1007/978-3-319-08970-6_6)
     ([GitHub](https://github.com/strub/elliptic-curves-ssr))
@@ -234,13 +234,17 @@ Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https
 -   Symposium on Principles of Programming Languages (POPL)
 -   Summit on Advances in Programming Languages (SNAPL)
 -   Conference on Certified Programs and Proofs (CPP)
--   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP) 
+-   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
 -   [CUFP](http://cufp.org/)
+-   International Workshop on Coq for PL (CoqPL)
 
-*Meta:*
+**Meta**
 
 -   [Top Crypto and Security Conferences Ranking](http://icsd.i2r.a-star.edu.sg/staff/jianying/conference-ranking.html)
 -   [Top conferences security & privacy](http://academic.research.microsoft.com/RankList?entitytype=3&topdomainid=2&subdomainid=2&last=0&orderby=1)
+
+Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
+[SIGLOG](http://siglog.org/) and [SIGACT](http://www.sigact.org/).
 
 ### Proof assistants, provers and languages
 
@@ -298,7 +302,7 @@ Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https
 -   [funsat](https://hackage.haskell.org/package/funsat) – "a modern DPLL-style SAT
     solver" written in Haskell
 -   [_Simple SMT solver for use in an optimizing compiler_](http://www.well-typed.com/blog/103/)
--   [international SAT competitions](http://www.satcompetition.org/)
+-   [SAT Competitions](http://www.satcompetition.org/)
 
 ### Other tools
 
@@ -357,6 +361,9 @@ logical way, which is a quality that my repository will never have.
 
 I'll only list here resources which he doesn't mention and which I personally find
 interesting.
+
+Check out the [TYPES](http://lists.seas.upenn.edu/mailman/listinfo/types-list)
+mailing list as well.
 
 ### Dependent types
 
