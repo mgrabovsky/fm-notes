@@ -14,6 +14,27 @@ information contained herein.
 
 ![](http://i.creativecommons.org/p/zero/1.0/80x15.png)
 
+## Table of contents
+
+-   [On Coq](#on-coq)
+-   [Standard tactics](#standard-tactics)
+-   [Encoding mathematical structures](#encoding-mathematical-structures)
+-   [Useful resources](#useful-resources)
+    -   [Blogs](#blogs)
+-   [Libraries and plug-ins](#libraries-and-plug-ins)
+-   [Applications](#applications)
+    -   [Papers and articles](#papers-and-articles)
+-   [Related languages, tools and stuff](#related-languages-tools-and-stuff)
+    -   [Conferences and workshops](#conferences-and-workshops)
+    -   [Proof assistants, provers and languages](#proof-assistants-provers-and-languages)
+    -   [SAT &amp; SMT solvers](#sat--smt-solvers)
+    -   [Other tools](#other-tools)
+    -   [Formal methods in practice](#formal-methods-in-practice)
+    -   [Learning resources](#learning-resources)
+-   [Type theory](#type-theory)
+    -   [Dependent types](#dependent-types)
+-   [Copyright](#copyright)
+
 ## On Coq
 
 Coq is an interactive theorem prover and proof assistant based on an intuitionistic
