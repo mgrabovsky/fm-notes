@@ -14,7 +14,7 @@ information contained herein.
 
 ![](http://i.creativecommons.org/p/zero/1.0/80x15.png)
 
-## Table of contents
+---
 
 -   [On Coq](#on-coq)
 -   [Standard tactics](#standard-tactics)
@@ -152,10 +152,14 @@ ones are:
 -   [Mtac](http://plv.mpi-sws.org/mtac/) – "a monad for typed tactic programming in Coq"
 -   [cases plug-in](https://github.com/pilki/cases) – extended support for `S*Case`
     as featured in _Software Foundations_
+-   [wilcoxjay/tactics](https://github.com/wilcoxjay/tactics) – some useful tactics
+    by James Wilcox
 -   ["A Formal Library for Elliptic Curves in the Coq Proof Assistant"](https://dx.doi.org/10.1007/978-3-319-08970-6_6)
     ([GitHub](https://github.com/strub/elliptic-curves-ssr))
 -   [multinomials](https://github.com/strub/multinomials-ssr) – a Coq/SSReflect
     library for multinomials
+-   [Coquelicot](http://coquelicot.saclay.inria.fr/) – library for real analysis
+    -   C\. Lelay (2015): [_How to express convergence for analysis in Coq_](https://hal.inria.fr/hal-01169321)
 -   [domain theory in Coq](http://rwd.rdockins.name/domains/)
 -   [Coq.io](http://coq.io/) and others by [Guillaume Claret](http://claret.me/)
     ([GitHub](https://github.com/clarus))
@@ -171,8 +175,6 @@ ones are:
         on the Gagallium blog on verifying complexity
 -   [TLC](http://www.chargueraud.org/softs/tlc/): "a non-constructive library for Coq"
     – extensionality as an axiom, classical logic by default, etc.
--   [wilcoxjay/tactics](https://github.com/wilcoxjay/tactics) – some useful tactics
-    by James Wilcox
 -   [Verified Software Toolchain](http://vst.cs.princeton.edu/)
     -   tons of articles around this
     -   A\. W. Appel: [_Verified Software Toolchain_](https://www.cs.princeton.edu/~appel/papers/vst.pdf)
@@ -215,8 +217,6 @@ ones are:
 -   [_Canonical Structures for the Working Coq User_](https://www.reddit.com/r/Coq/comments/3erkgv/canonical_structures_for_the_working_coq_user/)
 -   [_Foundational Property-Based Testing_](https://hal.inria.fr/hal-01162898)
     – _QuickChick_, a port of _QuickCheck_ to Coq
--   [_How to express convergence for analysis in Coq_](https://hal.inria.fr/hal-01169321)
-    -   <http://coquelicot.saclay.inria.fr/>
 -   J\. Gross: ["Coq Bug Minimizer"](https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/bug-minimizer.pdf)
     (CoqPL 2015; [GitHub](https://github.com/JasonGross/coq-tools))
 
@@ -231,12 +231,46 @@ Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https
 
 ### Conferences and workshops
 
+I've divided the events into three disjoint categories, although, naturally, there
+might be a significant overlap in the topics covered with events in other categories.
+
+**Formal methods and automated reasoning**
+
+This also includes Coq, type theory in CS, and logic.
+
+-   International Workshop on Coq for PL (CoqPL)
+-   [Coq Workshop](https://coq.inria.fr/coq-workshop)
+-   Conference on Certified Programs and Proofs (CPP)
+-   International Symposium on Formal Methods (FM)
+-   NASA Formal Methods Symposium (NFM)
+-   Conference on Automated Verification (CAV)
+-   Conference on Automated Deduction (CADE)
+-   Interactive Theorem Proving (ITP) [2015](http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/)
+-   Theorem Proving in Higher Order Logics (TPHOLs)
+-   International Joint Conference on Automated Reasoning (IJCAR)
+-   International Symposium on Automated Technology for Verification and Analysis (ATVA)
+-   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
+-   International Conference on Types for Proofs and Programs (TYPES)
+-   Federated Logic Conference (FLoC)
+-   Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)
+-   IEEE Symposium on Logic in Computer Science (LICS)
+-   Annual Conference on Computer Science Logic (CSL)
+-   International Conference on Logic Programming (ICLP)
+-   [Conference on Theory and Applications of Satisfiability Testing](http://www.satisfiability.org/) (SAT)
+
+**Programming languages**
+
 -   Symposium on Principles of Programming Languages (POPL)
 -   Summit on Advances in Programming Languages (SNAPL)
--   Conference on Certified Programs and Proofs (CPP)
 -   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
--   [CUFP](http://cufp.org/)
--   International Workshop on Coq for PL (CoqPL)
+    -   [CUFP](http://cufp.org/) workshop
+
+**Unsorted**
+
+-   International Colloquium on Theoretical Aspects of Computing (ICTAC) [2015](http://www.ictac2015.co/)
+-   Conference on Rewriting Techniques and Applications (RTA)
+-   Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)
+-   Computer Security Foundations Symposium (CSF)
 
 **Meta**
 
