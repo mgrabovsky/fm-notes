@@ -257,6 +257,11 @@ This also includes Coq, type theory in CS, and logic.
 -   Annual Conference on Computer Science Logic (CSL)
 -   International Conference on Logic Programming (ICLP)
 -   [Conference on Theory and Applications of Satisfiability Testing](http://www.satisfiability.org/) (SAT)
+-   International Conference on Rewriting, Deduction, and Programming (RDP)
+-   [International Conference on Rewriting Techniques and Applications](http://rewriting.loria.fr/rta/) (RTA)
+-   [International Conference on Typed Lambda Calculi and Applications](http://www.mimuw.edu.pl/tlca/) (TLCA)
+-   [Formal Structures for Computation and Deduction](http://fscdconference.org/) (FSCD)
+-   Higher-Dimensional Rewriting and Applications (HDRA)
 
 **Programming languages**
 
