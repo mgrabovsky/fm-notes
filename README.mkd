@@ -334,6 +334,7 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 ### SAT & SMT solvers
 
 -   [MiniSat](http://minisat.se/)
+-   [PicoSAT](http://fmv.jku.at/picosat)
 -   [Z3](https://github.com/Z3Prover/z3)
 -   [Alt-Ergo](http://alt-ergo.ocamlpro.com/) ([academic page](http://alt-ergo.lri.fr/))
 -   [Yices](http://yices.csl.sri.com/) – non-free licence
