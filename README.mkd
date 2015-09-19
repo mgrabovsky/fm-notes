@@ -362,10 +362,11 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 
 ### Formal methods in practice
 
--   [seL4](http://sel4.org/) – first fully verified and open-sourced OS kernel
+-   [seL4](http://sel4.systems/) – first fully verified and open-sourced OS kernel
 -   [Muen Separation Kernel](http://muen.sk/) – first open-source kernel verified for
     absence of runtime errors ([Reddit discussion](https://www.reddit.com/r/programming/comments/1sjyop/the_muen_separation_kernel_is_the_worlds_first/))
 -   [CertiKOS](http://flint.cs.yale.edu/certikos/) – "advanced development of certified OS kernels"
+-   [Galois, Inc.](https://galois.com) and anything they do
 
 ### Learning resources
 
