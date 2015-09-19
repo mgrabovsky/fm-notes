@@ -231,37 +231,44 @@ Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https
 
 ### Conferences and workshops
 
-I've divided the events into three disjoint categories, although, naturally, there
+I've divided the events into four disjoint categories, although, naturally, there
 might be a significant overlap in the topics covered with events in other categories.
 
-**Formal methods and automated reasoning**
-
-This also includes Coq, type theory in CS, and logic.
+**Coq**
 
 -   International Workshop on Coq for PL (CoqPL)
 -   [Coq Workshop](https://coq.inria.fr/coq-workshop)
--   Conference on Certified Programs and Proofs (CPP)
+
+**Formal methods and automated reasoning**
+
+This also includes computing theory and type theory in CS.
+
 -   International Symposium on Formal Methods (FM)
 -   NASA Formal Methods Symposium (NFM)
+-   Conference on Certified Programs and Proofs (CPP)
 -   Conference on Automated Verification (CAV)
 -   Conference on Automated Deduction (CADE)
--   Interactive Theorem Proving (ITP) [2015](http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/)
--   Theorem Proving in Higher Order Logics (TPHOLs)
 -   International Joint Conference on Automated Reasoning (IJCAR)
 -   International Symposium on Automated Technology for Verification and Analysis (ATVA)
 -   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
+-   Interactive Theorem Proving (ITP) [2015](http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/)
+-   Theorem Proving in Higher Order Logics (TPHOLs)
 -   International Conference on Types for Proofs and Programs (TYPES)
--   Federated Logic Conference (FLoC)
 -   Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)
--   IEEE Symposium on Logic in Computer Science (LICS)
--   Annual Conference on Computer Science Logic (CSL)
--   International Conference on Logic Programming (ICLP)
--   [Conference on Theory and Applications of Satisfiability Testing](http://www.satisfiability.org/) (SAT)
 -   International Conference on Rewriting, Deduction, and Programming (RDP)
 -   [International Conference on Rewriting Techniques and Applications](http://rewriting.loria.fr/rta/) (RTA)
 -   [International Conference on Typed Lambda Calculi and Applications](http://www.mimuw.edu.pl/tlca/) (TLCA)
 -   [Formal Structures for Computation and Deduction](http://fscdconference.org/) (FSCD)
 -   Higher-Dimensional Rewriting and Applications (HDRA)
+-   Computer Security Foundations Symposium (CSF)
+
+**Logic**
+
+-   Federated Logic Conference (FLoC)
+-   IEEE Symposium on Logic in Computer Science (LICS)
+-   Annual Conference on Computer Science Logic (CSL)
+-   International Conference on Logic Programming (ICLP)
+-   [Conference on Theory and Applications of Satisfiability Testing](http://www.satisfiability.org/) (SAT)
 
 **Programming languages**
 
@@ -269,13 +276,6 @@ This also includes Coq, type theory in CS, and logic.
 -   Summit on Advances in Programming Languages (SNAPL)
 -   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
     -   [CUFP](http://cufp.org/) workshop
-
-**Unsorted**
-
--   International Colloquium on Theoretical Aspects of Computing (ICTAC) [2015](http://www.ictac2015.co/)
--   Conference on Rewriting Techniques and Applications (RTA)
--   Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)
--   Computer Security Foundations Symposium (CSF)
 
 **Meta**
 
