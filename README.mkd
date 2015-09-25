@@ -302,6 +302,8 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
     small trusted meta-logical core, usually used along with HOL
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
     -   [Isar](https://isabelle.in.tum.de/Isar/)
+    -   Isabelle/HOLCF – [paper](https://www21.in.tum.de/~nipkow/pubs/jfp99.html),
+        [tutorial](https://isabelle.in.tum.de/library/HOL/HOLCF-Tutorial/document.pdf)
 -   [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/) by Michael Gordon et al. – the
     original system for interactive theorem proving in higher-order logic
     -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/) – small trusted core
