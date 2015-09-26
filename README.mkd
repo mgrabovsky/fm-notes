@@ -299,7 +299,8 @@ This also includes computing theory and type theory in CS.
 ### Proof assistants, provers and languages
 
 -   [Lean](https://leanprover.github.io/) – a new theorem prover developed by Microsoft and CMU with
-    automation support; looks a lot like Coq
+    automation support; based on CIC, supports HoTT as well
+-   [Matita](http://matita.cs.unibo.it/) – based on (a variant of) CoC
 -   [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php) – a (relatively) new, hip dependently-typed
     functional language and interactive theorem prover
     -   [Agda Tutorial](http://people.inf.elte.hu/divip/AgdaTutorial/Index.html)
@@ -323,7 +324,6 @@ This also includes computing theory and type theory in CS.
     assistant based on first-order natural deduction calculus
 -   [ProofPower](http://www.lemma-one.com/ProofPower/index/) – based on higher-order
     logic
--   [Matita](http://matita.cs.unibo.it/)
 -   [Mizar](http://mizar.org/)
 -   [ACL2](https://www.cs.utexas.edu/users/moore/acl2/) (_A Computational Logic for
     Applicative Common Lisp_) – logic for modelling systems and a complementary
@@ -343,6 +343,8 @@ This also includes computing theory and type theory in CS.
 -   [Celf](https://clf.github.io/celf/)
 -   [Prover9 and Mace4](https://www.cs.unm.edu/~mccune/prover9/) – and automated
     theorem prover for FOL and searchr for counterexamples, respectively
+-   [leanCOP](http://www.leancop.de/) – tiny automated theorem prover for classical
+    first-order logic implemented in Prolog
 
 ### SAT & SMT solvers
 
