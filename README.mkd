@@ -25,6 +25,7 @@ information contained herein.
 -   [Applications](#applications)
     -   [Papers and articles](#papers-and-articles)
 -   [Related languages, tools and stuff](#related-languages-tools-and-stuff)
+    -   [Journals](#journals)
     -   [Conferences and workshops](#conferences-and-workshops)
     -   [Proof assistants, provers and languages](#proof-assistants-provers-and-languages)
     -   [SAT &amp; SMT solvers](#sat--smt-solvers)
@@ -229,6 +230,16 @@ Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https
     -   [Coq for Homotopy Type Theory](http://tabareau.fr/coqhott) – a dedicated research project
 -   [UniMath](https://github.com/UniMath/UniMath) (_Univalent Foundations_)
 
+Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
+[SIGLOG](http://siglog.org/) and [SIGACT](http://www.sigact.org/).
+
+### Journals
+
+(† denotes open-access journals)
+
+-   _Journal of Automated Reasoning_
+-   [_Logical Methods in Computer Science_](http://lmcs-online.org/index.php)&thinsp;†
+
 ### Conferences and workshops
 
 I've divided the events into four disjoint categories, although, naturally, there
@@ -261,6 +272,7 @@ This also includes computing theory and type theory in CS.
 -   [Formal Structures for Computation and Deduction](http://fscdconference.org/) (FSCD)
 -   Higher-Dimensional Rewriting and Applications (HDRA)
 -   Computer Security Foundations Symposium (CSF)
+-   International Symposium on Mathematical Foundations of Computer Science (MFCS)
 
 **Logic**
 
@@ -276,14 +288,13 @@ This also includes computing theory and type theory in CS.
 -   Summit on Advances in Programming Languages (SNAPL)
 -   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
     -   [CUFP](http://cufp.org/) workshop
+-   International Colloquium on Automata, Languages and Programming (ICALP)
 
 **Meta**
 
+-   [Computer Science Conferences](http://csconf.net) website
+-   Microsoft Academic Search – [Top conferences in CS](http://academic.research.microsoft.com/?SearchDomain=2&entitytype=3)
 -   [Top Crypto and Security Conferences Ranking](http://icsd.i2r.a-star.edu.sg/staff/jianying/conference-ranking.html)
--   [Top conferences security & privacy](http://academic.research.microsoft.com/RankList?entitytype=3&topdomainid=2&subdomainid=2&last=0&orderby=1)
-
-Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
-[SIGLOG](http://siglog.org/) and [SIGACT](http://www.sigact.org/).
 
 ### Proof assistants, provers and languages
 
