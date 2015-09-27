@@ -239,6 +239,15 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 
 -   _Journal of Automated Reasoning_
 -   [_Logical Methods in Computer Science_](http://lmcs-online.org/index.php)&thinsp;†
+-   [_Information and Computation_](http://www.journals.elsevier.com/information-and-computation)
+-   Springer's [_Lecture Notes in Computer Science_](http://link.springer.com/bookseries/558) series
+
+**Meta**
+
+-   [ACM Journals/Transactions](https://dl.acm.org/pubs.cfm)
+-   [Elsevier journals](https://www.elsevier.com/journals/subjects/computer-science/title/all) on computer science
+-   [Springer journals](http://link.springer.com/search?facet-discipline=%22Computer+Science%22&facet-content-type=%22Journal%22) on CS
+-   [Cambridge Journals](http://journals.cambridge.org/action/bySubjectArea#subject8) on CS
 
 ### Conferences and workshops
 
