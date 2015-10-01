@@ -282,6 +282,7 @@ This also includes computing theory and type theory in CS.
 -   Higher-Dimensional Rewriting and Applications (HDRA)
 -   Computer Security Foundations Symposium (CSF)
 -   International Symposium on Mathematical Foundations of Computer Science (MFCS)
+-   [Doctoral Workshop on Mathematical and Engineering Methods in Computer Science](http://www.memics.cz/) (MEMICS)
 
 **Logic**
 
