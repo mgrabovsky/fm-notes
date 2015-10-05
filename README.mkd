@@ -320,6 +320,7 @@ This also includes computing theory and type theory in CS.
     λΠ-calculus; tools for translation from other proof assistants available
 -   [PRL Project (Nuprl)](http://www.nuprl.org/)
     -    [JonPRL](www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl))
+-   [MetaPRL](http://metaprl.org/default.html)
 -   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/);
     small trusted meta-logical core, usually used along with HOL
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
