@@ -251,15 +251,17 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 
 ### Conferences and workshops
 
-I've divided the events into four disjoint categories, although, naturally, there
-might be a significant overlap in the topics covered with events in other categories.
+I've divided the events into five disjoint categories, although, naturally, there
+will be a significant overlap in the topics covered by events in two different
+categories.
 
 **Coq**
 
 -   International Workshop on Coq for PL (CoqPL)
 -   [Coq Workshop](https://coq.inria.fr/coq-workshop)
 
-**Formal methods and automated reasoning**
+**Formal methods, automated reasoning and foundations**
+<!-- TODO: too many confs here, some way too general; granularise a bit more -->
 
 This also includes computing theory and type theory in CS.
 
@@ -282,7 +284,8 @@ This also includes computing theory and type theory in CS.
 -   Higher-Dimensional Rewriting and Applications (HDRA)
 -   Computer Security Foundations Symposium (CSF)
 -   International Symposium on Mathematical Foundations of Computer Science (MFCS)
--   [Doctoral Workshop on Mathematical and Engineering Methods in Computer Science](http://www.memics.cz/) (MEMICS)
+-   International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+-   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
 
 **Logic**
 
@@ -294,11 +297,28 @@ This also includes computing theory and type theory in CS.
 
 **Programming languages**
 
+This includes compilers and related stuff, too.
+
 -   Symposium on Principles of Programming Languages (POPL)
 -   Summit on Advances in Programming Languages (SNAPL)
 -   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
     -   [CUFP](http://cufp.org/) workshop
 -   International Colloquium on Automata, Languages and Programming (ICALP)
+-   International Conference on Compiler Construction (CC)
+-   European Symposium on Programming (ESOP)
+-   [European Conference on Object-Oriented Programming](http://ecoop.org/) (ECOOP)
+-   [International Symposium on Memory Management](http://www.sigplan.org/Conferences/ISMM/) (ISMM)
+-   [Programming Language Design and Implementation](http://www.sigplan.org/Conferences/PLDI/) (PLDI)
+-   [Conference on Languages, Compilers, Tools and Theory for Embedded Systems](http://lctes2015.lctes.org/) (LCTES)
+
+**General/other**
+
+This includes software engineering, security and tons of other fields.
+
+-   [European Joint Conferences on Theory and Practice of Software](http://www.etaps.org/) (ETAPS)
+-   International Conference on Fundamental Approaches to Software Engineering (FASE)
+-   [Doctoral Workshop on Mathematical and Engineering Methods in Computer Science](http://www.memics.cz/) (MEMICS)
+-   International Conference on Principles of Security and Trust (POST)
 
 **Meta**
 
