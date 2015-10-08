@@ -418,7 +418,8 @@ This includes software engineering, security and tons of other fields.
 
 Courses, textbooks, papers, theses, competitions, influential figures in the field.
 
--   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html)
+-   [The QED Manifesto](http://www.cs.ru.nl/~freek/qed/qed.html), some more details
+    [here](http://www.rbjones.com/rbjpub/logic/qedres00.htm)
 -   [Formalizing 100 Theorems](http://www.cs.ru.nl/~freek/100/index.html)
 -   [Verified Software Competition](http://vscomp.org/)
 -   [VerifyThis](http://www.verifythis.org/) – a competition and collection of
