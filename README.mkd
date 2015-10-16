@@ -310,6 +310,7 @@ This includes compilers and related stuff, too.
 -   [International Symposium on Memory Management](http://www.sigplan.org/Conferences/ISMM/) (ISMM)
 -   [Programming Language Design and Implementation](http://www.sigplan.org/Conferences/PLDI/) (PLDI)
 -   [Conference on Languages, Compilers, Tools and Theory for Embedded Systems](http://lctes2015.lctes.org/) (LCTES)
+-   [Dynamic Languages Symposium](http://www.dynamic-languages-symposium.org/) (DLS)
 
 **General/other**
 
