@@ -304,6 +304,7 @@ This includes compilers and related stuff, too.
 -   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
     -   [CUFP](http://cufp.org/) workshop
 -   International Colloquium on Automata, Languages and Programming (ICALP)
+-   International Conference on Language and Automata Theory and Applications (LATA)
 -   International Conference on Compiler Construction (CC)
 -   European Symposium on Programming (ESOP)
 -   [European Conference on Object-Oriented Programming](http://ecoop.org/) (ECOOP)
