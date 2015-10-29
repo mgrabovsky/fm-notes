@@ -286,6 +286,8 @@ This also includes computing theory and type theory in CS.
 -   International Symposium on Mathematical Foundations of Computer Science (MFCS)
 -   International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
 -   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
+-   [Symposium on Foundations of Computer Science](http://ieee-focs.org) (FOCS)
+-   [International Symposia on Formal Methods for Components and Objects](http://liacs.leidenuniv.nl/~bonsanguemm/fmco/) (FMCO)
 
 **Logic**
 
@@ -378,6 +380,7 @@ This includes software engineering, security and tons of other fields.
     theorem prover for FOL and searchr for counterexamples, respectively
 -   [leanCOP](http://www.leancop.de/) – tiny automated theorem prover for classical
     first-order logic implemented in Prolog
+-   [PVS](http://pvs.csl.sri.com/)
 
 ### SAT & SMT solvers
 
