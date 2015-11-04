@@ -381,19 +381,26 @@ This includes software engineering, security and tons of other fields.
 -   [leanCOP](http://www.leancop.de/) – tiny automated theorem prover for classical
     first-order logic implemented in Prolog
 -   [PVS](http://pvs.csl.sri.com/)
+-   [Abella](http://abella-prover.org/)
 
 ### SAT & SMT solvers
 
 -   [MiniSat](http://minisat.se/)
 -   [PicoSAT](http://fmv.jku.at/picosat)
 -   [Z3](https://github.com/Z3Prover/z3)
+-   [CVC4](http://cvc4.cs.nyu.edu/web/)
 -   [Alt-Ergo](http://alt-ergo.ocamlpro.com/) ([academic page](http://alt-ergo.lri.fr/))
--   [Yices](http://yices.csl.sri.com/) – non-free licence
--   [SBV](https://leventerkok.github.io/sbv/) – SMT-based Haskell verification
+-   [Yices](http://yices.csl.sri.com/) (non-free licence)
+-   [MathSAT 5](http://mathsat.fbk.eu/)
+-   [Boolector](http://fmv.jku.at/boolector/)
+-   [Lingeling, Plingeling and Treengeling](http://fmv.jku.at/lingeling/)
+-   [CryptoMiniSat 2](http://www.msoos.org/cryptominisat2/)
+-   [SONOLAR](http://www.informatik.uni-bremen.de/agbs/florian/sonolar/) – Solver for Non-Linear Arithmetic
 -   [funsat](https://hackage.haskell.org/package/funsat) – "a modern DPLL-style SAT
     solver" written in Haskell
 -   [_Simple SMT solver for use in an optimizing compiler_](http://www.well-typed.com/blog/103/)
 -   [SAT Competitions](http://www.satcompetition.org/)
+-   Configurable SAT Solver Challenge (CSSC) [2014](http://aclib.net/cssc2014/)
 
 ### Other tools
 
