@@ -274,6 +274,7 @@ This also includes computing theory and type theory in CS.
 -   International Symposium on Automated Technology for Verification and Analysis (ATVA)
 -   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
 -   Interactive Theorem Proving (ITP) [2015](http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/)
+-   [Artificial Intelligence and Theorem Proving](http://colo12-c703.uibk.ac.at/) (AITP)
 -   Theorem Proving in Higher Order Logics (TPHOLs)
 -   International Conference on Types for Proofs and Programs (TYPES)
 -   Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)
@@ -343,7 +344,7 @@ This includes software engineering, security and tons of other fields.
 -   [Dedukti](http://dedukti.gforge.inria.fr/) – proof checker based on the
     λΠ-calculus; tools for translation from other proof assistants available
 -   [PRL Project (Nuprl)](http://www.nuprl.org/)
-    -    [JonPRL](www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl))
+    -    [JonPRL](http://www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl))
 -   [MetaPRL](http://metaprl.org/default.html)
 -   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/);
     small trusted meta-logical core, usually used along with HOL
@@ -368,6 +369,8 @@ This includes software engineering, security and tons of other fields.
     -   [_The reflective Milawa theorem prover is sound_](https://www.cs.utexas.edu/users/jared/publications/2015-jar-milawa.pdf) (2015)
 -   [ATS](http://www.ats-lang.org/) (_Applied Type System_) – dependently typed
     functional languge
+-   [E](http://wwwlehre.dhbw-stuttgart.de/~sschulz/E/E.html) theorem prover for first-order logic
+-   [LEGO](http://www.dcs.ed.ac.uk/home/lego/) proof assistant
 -   [F7](http://research.microsoft.com/en-us/projects/f7/) – extension of F#'s type
     system with refinement types, dependent types and π-calculus-style concurrency
 -   [F\*](https://www.fstar-lang.org/) – "a new higher order, effectful programming
@@ -396,6 +399,7 @@ This includes software engineering, security and tons of other fields.
 -   [Lingeling, Plingeling and Treengeling](http://fmv.jku.at/lingeling/)
 -   [CryptoMiniSat 2](http://www.msoos.org/cryptominisat2/)
 -   [SONOLAR](http://www.informatik.uni-bremen.de/agbs/florian/sonolar/) – Solver for Non-Linear Arithmetic
+-   [ABC](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/~alanmi/abc/) – "A System for Sequential Synthesis and Verification"
 -   [funsat](https://hackage.haskell.org/package/funsat) – "a modern DPLL-style SAT
     solver" written in Haskell
 -   [_Simple SMT solver for use in an optimizing compiler_](http://www.well-typed.com/blog/103/)
