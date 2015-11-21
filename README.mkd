@@ -198,6 +198,7 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 († denotes open-access journals)
 
 -   [_Logical Methods in Computer Science_](http://lmcs-online.org/index.php)&thinsp;†
+-   [_LIPIcs: Leibniz International Proceedings in Informatics_](http://www.dagstuhl.de/en/publications/lipics/)&thinsp;†
 -   [_Information and Computation_](http://www.journals.elsevier.com/information-and-computation)
 -   [_Journal of Automated Reasoning_](https://www.springer.com/computer/theoretical+computer+science/journal/10817)
 -   Springer's [_Lecture Notes in Computer Science_](http://link.springer.com/bookseries/558) series
@@ -220,7 +221,7 @@ categories.
 -   International Workshop on Coq for PL (CoqPL)
 -   [Coq Workshop](https://coq.inria.fr/coq-workshop)
 
-**Formal methods, automated reasoning and foundations**
+**Formal methods, automated reasoning, logic and foundations**
 <!-- TODO: too many confs here, some way too general; granularise a bit more -->
 
 This also includes computing theory and type theory in CS.
@@ -249,6 +250,8 @@ This also includes computing theory and type theory in CS.
 -   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
 -   [Symposium on Foundations of Computer Science](http://ieee-focs.org) (FOCS)
 -   [International Symposia on Formal Methods for Components and Objects](http://liacs.leidenuniv.nl/~bonsanguemm/fmco/) (FMCO)
+-   Conference on Algebra and Coalgebra in Computer Science (CALCO)
+-   International Symposium on Theoretical Aspects of Computer Science (STACS)
 
 **Logic**
 
@@ -264,16 +267,18 @@ This includes compilers and related stuff, too.
 
 -   Symposium on Principles of Programming Languages (POPL)
 -   Summit on Advances in Programming Languages (SNAPL)
+    -   [1st proceedings in PDF](http://drops.dagstuhl.de/opus/volltexte/lipics-complete/lipics-vol32-snapl2015-complete.pdf) (2015)
 -   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
     -   [CUFP](http://cufp.org/) workshop
 -   International Colloquium on Automata, Languages and Programming (ICALP)
 -   International Conference on Language and Automata Theory and Applications (LATA)
 -   International Conference on Compiler Construction (CC)
 -   European Symposium on Programming (ESOP)
+-   Programming Language Design and Implementation (PLDI)
 -   [European Conference on Object-Oriented Programming](http://ecoop.org/) (ECOOP)
 -   [International Symposium on Memory Management](http://www.sigplan.org/Conferences/ISMM/) (ISMM)
 -   [Programming Language Design and Implementation](http://www.sigplan.org/Conferences/PLDI/) (PLDI)
--   [Conference on Languages, Compilers, Tools and Theory for Embedded Systems](http://lctes2015.lctes.org/) (LCTES)
+-   [Languages, Compilers, Tools and Theory for Embedded Systems](http://lctes2015.lctes.org/) (LCTES)
 -   [Dynamic Languages Symposium](http://www.dynamic-languages-symposium.org/) (DLS)
 -   Mathematical Foundations of Programming Semantics (MFPS)
 -   [C◦mp◦se :: Conference](http://www.composeconference.org/)
