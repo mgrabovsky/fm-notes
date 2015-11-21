@@ -315,6 +315,9 @@ This includes compilers and related stuff, too.
 -   [Programming Language Design and Implementation](http://www.sigplan.org/Conferences/PLDI/) (PLDI)
 -   [Conference on Languages, Compilers, Tools and Theory for Embedded Systems](http://lctes2015.lctes.org/) (LCTES)
 -   [Dynamic Languages Symposium](http://www.dynamic-languages-symposium.org/) (DLS)
+-   Mathematical Foundations of Programming Semantics (MFPS)
+-   [C◦mp◦se :: Conference](http://www.composeconference.org/)
+-   [Curry On!](http://www.curry-on.org/) conference
 
 **General/other**
 
