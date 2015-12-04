@@ -314,8 +314,10 @@ This includes software engineering, security and tons of other fields.
     types, support for theorem proving and tactics; kind of like Coq-flavoured Haskell
 -   [Dedukti](http://dedukti.gforge.inria.fr/) – proof checker based on the
     λΠ-calculus; tools for translation from other proof assistants available
--   [PRL Project (Nuprl)](http://www.nuprl.org/)
-    -    [JonPRL](http://www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl))
+-   [the PRL Project](http://www.nuprl.org/) a.k.a. Nuprl
+    -   [MetaPRL](http://metaprl.org/default.html)
+    -   [JonPRL](http://www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl))
+        – a reimplementation of Nuprl by Jon Sterling, Danny Gratzer and Vincent Rahli
 -   [MetaPRL](http://metaprl.org/default.html)
 -   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/);
     small trusted meta-logical core, usually used along with HOL
@@ -384,6 +386,7 @@ This includes software engineering, security and tons of other fields.
     -   [Gallery of verified programs](http://toccata.lri.fr/gallery/)
     -   [_Shepherd Your Herd of Provers_](http://research.microsoft.com/en-us/um/people/moskal/boogie2011/boogie2011_pg53.pdf) (2011)
 -   [Alloy](http://alloy.mit.edu/alloy/index.html) – "a language and tool for relational models"
+-   [Boogie](http://research.microsoft.com/en-us/projects/boogie/) – intermediate verification language
 -   [Dafny](http://research.microsoft.com/en-us/projects/dafny/) – "a language and
     program verifier for functional correctness"
 -   [rise4fun](http://rise4fun.com/) – a collection of numerous tools, i.a. for
