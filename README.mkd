@@ -231,6 +231,7 @@ categories.
 -   [Symposium on Foundations of Computer Science](http://ieee-focs.org) (FOCS)
 -   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
 -   International Symposium on Mathematical Foundations of Computer Science (MFCS)
+-   SICSA Summer School on Practical Types
 
 **Logic, theorem proving and automated reasoning**
 
@@ -246,6 +247,8 @@ categories.
 -   [Artificial Intelligence and Theorem Proving](http://colo12-c703.uibk.ac.at/) (AITP)
 -   Interactive Theorem Proving (ITP) [2015](http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/)
 -   Theorem Proving in Higher Order Logics (TPHOLs)
+-   [International Workshop on Satisfiability Modulo Theories](http://smt-workshop.cs.uiowa.edu/) (SMT)
+-   SAT/SMT Summer School [2015](http://smt2015.csl.sri.com/school/)
 
 **Formal methods**
 
@@ -262,6 +265,7 @@ categories.
 -   Computer Security Foundations Symposium (CSF)
 -   International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
 -   [International Symposia on Formal Methods for Components and Objects](http://liacs.leidenuniv.nl/~bonsanguemm/fmco/) (FMCO)
+-   Summer School on Formal Techniques [2015](http://fm.csl.sri.com/SSFT15/)
 
 **Programming languages**
 
@@ -286,6 +290,8 @@ This includes compilers and related stuff, too.
 -   Mathematical Foundations of Programming Semantics (MFPS)
 -   [C◦mp◦se :: Conference](http://www.composeconference.org/)
 -   [Curry On!](http://www.curry-on.org/) conference
+-   Summer School on DSL Design and Implementation [2015](https://vjovanov.github.io/dsldi-summer-school/)
+-   [Central-European Functional Programming School](http://people.inf.elte.hu/cefp/)
 
 **General/other**
 
