@@ -395,6 +395,12 @@ This includes software engineering, security and tons of other fields.
 -   [Boogie](http://research.microsoft.com/en-us/projects/boogie/) – intermediate verification language
 -   [Dafny](http://research.microsoft.com/en-us/projects/dafny/) – "a language and
     program verifier for functional correctness"
+-   [IKOS](http://ti.arc.nasa.gov/opensource/ikos/) – "library designed to facilitate
+    the development of sound static analyzers based on Abstract Interpretation"
+-   [Crab](https://github.com/seahorn/crab) – "language agnostic engine to perform
+    static analysis based on abstract interpretation"
+-   [Seahorn](https://seahorn.github.io/) – "fully automated verification framework
+    for LLVM-based languages"
 -   [rise4fun](http://rise4fun.com/) – a collection of numerous tools, i.a. for
     program and algorithm analysis and verification, by Microsoft Research, CMU and
     others that you can try right on the web page
