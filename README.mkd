@@ -212,7 +212,7 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 
 ### Conferences and workshops
 
-I've divided the events into five disjoint categories, although, naturally, there
+I've divided the events into a few disjoint categories, although, naturally, there
 will be a significant overlap in the topics covered by events in two different
 categories.
 
@@ -221,45 +221,47 @@ categories.
 -   International Workshop on Coq for PL (CoqPL)
 -   [Coq Workshop](https://coq.inria.fr/coq-workshop)
 
-**Formal methods, automated reasoning, logic and foundations**
-<!-- TODO: too many confs here, some way too general; granularise a bit more -->
+**Type theory and foundations**
 
-This also includes computing theory and type theory in CS.
-
--   International Symposium on Formal Methods (FM)
--   NASA Formal Methods Symposium (NFM)
--   Conference on Certified Programs and Proofs (CPP)
--   Conference on Automated Verification (CAV)
--   Conference on Automated Deduction (CADE)
--   International Joint Conference on Automated Reasoning (IJCAR)
--   International Symposium on Automated Technology for Verification and Analysis (ATVA)
--   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
--   Interactive Theorem Proving (ITP) [2015](http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/)
--   [Artificial Intelligence and Theorem Proving](http://colo12-c703.uibk.ac.at/) (AITP)
--   Theorem Proving in Higher Order Logics (TPHOLs)
+-   Workshop on Homotopy Type Theory and Univalent Foundations of Mathematics
 -   International Conference on Types for Proofs and Programs (TYPES)
--   Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)
--   International Conference on Rewriting, Deduction, and Programming (RDP)
--   [International Conference on Rewriting Techniques and Applications](http://rewriting.loria.fr/rta/) (RTA)
 -   [International Conference on Typed Lambda Calculi and Applications](http://www.mimuw.edu.pl/tlca/) (TLCA)
--   [Formal Structures for Computation and Deduction](http://fscdconference.org/) (FSCD)
--   Higher-Dimensional Rewriting and Applications (HDRA)
--   Computer Security Foundations Symposium (CSF)
--   International Symposium on Mathematical Foundations of Computer Science (MFCS)
--   International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
--   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
--   [Symposium on Foundations of Computer Science](http://ieee-focs.org) (FOCS)
--   [International Symposia on Formal Methods for Components and Objects](http://liacs.leidenuniv.nl/~bonsanguemm/fmco/) (FMCO)
 -   Conference on Algebra and Coalgebra in Computer Science (CALCO)
 -   International Symposium on Theoretical Aspects of Computer Science (STACS)
+-   [Symposium on Foundations of Computer Science](http://ieee-focs.org) (FOCS)
+-   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
+-   International Symposium on Mathematical Foundations of Computer Science (MFCS)
 
-**Logic**
+**Logic, theorem proving and automated reasoning**
 
 -   Federated Logic Conference (FLoC)
 -   IEEE Symposium on Logic in Computer Science (LICS)
 -   Annual Conference on Computer Science Logic (CSL)
 -   International Conference on Logic Programming (ICLP)
 -   [Conference on Theory and Applications of Satisfiability Testing](http://www.satisfiability.org/) (SAT)
+-   [International Workshop on Classical Logic and Computation](http://www.di.unito.it/~stefano/CL&C/CL&C.htm) (CL&C)
+-   Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)
+-   Conference on Automated Deduction (CADE)
+-   International Joint Conference on Automated Reasoning (IJCAR)
+-   [Artificial Intelligence and Theorem Proving](http://colo12-c703.uibk.ac.at/) (AITP)
+-   Interactive Theorem Proving (ITP) [2015](http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/)
+-   Theorem Proving in Higher Order Logics (TPHOLs)
+
+**Formal methods**
+
+-   International Symposium on Formal Methods (FM)
+-   NASA Formal Methods Symposium (NFM)
+-   Conference on Certified Programs and Proofs (CPP)
+-   Conference on Automated Verification (CAV)
+-   International Symposium on Automated Technology for Verification and Analysis (ATVA)
+-   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
+-   Higher-Dimensional Rewriting and Applications (HDRA)
+-   International Conference on Rewriting, Deduction, and Programming (RDP)
+-   [International Conference on Rewriting Techniques and Applications](http://rewriting.loria.fr/rta/) (RTA)
+-   [Formal Structures for Computation and Deduction](http://fscdconference.org/) (FSCD)
+-   Computer Security Foundations Symposium (CSF)
+-   International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+-   [International Symposia on Formal Methods for Components and Objects](http://liacs.leidenuniv.nl/~bonsanguemm/fmco/) (FMCO)
 
 **Programming languages**
 
@@ -280,6 +282,7 @@ This includes compilers and related stuff, too.
 -   [Programming Language Design and Implementation](http://www.sigplan.org/Conferences/PLDI/) (PLDI)
 -   [Languages, Compilers, Tools and Theory for Embedded Systems](http://lctes2015.lctes.org/) (LCTES)
 -   [Dynamic Languages Symposium](http://www.dynamic-languages-symposium.org/) (DLS)
+-   Practical Aspects of Declarative Languages (PADL)
 -   Mathematical Foundations of Programming Semantics (MFPS)
 -   [C◦mp◦se :: Conference](http://www.composeconference.org/)
 -   [Curry On!](http://www.curry-on.org/) conference
