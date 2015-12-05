@@ -292,6 +292,7 @@ This includes compilers and related stuff, too.
 -   [Curry On!](http://www.curry-on.org/) conference
 -   Summer School on DSL Design and Implementation [2015](https://vjovanov.github.io/dsldi-summer-school/)
 -   [Central-European Functional Programming School](http://people.inf.elte.hu/cefp/)
+-   Workshop on Probabilistic Programming Semantics (PPS)
 
 **General/other**
 
@@ -441,6 +442,8 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
     [2007](https://www.cs.uoregon.edu/research/summerschool/summer07/curriculum.html),
     [2006](https://www.cs.uoregon.edu/research/summerschool/summer06/curriculum.html),
     [2005](https://www.cs.uoregon.edu/research/summerschool/summer05/curriculum.html)
+
+-   [Type Theory Study Group 2015](https://github.com/type-theory/type-theory-study-group-2015)
 
 ## Type theory
 
