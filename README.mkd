@@ -105,6 +105,8 @@ this discourage you.
     -   [_Computing with Univalence_](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf)
         (2008; slides)
 -   [CoLoR](http://color.inria.fr/) – "a Coq Library on rewriting and termination"
+-   [GeoCoq](https://geocoq.github.io/GeoCoq/) – formalization of geometry based on
+    Tarski's axiom system
 -   [coq-ext-lib](https://github.com/coq-ext-lib/coq-ext-lib) – "a collection of
     theories and plugins that may be useful in other Coq developments"
 -   [Equations](http://www.pps.univ-paris-diderot.fr/~sozeau/research/coq/equations.en.html)
@@ -302,6 +304,7 @@ This includes software engineering, security and tons of other fields.
 -   International Conference on Fundamental Approaches to Software Engineering (FASE)
 -   [Doctoral Workshop on Mathematical and Engineering Methods in Computer Science](http://www.memics.cz/) (MEMICS)
 -   International Conference on Principles of Security and Trust (POST)
+-   Conference on Intelligent Computer Mathematics (CICM)
 
 **Meta**
 
