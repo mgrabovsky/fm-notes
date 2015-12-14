@@ -201,6 +201,7 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 
 -   [_Logical Methods in Computer Science_](http://lmcs-online.org/index.php)&thinsp;†
 -   [_LIPIcs: Leibniz International Proceedings in Informatics_](http://www.dagstuhl.de/en/publications/lipics/)&thinsp;†
+-   _International Journal of Foundations of Computer Science_
 -   [_Information and Computation_](http://www.journals.elsevier.com/information-and-computation)
 -   [_Journal of Automated Reasoning_](https://www.springer.com/computer/theoretical+computer+science/journal/10817)
 -   Springer's [_Lecture Notes in Computer Science_](http://link.springer.com/bookseries/558) series
@@ -293,8 +294,9 @@ This includes compilers and related stuff, too.
 -   [C◦mp◦se :: Conference](http://www.composeconference.org/)
 -   [Curry On!](http://www.curry-on.org/) conference
 -   Summer School on DSL Design and Implementation [2015](https://vjovanov.github.io/dsldi-summer-school/)
--   [Central-European Functional Programming School](http://people.inf.elte.hu/cefp/)
+-   [Central-European Functional Programming School](http://people.inf.elte.hu/cefp/) (CEFP)
 -   Workshop on Probabilistic Programming Semantics (PPS)
+-   Symposium on Trends in Functional Programming (TFP)
 
 **General/other**
 
