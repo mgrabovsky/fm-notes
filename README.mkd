@@ -338,7 +338,7 @@ This includes software engineering, security and tons of other fields.
     -   [Isar](https://isabelle.in.tum.de/Isar/)
     -   Isabelle/HOLCF – [paper](https://www21.in.tum.de/~nipkow/pubs/jfp99.html),
         [tutorial](https://isabelle.in.tum.de/library/HOL/HOLCF-Tutorial/document.pdf)
--   [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/) by Michael Gordon et al. – the
+-   [HOL](https://hol-theorem-prover.org/) by Michael Gordon et al. – the
     original system for interactive theorem proving in higher-order logic
     -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/) – small trusted core
     -   [HOL4](http://hol.sourceforge.net/)
@@ -365,12 +365,13 @@ This includes software engineering, security and tons of other fields.
     and native handling of all kinds of computatinal effects without touching monads
 -   [Twelf](http://twelf.org/wiki/Main_Page)
 -   [Celf](https://clf.github.io/celf/)
+-   [Abella](http://abella-prover.org/)
+-   [Beluga](http://complogic.cs.mcgill.ca/beluga/)
 -   [Prover9 and Mace4](https://www.cs.unm.edu/~mccune/prover9/) – and automated
     theorem prover for FOL and searchr for counterexamples, respectively
 -   [leanCOP](http://www.leancop.de/) – tiny automated theorem prover for classical
     first-order logic implemented in Prolog
 -   [PVS](http://pvs.csl.sri.com/)
--   [Abella](http://abella-prover.org/)
 
 ### SAT & SMT solvers
 
