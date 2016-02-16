@@ -252,6 +252,7 @@ categories.
 -   Theorem Proving in Higher Order Logics (TPHOLs)
 -   [International Workshop on Satisfiability Modulo Theories](http://smt-workshop.cs.uiowa.edu/) (SMT)
 -   SAT/SMT Summer School [2015](http://smt2015.csl.sri.com/school/)
+-   [Journal of Formalized Reasoning](http://jfr.unibo.it/)
 
 **Formal methods**
 
