@@ -298,6 +298,7 @@ This includes compilers and related stuff, too.
 -   [Central-European Functional Programming School](http://people.inf.elte.hu/cefp/) (CEFP)
 -   Workshop on Probabilistic Programming Semantics (PPS)
 -   Symposium on Trends in Functional Programming (TFP)
+-   Approaches and Applications of Inductive Programming (AAIP)
 
 **General/other**
 
