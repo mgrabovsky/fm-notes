@@ -120,6 +120,7 @@ this discourage you.
     ([GitHub](https://github.com/strub/elliptic-curves-ssr))
 -   [multinomials](https://github.com/strub/multinomials-ssr) – a Coq/SSReflect
     library for multinomials
+-   [finset](https://github.com/aspiwack/finset) – finite sets of countable types in Coq
 -   [Coquelicot](http://coquelicot.saclay.inria.fr/) – library for real analysis
     -   C\. Lelay (2015): [_How to express convergence for analysis in Coq_](https://hal.inria.fr/hal-01169321)
 -   [domain theory in Coq](http://rwd.rdockins.name/domains/)
@@ -164,6 +165,7 @@ this discourage you.
 -   [JSCert: Certified JavaScript](http://jscert.org)
     -   [_A Trusted Machnised JavaScript Specification_](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
         (2014; [slides](http://jscert.org/popol14))
+-   [Cosa](https://github.com/aspiwack/cosa) – Coq-verified Shape Analysis
 -   [_A Machine-Checked Proof of the Odd Order Theorem_](http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf)
 -   [_A Reflexive Formalization of a SAT Solver in Coq_](https://www.lri.fr/~conchon/publis/lescuyer-conchon-tphols08.pdf)
     (2008)
@@ -182,6 +184,7 @@ this discourage you.
     – _QuickChick_, a port of _QuickCheck_ to Coq
 -   J\. Gross: ["Coq Bug Minimizer"](https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/bug-minimizer.pdf)
     (CoqPL 2015; [GitHub](https://github.com/JasonGross/coq-tools))
+-   C\. Doczkal, J.-O. Kaiser, G. Smolka: ["A Constructive Theory of Regular Languages in Coq"](https://www.mpi-sws.org/~janno/publications/DBLP:conf/cpp/DoczkalKS13.pdf)
 
 ## Related languages, tools and stuff
 
@@ -235,6 +238,7 @@ categories.
 -   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
 -   International Symposium on Mathematical Foundations of Computer Science (MFCS)
 -   SICSA Summer School on Practical Types
+-   [Workshop on Type-Directed Development](https://tyde2016.github.io/) (TyDe)
 
 **Logic, theorem proving and automated reasoning**
 
@@ -308,7 +312,7 @@ This includes software engineering, security and tons of other fields.
 -   International Conference on Fundamental Approaches to Software Engineering (FASE)
 -   [Doctoral Workshop on Mathematical and Engineering Methods in Computer Science](http://www.memics.cz/) (MEMICS)
 -   International Conference on Principles of Security and Trust (POST)
--   Conference on Intelligent Computer Mathematics (CICM)
+-   [Conference on Intelligent Computer Mathematics](http://www.cicm-conference.org/) (CICM)
 
 **Meta**
 
@@ -332,6 +336,8 @@ This includes software engineering, security and tons of other fields.
     -   [MetaPRL](http://metaprl.org/default.html)
     -   [JonPRL](http://www.jonprl.org) ([GitHub](https://github.com/jonsterling/jonprl))
         – a reimplementation of Nuprl by Jon Sterling, Danny Gratzer and Vincent Rahli
+    -   [Red JonPRL](https://github.com/JonPRL/sml-red-jonprl) – yet another
+        reincarnation by Jon Sterling
 -   [MetaPRL](http://metaprl.org/default.html)
 -   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/);
     small trusted meta-logical core, usually used along with HOL
@@ -435,6 +441,7 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
 -   [Verified Software Competition](http://vscomp.org/)
 -   [VerifyThis](http://www.verifythis.org/) – a competition and collection of
     problems in formal verification of algorithms and software
+-   [Competition on Software Verification](http://sv-comp.sosy-lab.org/) (SV-COMP)
 -   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) –
     videos of _awesome_ lectures on type theory, provers, logic, etc.; earlier
     editions only have lectures notes and slides published
