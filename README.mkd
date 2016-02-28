@@ -185,6 +185,7 @@ this discourage you.
 -   J\. Gross: ["Coq Bug Minimizer"](https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/bug-minimizer.pdf)
     (CoqPL 2015; [GitHub](https://github.com/JasonGross/coq-tools))
 -   C\. Doczkal, J.-O. Kaiser, G. Smolka: ["A Constructive Theory of Regular Languages in Coq"](https://www.mpi-sws.org/~janno/publications/DBLP:conf/cpp/DoczkalKS13.pdf)
+-   F\. Chyzak, A. Mahboubi, T. Sibut-Pinote, E. Tassi: ["A Computer-Algebra-Based Formal Proof of the Irrationality of ζ(3)"](https://hal.inria.fr/hal-00984057)
 
 ## Related languages, tools and stuff
 
