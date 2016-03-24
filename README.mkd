@@ -267,6 +267,7 @@ categories.
 -   NASA Formal Methods Symposium (NFM)
 -   Conference on Certified Programs and Proofs (CPP)
 -   Conference on Automated Verification (CAV)
+-   International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)
 -   International Symposium on Automated Technology for Verification and Analysis (ATVA)
 -   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
 -   International Workshop on Parallel and Distributed Methods in verifiCation (PDMC)
@@ -396,6 +397,7 @@ This includes software engineering, security and tons of other fields.
     – model checker based on an automata approach
 -   [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) – language-agnostic
 -   [PRISM](http://www.prismmodelchecker.org/) – probabilistic model checker
+-   [MMC](https://www3.cs.stonybrook.edu/~lmc/mmc/) – explicit-state model checker for π-calculus
 
 ### SAT & SMT solvers
 
