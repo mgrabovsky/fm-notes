@@ -27,6 +27,7 @@ information contained herein.
     -   [Journals and book series](#journals-and-book-series)
     -   [Conferences and workshops](#conferences-and-workshops)
     -   [Proof assistants, provers and languages](#proof-assistants-provers-and-languages)
+    -   [Model checkers](#model-checkers)
     -   [SAT &amp; SMT solvers](#sat--smt-solvers)
     -   [Other tools](#other-tools)
     -   [Formal methods in practice](#formal-methods-in-practice)
@@ -235,6 +236,7 @@ categories.
 -   [International Conference on Typed Lambda Calculi and Applications](http://www.mimuw.edu.pl/tlca/) (TLCA)
 -   Conference on Algebra and Coalgebra in Computer Science (CALCO)
 -   International Symposium on Theoretical Aspects of Computer Science (STACS)
+-   International Colloquium on Theoretical Aspects of Computing (ICTAC)
 -   [Symposium on Foundations of Computer Science](http://ieee-focs.org) (FOCS)
 -   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
 -   International Symposium on Mathematical Foundations of Computer Science (MFCS)
@@ -267,6 +269,8 @@ categories.
 -   Conference on Automated Verification (CAV)
 -   International Symposium on Automated Technology for Verification and Analysis (ATVA)
 -   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
+-   International Workshop on Parallel and Distributed Methods in verifiCation (PDMC)
+-   International Conference on Formal Engineering Methods (ICFEM)
 -   Higher-Dimensional Rewriting and Applications (HDRA)
 -   International Conference on Rewriting, Deduction, and Programming (RDP)
 -   [International Conference on Rewriting Techniques and Applications](http://rewriting.loria.fr/rta/) (RTA)
@@ -381,6 +385,18 @@ This includes software engineering, security and tons of other fields.
     first-order logic implemented in Prolog
 -   [PVS](http://pvs.csl.sri.com/)
 
+### Model checkers
+
+-   [SPIN](http://spinroot.com/spin/whatispin.html)
+-   [DIVINE](https://divine.fi.muni.cz/index.html) – parallel, distributed-memory explicit-state LTL checker
+-   [UPPAAL](http://www.uppaal.org/)
+-   [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/tla.html)
+-   [NuSMV](http://nusmv.fbk.eu/) – symbolic model checker
+-   [Ultimate Automizer](https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&tool=automizer)
+    – model checker based on an automata approach
+-   [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) – language-agnostic
+-   [PRISM](http://www.prismmodelchecker.org/) – probabilistic model checker
+
 ### SAT & SMT solvers
 
 -   [MiniSat](http://minisat.se/)
@@ -423,6 +439,8 @@ This includes software engineering, security and tons of other fields.
 -   [Profound](http://chaudhuri.info/software/profound/) – "an experiment in
     subformula linking as an interaction method"
     -   K\. Chaudhuri: [_Subformula Linking as an Interaction Method_](http://chaudhuri.info/papers/itp13link.pdf) (2013)
+-   [S²E](http://s2e.epfl.ch/) – "A Platform for In-Vivo Analysis of Software Systems"
+-   [KLEE](https://klee.github.io/) – symbolic execution VM
 
 ### Formal methods in practice
 
