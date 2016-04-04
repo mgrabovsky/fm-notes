@@ -40,8 +40,8 @@ information contained herein.
 
 Coq is an interactive theorem prover and proof assistant based on an intensinoal
 intuitionistic type theory. The underlying formalism is called Calculus of
-Constructions (CoC) which is a dependently-typed λ-calculus and higher-order
-constructive logic. Its core is written in OCaml.
+Constructions (CoC) which is a dependently-typed λ-calculus and an intuitionistic
+higher-order logic. Its core is written in OCaml.
 
 <!-- *TODO:* Slap some papers on the formal stuff around here -->
 
@@ -398,6 +398,8 @@ This includes software engineering, security and tons of other fields.
 -   [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) – language-agnostic
 -   [PRISM](http://www.prismmodelchecker.org/) – probabilistic model checker
 -   [MMC](https://www3.cs.stonybrook.edu/~lmc/mmc/) – explicit-state model checker for π-calculus
+-   [CBMC](http://www.cprover.org/cbmc/) – bounded model checking
+-   [ESBMC](http://www.esbmc.org/) – context-bounded model checking
 
 ### SAT & SMT solvers
 
@@ -427,8 +429,14 @@ This includes software engineering, security and tons of other fields.
     -   [_Shepherd Your Herd of Provers_](http://research.microsoft.com/en-us/um/people/moskal/boogie2011/boogie2011_pg53.pdf) (2011)
 -   [Alloy](http://alloy.mit.edu/alloy/index.html) – "a language and tool for relational models"
 -   [Boogie](http://research.microsoft.com/en-us/projects/boogie/) – intermediate verification language
+-   [Q Program Verifier](http://research.microsoft.com/en-us/projects/verifierq/)
+    – collection of tools for a source–IR–IVL translation and subsequent verification
+    -   [SMACK](https://github.com/smackers/smack) – bounded verification via LLVM to
+        Boogie translation
 -   [Dafny](http://research.microsoft.com/en-us/projects/dafny/) – "a language and
     program verifier for functional correctness"
+-   [Vienna Verification Toolkit](http://vvt.forsyte.at/)
+-   [CSeq](http://users.ecs.soton.ac.uk/gp4/cseq/cseq.html)
 -   [IKOS](http://ti.arc.nasa.gov/opensource/ikos/) – "library designed to facilitate
     the development of sound static analyzers based on Abstract Interpretation"
 -   [Crab](https://github.com/seahorn/crab) – "language agnostic engine to perform
@@ -498,6 +506,7 @@ mailing list as well.
 
 -   A\. Bove, P. Dybjer: [_Dependent Types at Work_](http://www.cse.chalmers.se/~peterd/papers/DependentTypesAtWork.pdf)
     – introduction to programming with dependent types in Agda
+-   C\. McBride: [_Epigram: Practical Programming with Dependent Types_](http://cs.ru.nl/~freek/courses/tt-2010/tvftl/epigram-notes.pdf)
 
 ## Copyright
 
