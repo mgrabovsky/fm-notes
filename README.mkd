@@ -345,6 +345,7 @@ This includes software engineering, security and tons of other fields.
     -   [Red JonPRL](https://github.com/JonPRL/sml-red-jonprl) – yet another
         reincarnation by Jon Sterling
 -   [MetaPRL](http://metaprl.org/default.html)
+-   [miniprl](https://github.com/jozefg/miniprl) – a minimal implementation of PRL in Standard ML
 -   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/);
     small trusted meta-logical core, usually used along with HOL
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)
