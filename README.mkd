@@ -265,16 +265,21 @@ categories.
 
 -   International Symposium on Formal Methods (FM)
 -   NASA Formal Methods Symposium (NFM)
+-   International Conference on Software Engineering and Formal Methods (SEFM)
 -   Conference on Certified Programs and Proofs (CPP)
 -   Conference on Automated Verification (CAV)
 -   International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)
+-   International SPIN symposium on Model Checking of Software (SPIN)
 -   International Symposium on Automated Technology for Verification and Analysis (ATVA)
+-   International Workshop on Formal Methods for Industrial Critical Systems (FMICS)
 -   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
 -   International Workshop on Parallel and Distributed Methods in verifiCation (PDMC)
 -   International Conference on Formal Engineering Methods (ICFEM)
 -   Higher-Dimensional Rewriting and Applications (HDRA)
 -   International Conference on Rewriting, Deduction, and Programming (RDP)
 -   [International Conference on Rewriting Techniques and Applications](http://rewriting.loria.fr/rta/) (RTA)
+-   International Conference on Applications and Theory of Petri Nets and Concurrency (PN)
+-   International Conference on Applications of Concurrency to System Design (ACSD)
 -   [Formal Structures for Computation and Deduction](http://fscdconference.org/) (FSCD)
 -   Computer Security Foundations Symposium (CSF)
 -   International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
@@ -421,6 +426,7 @@ This includes software engineering, security and tons of other fields.
 -   [_Simple SMT solver for use in an optimizing compiler_](http://www.well-typed.com/blog/103/)
 -   [SAT Competitions](http://www.satcompetition.org/)
 -   Configurable SAT Solver Challenge (CSSC) [2014](http://aclib.net/cssc2014/)
+-   Model Checking Contest (MCC)
 
 ### Other tools
 
