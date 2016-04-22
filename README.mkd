@@ -517,7 +517,7 @@ mailing list as well.
 
 ## Copyright
 
-Written in 2015 by Matěj Grabovský <matej.grabovsky at gmail>
+Written in 2015--2016 by Matěj Grabovský <matej.grabovsky at gmail>
 
 To the extent possible under law, the author has dedicated all copyright and related
 and neighboring rights to this software to the public domain worldwide. This software
