@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Notes on formal methods</title>
+    <style>
+    @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Roboto:700&subset=latin,greek);
+    html { background: #fafafa; font-size: 16px; line-height: 1.6em; color: #36332b;
+        font-family: Merriweather, Georgia, 'Times New Roman', serif; }
+    body { width: 40em; margin: 3em auto; }
+    hr { border: none; border-bottom: 1px solid #aaa; }
+    a, a:link { color: #c03767; text-decoration: none; transition: .1s ease-out color; }
+    a:visited { color: #857086; }
+    a:hover { color: #e081a2; }
+    h1, h2, h3 { font-family: Roboto, sans-serif; }
+    #toc, #toc ul { list-style: none; }
+    </style>
+</head>
+<body>
+<p>This repository serves as a log of my endeavour to learn to use and understand the <a href="https://coq.inria.fr/">Coq</a> proof assistant. It may contain proofs, attempts at proofs, links to related resources (blogs, articles, papers, books), notes on logic, type theory, formal verification, theorem proving, automated reasoning, and much more.</p>
+<p>I will try to only include things that seem useful, informative, interesting or cool, things that I forget, and tips and warnings regarding the subtleties of Coq. Therefore, if you want to learn Coq from scratch, I suggest you try one of the resources listed <a href="#useful-resources">below</a>.</p>
+<p>I do not claim completeness, correctness, consistency or usefulness of any information contained herein.</p>
+<figure>
+<img src="http://i.creativecommons.org/p/zero/1.0/80x15.png" />
+</figure>
+<hr />
+<ul id="toc">
+<li><a href="#on-coq">On Coq</a></li>
+<li><a href="#tactics">Tactics</a></li>
+<li><a href="#useful-resources">Useful resources</a>
+<ul>
+<li><a href="#blogs">Blogs</a></li>
+</ul></li>
+<li><a href="#libraries-and-plug-ins">Libraries and plug-ins</a></li>
+<li><a href="#applications">Applications</a>
+<ul>
+<li><a href="#papers-and-articles">Papers and articles</a></li>
+</ul></li>
+<li><a href="#related-languages-tools-and-stuff">Related languages, tools and stuff</a>
+<ul>
+<li><a href="#journals-and-book-series">Journals and book series</a></li>
+<li><a href="#conferences-and-workshops">Conferences and workshops</a></li>
+<li><a href="#proof-assistants-provers-and-languages">Proof assistants, provers and languages</a></li>
+<li><a href="#model-checkers">Model checkers</a></li>
+<li><a href="#sat-smt-solvers">SAT &amp; SMT solvers</a></li>
+<li><a href="#other-tools">Other tools</a></li>
+<li><a href="#formal-methods-in-practice">Formal methods in practice</a></li>
+<li><a href="#learning-resources">Learning resources</a></li>
+</ul></li>
+<li><a href="#type-theory">Type theory</a>
+<ul>
+<li><a href="#dependent-types">Dependent types</a></li>
+</ul></li>
+<li><a href="#copyright">Copyright</a></li>
+</ul>
+<h2 id="on-coq">On Coq</h2>
+<p>Coq is an interactive theorem prover and proof assistant based on an intensinoal intuitionistic type theory. The underlying formalism is called Calculus of Constructions (CoC) which is a dependently-typed λ-calculus and higher-order constructive logic. Its core is written in OCaml.</p>
+<!-- *TODO:* Slap some papers on the formal stuff around here -->
+<h2 id="tactics">Tactics</h2>
+<p>Standard Coq contains many tactics for working with the proof state, some of which may be confused easily. The documentation on tactics may be the most informative and thorough part of the Coq reference manual, so it's worth a read if you're looking for a way to make your proofs more concise. See the <a href="https://coq.inria.fr/distrib/current/refman/tactic-index.html">Tactics Index</a> and <a href="https://coq.inria.fr/distrib/current/refman/Reference-Manual010.html">Chapter 8: Tactics</a> in the reference manual.</p>
+<p>The Ssreflect libary (see below) contains a more sensible and consistent set of tactics. Although its syntax is very different from the Coq standard, don't let this discourage you.</p>
+<h2 id="useful-resources">Useful resources</h2>
+<ul>
+<li><a href="https://coq.inria.fr/documentation">Official Coq documentation</a>
+<ul>
+<li>The official documentation is OK, quite comprehensive. The description of tactics is very good, there are few undocuments points.</li>
+<li><a href="https://coq.inria.fr/distrib/current/files/Reference-Manual.pdf">Reference Manual</a></li>
+<li><a href="https://coq.inria.fr/distrib/current/files/Tutorial.pdf">Tutorial</a>
+<ul>
+<li>A simple and straightforward introduction to basics of proofs using Coq</li>
+</ul></li>
+</ul></li>
+<li><a href="https://coq.inria.fr/cocorico/Home">Cocorico!</a> – official wiki</li>
+<li>The <a href="https://sympa.inria.fr/sympa/arc/coq-club">coq-club</a> mailing list</li>
+<li>B. C. Pierce et al.: <a href="http://www.cis.upenn.edu/~bcpierce/sf/current/"><em>Software Foundations</em></a> – probably the best introduction into Coq and theorem proving available</li>
+<li>A. Chlipala: <a href="http://adam.chlipala.net/cpdt/"><em>Certified Programming with Dependent Types</em></a> – an awesome book to read after <em>Software Foundations</em>; a bit more advanced, slightly different topics; puts forth the idea of using automation whenever possible</li>
+<li>I. Sergey: <a href="http://ilyasergey.net/pnp/"><em>Programs and Proofs: Mechanizing Mathematics with Dependent Types</em></a> (draft)</li>
+<li><a href="https://www.reddit.com/r/coq">/r/coq</a></li>
+<li><a href="https://cel.archives-ouvertes.fr/file/index/docid/475807/filename/coq-hurry.pdf">Coq in a Hurry</a></li>
+<li><a href="https://www.lri.fr/~paulin/LASER/course-notes.pdf">Introduction to the Coq proof-assistant for practical software verication</a> course notes
+<ul>
+<li>Another tutorial, slightly more interesting; possibly outdated</li>
+</ul></li>
+<li><a href="http://www.labri.fr/perso/casteran/CoqArt/index.html">Coq'Art</a> – the first ever book on Coq and CoC
+<ul>
+<li>See also <a href="http://www.labri.fr/perso/casteran/">Pierre Castéran's page</a> for <em>A Tutorial on [Co-]Inductive Types in Coq</em> and <em>A Gentle Introduction to Type Classes and Relations in Coq</em></li>
+</ul></li>
+<li>the <a href="http://ncatlab.org/nlab/show/HomePage">nLab wiki</a>
+<ul>
+<li><a href="http://ncatlab.org/nlab/show/Coq">its page on Coq</a>, for instance</li>
+</ul></li>
+</ul>
+<h3 id="blogs">Blogs</h3>
+<ul>
+<li><a href="http://poleiro.info/">Poleiro</a></li>
+<li><a href="http://gallium.inria.fr/blog/">Gagallium</a> – blog of the <a href="http://gallium.inria.fr/">Gallium research team</a> at Inria</li>
+<li>Guillaume Claret's <a href="http://coq-blog.clarus.me/">Coq blog</a></li>
+<li><a href="http://goto.ucsd.edu/~vrobert/coq-en-stock/blog/">Coq en Stock</a></li>
+<li><a href="http://homotopytypetheory.org/blog"><em>Homotopy Type Theory</em> blog</a>
+<ul>
+<li><a href="http://homotopytypetheory.org/2015/07/05/modules-for-modalities">Modules for Modalities</a> – an article on Coq's module system and universe polymorphism</li>
+</ul></li>
+<li><a href="http://typetheorypodcast.com/">The Type Theory Podcast</a></li>
+</ul>
+<h2 id="libraries-and-plug-ins">Libraries and plug-ins</h2>
+<ul>
+<li><a href="http://ssr.msr-inria.inria.fr/">Ssreflect and MathComp</a>
+<ul>
+<li><a href="https://hal.inria.fr/inria-00258384/en"><em>A Small Scale Reflection Extension for the Coq system</em></a></li>
+<li><a href="http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf"><em>Computing with Univalence</em></a> (2008; slides)</li>
+</ul></li>
+<li><a href="http://color.inria.fr/">CoLoR</a> – &quot;a Coq Library on rewriting and termination&quot;</li>
+<li><a href="https://geocoq.github.io/GeoCoq/">GeoCoq</a> – formalization of geometry based on Tarski's axiom system</li>
+<li><a href="https://github.com/coq-ext-lib/coq-ext-lib">coq-ext-lib</a> – &quot;a collection of theories and plugins that may be useful in other Coq developments&quot;</li>
+<li><a href="http://www.pps.univ-paris-diderot.fr/~sozeau/research/coq/equations.en.html">Equations</a> – dependent pattern matching</li>
+<li><a href="http://plv.mpi-sws.org/mtac/">Mtac</a> – &quot;a monad for typed tactic programming in Coq&quot;</li>
+<li><a href="https://github.com/pilki/cases">cases plug-in</a> – extended support for <code>S*Case</code> as featured in <em>Software Foundations</em></li>
+<li><a href="https://github.com/wilcoxjay/tactics">wilcoxjay/tactics</a> – some useful tactics by James Wilcox</li>
+<li><a href="https://dx.doi.org/10.1007/978-3-319-08970-6_6">&quot;A Formal Library for Elliptic Curves in the Coq Proof Assistant&quot;</a> (<a href="https://github.com/strub/elliptic-curves-ssr">GitHub</a>)</li>
+<li><a href="https://github.com/strub/multinomials-ssr">multinomials</a> – a Coq/SSReflect library for multinomials</li>
+<li><a href="https://github.com/aspiwack/finset">finset</a> – finite sets of countable types in Coq</li>
+<li><a href="http://coquelicot.saclay.inria.fr/">Coquelicot</a> – library for real analysis
+<ul>
+<li>C. Lelay (2015): <a href="https://hal.inria.fr/hal-01169321"><em>How to express convergence for analysis in Coq</em></a></li>
+</ul></li>
+<li><a href="http://rwd.rdockins.name/domains/">domain theory in Coq</a></li>
+<li><a href="http://coq.io/">Coq.io</a> and others by <a href="http://claret.me/">Guillaume Claret</a> (<a href="https://github.com/clarus">GitHub</a>)</li>
+<li><a href="http://cybele.gforge.inria.fr/">Cybele</a> – &quot;a powerful tool to write proofs by reflection in Coq&quot;</li>
+<li><a href="https://github.com/uwplse/verdi">Verdi</a> – &quot;a framework for formally verifying distributed systems implementations in Coq&quot;</li>
+<li><a href="https://github.com/jwiegley/coq-haskell">coq-haskell</a>
+<ul>
+<li>Applied: <a href="https://github.com/jwiegley/coq-pipes">coq-pipes</a></li>
+</ul></li>
+<li><a href="http://www.chargueraud.org/softs/cfml/">CFML</a>: Characteristic Formulae for ML – verification of correctness and amortized complexity of OCaml programs
+<ul>
+<li><a href="http://gallium.inria.fr/~scherer/gagallium/formally-verified-complexity-with-cfml-part-1/">A series of blog posts</a> on the Gagallium blog on verifying complexity</li>
+</ul></li>
+<li><a href="http://www.chargueraud.org/softs/tlc/">TLC</a>: &quot;a non-constructive library for Coq&quot; – extensionality as an axiom, classical logic by default, etc.</li>
+<li><a href="http://vst.cs.princeton.edu/">Verified Software Toolchain</a>
+<ul>
+<li>tons of articles around this</li>
+<li>A. W. Appel: <a href="https://www.cs.princeton.edu/~appel/papers/vst.pdf"><em>Verified Software Toolchain</em></a></li>
+</ul></li>
+<li><a href="http://plv.csail.mit.edu/bedrock/">Bedrock</a> (abandoned?)
+<ul>
+<li>A. Chlipala: <a href="http://adam.chlipala.net/papers/BedrockICFP13/BedrockICFP13.pdf"><em>The Bedrock Structured Programming System: Combining Generative Metaprogramming and Hoare Logic in an Extensible Program Verifier</em></a></li>
+</ul></li>
+<li><a href="http://ynot.cs.harvard.edu/">Ynot</a> (abandoned)
+<ul>
+<li>A. Chlipala et al.: <a href="http://ynot.cs.harvard.edu/papers/icfp09.pdf"><em>Effective Interactive Proofs for Higher-Order Imperative Programs</em></a></li>
+</ul></li>
+<li><a href="http://arxiv.org/abs/1505.06430">&quot;Category Theory in Coq 8.5&quot;</a> (<a href="https://bitbucket.org/amintimany/categories/">Bitbucket</a>; Coq Workshop 2014)</li>
+<li><a href="http://robbertkrebbers.nl/research/ch2o/">CH2O</a> – formalization of ISO C11 by <a href="http://robbertkrebbers.nl/thesis.html">Rober Krebbers</a> (<a href="https://github.com/robbertkrebbers/ch2o">GitHub</a>)
+<ul>
+<li><a href="https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/ch2o.pdf">&quot;Formalizing C in Coq&quot;</a> (<a href="https://coqpl.cs.washington.edu/">CoqPL 2015</a>)</li>
+</ul></li>
+</ul>
+<h2 id="applications">Applications</h2>
+<ul>
+<li><a href="http://certicrypt.gforge.inria.fr/">CertiCrypt</a> – Computer-Aided Cryptographic Proofs in Coq
+<ul>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.220.6617"><em>Formal certification of ElGamal encryption</em></a> (2008)</li>
+</ul></li>
+<li><a href="http://compcert.inria.fr/">CompCert</a> – verified optimising compiler of a substantial subset of C99</li>
+<li><a href="http://compcert.inria.fr/verasco/">Verasco</a> – verified static analyser</li>
+<li><a href="http://jscert.org">JSCert: Certified JavaScript</a>
+<ul>
+<li><a href="http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf"><em>A Trusted Machnised JavaScript Specification</em></a> (2014; <a href="http://jscert.org/popol14">slides</a>)</li>
+</ul></li>
+<li><a href="https://github.com/aspiwack/cosa">Cosa</a> – Coq-verified Shape Analysis</li>
+<li><a href="http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf"><em>A Machine-Checked Proof of the Odd Order Theorem</em></a></li>
+<li><a href="https://www.lri.fr/~conchon/publis/lescuyer-conchon-tphols08.pdf"><em>A Reflexive Formalization of a SAT Solver in Coq</em></a>
+<ol start="2008" type="1">
+<li></li>
+</ol></li>
+<li><a href="http://cp2014.a4cp.org/sites/default/files/uploads/DuboisGotlieb-slides.pdf"><em>Towards an effective formally certfied constraint solver</em></a> (2014; slides)</li>
+</ul>
+<h3 id="papers-and-articles">Papers and articles</h3>
+<ul>
+<li><a href="http://sf.snu.ac.kr/gil.hur/Heq/">Heq: a Coq library for Heterogeneous Equality</a></li>
+<li><a href="http://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/thesis/thesis.pdf"><em>Inductive-inductive definitions</em></a></li>
+<li><a href="http://arxiv.org/abs/1506.04205"><em>Gradual Certified programming in Coq</em></a></li>
+<li><a href="http://homepages.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf"><em>An intro to (co)algebra and (co)induction</em></a></li>
+<li><a href="https://www.reddit.com/r/Coq/comments/3erkgv/canonical_structures_for_the_working_coq_user/"><em>Canonical Structures for the Working Coq User</em></a></li>
+<li><a href="https://hal.inria.fr/hal-01162898"><em>Foundational Property-Based Testing</em></a> – <em>QuickChick</em>, a port of <em>QuickCheck</em> to Coq</li>
+<li>J. Gross: <a href="https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/bug-minimizer.pdf">&quot;Coq Bug Minimizer&quot;</a> (CoqPL 2015; <a href="https://github.com/JasonGross/coq-tools">GitHub</a>)</li>
+<li>C. Doczkal, J.-O. Kaiser, G. Smolka: <a href="https://www.mpi-sws.org/~janno/publications/DBLP:conf/cpp/DoczkalKS13.pdf">&quot;A Constructive Theory of Regular Languages in Coq&quot;</a></li>
+<li>F. Chyzak, A. Mahboubi, T. Sibut-Pinote, E. Tassi: <a href="https://hal.inria.fr/hal-00984057">&quot;A Computer-Algebra-Based Formal Proof of the Irrationality of ζ(3)&quot;</a></li>
+</ul>
+<h2 id="related-languages-tools-and-stuff">Related languages, tools and stuff</h2>
+<p>Numerous journals, conferences and workshops, for instance, the <em>Journal of Automated Reasoning</em>, POPL, and CoqPL. For tools, see also <a href="https://coq.inria.fr/related-tools">page on the Coq website</a>.</p>
+<ul>
+<li><a href="http://homotopytypetheory.org/"><em>Homotopy Type Theory</em></a> – the book and <a href="https://github.com/HoTT/HoTT">the library</a>
+<ul>
+<li><a href="http://tabareau.fr/coqhott">Coq for Homotopy Type Theory</a> – a dedicated research project</li>
+</ul></li>
+<li><a href="https://github.com/UniMath/UniMath">UniMath</a> (<em>Univalent Foundations</em>)</li>
+</ul>
+<p>Related ACM Special Interest Groups: <a href="http://www.sigplan.org/">SIGPLAN</a>, <a href="http://siglog.org/">SIGLOG</a> and <a href="http://www.sigact.org/">SIGACT</a>.</p>
+<h3 id="journals-and-book-series">Journals and book series</h3>
+<p>(† denotes open-access journals)</p>
+<ul>
+<li><a href="http://lmcs-online.org/index.php"><em>Logical Methods in Computer Science</em></a> †</li>
+<li><a href="http://www.dagstuhl.de/en/publications/lipics/"><em>LIPIcs: Leibniz International Proceedings in Informatics</em></a> †</li>
+<li><em>International Journal of Foundations of Computer Science</em></li>
+<li><a href="http://www.journals.elsevier.com/information-and-computation"><em>Information and Computation</em></a></li>
+<li><a href="https://www.springer.com/computer/theoretical+computer+science/journal/10817"><em>Journal of Automated Reasoning</em></a></li>
+<li>Springer's <a href="http://link.springer.com/bookseries/558"><em>Lecture Notes in Computer Science</em></a> series</li>
+</ul>
+<p><strong>Meta</strong></p>
+<ul>
+<li><a href="https://dl.acm.org/pubs.cfm">ACM Journals/Transactions</a></li>
+<li><a href="https://www.elsevier.com/journals/subjects/computer-science/title/all">Elsevier journals</a> on computer science</li>
+<li><a href="http://link.springer.com/search?facet-discipline=%22Computer+Science%22&amp;facet-content-type=%22Journal%22">Springer journals</a> on CS</li>
+<li><a href="http://journals.cambridge.org/action/bySubjectArea#subject8">Cambridge Journals</a> on CS</li>
+</ul>
+<h3 id="conferences-and-workshops">Conferences and workshops</h3>
+<p>I've divided the events into a few disjoint categories, although, naturally, there will be a significant overlap in the topics covered by events in two different categories.</p>
+<p><strong>Coq</strong></p>
+<ul>
+<li>International Workshop on Coq for PL (CoqPL)</li>
+<li><a href="https://coq.inria.fr/coq-workshop">Coq Workshop</a></li>
+</ul>
+<p><strong>Type theory and foundations</strong></p>
+<ul>
+<li>Workshop on Homotopy Type Theory and Univalent Foundations of Mathematics</li>
+<li>International Conference on Types for Proofs and Programs (TYPES)</li>
+<li><a href="http://www.mimuw.edu.pl/tlca/">International Conference on Typed Lambda Calculi and Applications</a> (TLCA)</li>
+<li>Conference on Algebra and Coalgebra in Computer Science (CALCO)</li>
+<li>International Symposium on Theoretical Aspects of Computer Science (STACS)</li>
+<li>International Colloquium on Theoretical Aspects of Computing (ICTAC)</li>
+<li><a href="http://ieee-focs.org">Symposium on Foundations of Computer Science</a> (FOCS)</li>
+<li>International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)</li>
+<li>International Symposium on Mathematical Foundations of Computer Science (MFCS)</li>
+<li>SICSA Summer School on Practical Types</li>
+<li><a href="https://tyde2016.github.io/">Workshop on Type-Directed Development</a> (TyDe)</li>
+</ul>
+<p><strong>Logic, theorem proving and automated reasoning</strong></p>
+<ul>
+<li>Federated Logic Conference (FLoC)</li>
+<li>IEEE Symposium on Logic in Computer Science (LICS)</li>
+<li>Annual Conference on Computer Science Logic (CSL)</li>
+<li>International Conference on Logic Programming (ICLP)</li>
+<li><a href="http://www.satisfiability.org/">Conference on Theory and Applications of Satisfiability Testing</a> (SAT)</li>
+<li><a href="http://www.di.unito.it/~stefano/CL&amp;C/CL&amp;C.htm">International Workshop on Classical Logic and Computation</a> (CL&amp;C)</li>
+<li>Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)</li>
+<li>Conference on Automated Deduction (CADE)</li>
+<li>International Joint Conference on Automated Reasoning (IJCAR)</li>
+<li><a href="http://colo12-c703.uibk.ac.at/">Artificial Intelligence and Theorem Proving</a> (AITP)</li>
+<li>Interactive Theorem Proving (ITP) <a href="http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/">2015</a></li>
+<li>Theorem Proving in Higher Order Logics (TPHOLs)</li>
+<li><a href="http://smt-workshop.cs.uiowa.edu/">International Workshop on Satisfiability Modulo Theories</a> (SMT)</li>
+<li>SAT/SMT Summer School <a href="http://smt2015.csl.sri.com/school/">2015</a></li>
+<li><a href="http://jfr.unibo.it/">Journal of Formalized Reasoning</a></li>
+</ul>
+<p><strong>Formal methods</strong></p>
+<ul>
+<li>International Symposium on Formal Methods (FM)</li>
+<li>NASA Formal Methods Symposium (NFM)</li>
+<li>International Conference on Software Engineering and Formal Methods (SEFM)</li>
+<li>Conference on Certified Programs and Proofs (CPP)</li>
+<li>Conference on Automated Verification (CAV)</li>
+<li>International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)</li>
+<li>International SPIN symposium on Model Checking of Software (SPIN)</li>
+<li>International Symposium on Automated Technology for Verification and Analysis (ATVA)</li>
+<li>International Workshop on Formal Methods for Industrial Critical Systems (FMICS)</li>
+<li><a href="http://www.cs.swan.ac.uk/avocs/">International Workshop on Automated Verification of Critical Systems</a> (AVoCS)</li>
+<li>International Workshop on Parallel and Distributed Methods in verifiCation (PDMC)</li>
+<li>International Conference on Formal Engineering Methods (ICFEM)</li>
+<li>Higher-Dimensional Rewriting and Applications (HDRA)</li>
+<li>International Conference on Rewriting, Deduction, and Programming (RDP)</li>
+<li><a href="http://rewriting.loria.fr/rta/">International Conference on Rewriting Techniques and Applications</a> (RTA)</li>
+<li>International Conference on Applications and Theory of Petri Nets and Concurrency (PN)</li>
+<li>International Conference on Applications of Concurrency to System Design (ACSD)</li>
+<li><a href="http://fscdconference.org/">Formal Structures for Computation and Deduction</a> (FSCD)</li>
+<li>Computer Security Foundations Symposium (CSF)</li>
+<li>International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)</li>
+<li><a href="http://liacs.leidenuniv.nl/~bonsanguemm/fmco/">International Symposia on Formal Methods for Components and Objects</a> (FMCO)</li>
+<li>Summer School on Formal Techniques <a href="http://fm.csl.sri.com/SSFT15/">2015</a></li>
+</ul>
+<p><strong>Programming languages</strong></p>
+<p>This includes compilers and related stuff, too.</p>
+<ul>
+<li>Symposium on Principles of Programming Languages (POPL)</li>
+<li>Summit on Advances in Programming Languages (SNAPL)
+<ul>
+<li><a href="http://drops.dagstuhl.de/opus/volltexte/lipics-complete/lipics-vol32-snapl2015-complete.pdf">1st proceedings in PDF</a> (2015)</li>
+</ul></li>
+<li><a href="http://icfpconference.org/">The International Conference on Functional Programming</a> (ICFP)
+<ul>
+<li><a href="http://cufp.org/">CUFP</a> workshop</li>
+</ul></li>
+<li>International Colloquium on Automata, Languages and Programming (ICALP)</li>
+<li>International Conference on Language and Automata Theory and Applications (LATA)</li>
+<li>International Conference on Compiler Construction (CC)</li>
+<li>European Symposium on Programming (ESOP)</li>
+<li>Programming Language Design and Implementation (PLDI)</li>
+<li><a href="http://ecoop.org/">European Conference on Object-Oriented Programming</a> (ECOOP)</li>
+<li><a href="http://www.sigplan.org/Conferences/ISMM/">International Symposium on Memory Management</a> (ISMM)</li>
+<li><a href="http://www.sigplan.org/Conferences/PLDI/">Programming Language Design and Implementation</a> (PLDI)</li>
+<li><a href="http://lctes2015.lctes.org/">Languages, Compilers, Tools and Theory for Embedded Systems</a> (LCTES)</li>
+<li><a href="http://www.dynamic-languages-symposium.org/">Dynamic Languages Symposium</a> (DLS)</li>
+<li>Practical Aspects of Declarative Languages (PADL)</li>
+<li>Mathematical Foundations of Programming Semantics (MFPS)</li>
+<li><a href="http://www.composeconference.org/">C◦mp◦se :: Conference</a></li>
+<li><a href="http://www.curry-on.org/">Curry On!</a> conference</li>
+<li>Summer School on DSL Design and Implementation <a href="https://vjovanov.github.io/dsldi-summer-school/">2015</a></li>
+<li><a href="http://people.inf.elte.hu/cefp/">Central-European Functional Programming School</a> (CEFP)</li>
+<li>Workshop on Probabilistic Programming Semantics (PPS)</li>
+<li>Symposium on Trends in Functional Programming (TFP)</li>
+<li>Approaches and Applications of Inductive Programming (AAIP)</li>
+</ul>
+<p><strong>General/other</strong></p>
+<p>This includes software engineering, security and tons of other fields.</p>
+<ul>
+<li><a href="http://www.etaps.org/">European Joint Conferences on Theory and Practice of Software</a> (ETAPS)</li>
+<li>International Conference on Fundamental Approaches to Software Engineering (FASE)</li>
+<li><a href="http://www.memics.cz/">Doctoral Workshop on Mathematical and Engineering Methods in Computer Science</a> (MEMICS)</li>
+<li>International Conference on Principles of Security and Trust (POST)</li>
+<li><a href="http://www.cicm-conference.org/">Conference on Intelligent Computer Mathematics</a> (CICM)</li>
+</ul>
+<p><strong>Meta</strong></p>
+<ul>
+<li><a href="http://csconf.net">Computer Science Conferences</a> website</li>
+<li>Microsoft Academic Search – <a href="http://academic.research.microsoft.com/?SearchDomain=2&amp;entitytype=3">Top conferences in CS</a></li>
+<li><a href="http://icsd.i2r.a-star.edu.sg/staff/jianying/conference-ranking.html">Top Crypto and Security Conferences Ranking</a></li>
+</ul>
+<h3 id="proof-assistants-provers-and-languages">Proof assistants, provers and languages</h3>
+<ul>
+<li><a href="https://leanprover.github.io/">Lean</a> – a new theorem prover developed by Microsoft and CMU with automation support; based on CIC, supports HoTT as well</li>
+<li><a href="http://matita.cs.unibo.it/">Matita</a> – based on (a variant of) CoC</li>
+<li><a href="http://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a> – a (relatively) new, hip dependently-typed functional language and interactive theorem prover
+<ul>
+<li><a href="http://people.inf.elte.hu/divip/AgdaTutorial/Index.html">Agda Tutorial</a></li>
+</ul></li>
+<li><a href="http://www.idris-lang.org/">Idris</a> – another new and hip &quot;general purpose&quot; language with dependent types, support for theorem proving and tactics; kind of like Coq-flavoured Haskell</li>
+<li><a href="http://dedukti.gforge.inria.fr/">Dedukti</a> – proof checker based on the λΠ-calculus; tools for translation from other proof assistants available</li>
+<li><a href="http://www.nuprl.org/">the PRL Project</a> a.k.a. Nuprl
+<ul>
+<li><a href="http://metaprl.org/default.html">MetaPRL</a></li>
+<li><a href="http://www.jonprl.org">JonPRL</a> (<a href="https://github.com/jonsterling/jonprl">GitHub</a>) – a reimplementation of Nuprl by Jon Sterling, Danny Gratzer and Vincent Rahli</li>
+<li><a href="https://github.com/JonPRL/sml-red-jonprl">Red JonPRL</a> – yet another reincarnation by Jon Sterling</li>
+</ul></li>
+<li><a href="http://metaprl.org/default.html">MetaPRL</a></li>
+<li><a href="https://isabelle.in.tum.de/">Isabelle</a> – great <a href="http://afp.sourceforge.net/">Archive of Formal Proofs</a>; small trusted meta-logical core, usually used along with HOL
+<li><a href="https://isabelle.in.tum.de/">Isabelle</a> – great <a href="http://afp.sourceforge.net/">Archive of Formal Proofs</a>; small trusted meta-logical core, usually used along with HOL
+<ul>
+<li><a href="https://isabelle.in.tum.de/haskabelle.html">Haskabelle</a></li>
+<li><a href="https://isabelle.in.tum.de/Isar/">Isar</a></li>
+<li>Isabelle/HOLCF – <a href="https://www21.in.tum.de/~nipkow/pubs/jfp99.html">paper</a>, <a href="https://isabelle.in.tum.de/library/HOL/HOLCF-Tutorial/document.pdf">tutorial</a></li>
+</ul></li>
+<li><a href="https://hol-theorem-prover.org/">HOL</a> by Michael Gordon et al. – the original system for interactive theorem proving in higher-order logic
+<ul>
+<li><a href="https://www.cl.cam.ac.uk/~jrh13/hol-light/">HOL Light</a> – small trusted core</li>
+<li><a href="http://hol.sourceforge.net/">HOL4</a></li>
+</ul></li>
+<li><a href="http://www.mathematik.uni-muenchen.de/~logik/minlog">MINLOG</a> – interactive proof assistant based on first-order natural deduction calculus</li>
+<li><a href="http://www.lemma-one.com/ProofPower/index/">ProofPower</a> – based on higher-order logic</li>
+<li><a href="http://mizar.org/">Mizar</a></li>
+<li><a href="https://www.cs.utexas.edu/users/moore/acl2/">ACL2</a> (<em>A Computational Logic for Applicative Common Lisp</em>) – logic for modelling systems and a complementary prover; based on first-order logic</li>
+<li><a href="https://www.cs.utexas.edu/users/jared/milawa/Web/">Milawa</a> – theorem prover for ACL2-like logic
+<ul>
+<li><a href="https://www.cs.utexas.edu/users/jared/publications/2015-jar-milawa.pdf"><em>The reflective Milawa theorem prover is sound</em></a> (2015)</li>
+</ul></li>
+<li><a href="http://www.ats-lang.org/">ATS</a> (<em>Applied Type System</em>) – dependently typed functional languge</li>
+<li><a href="http://wwwlehre.dhbw-stuttgart.de/~sschulz/E/E.html">E</a> theorem prover for first-order logic</li>
+<li><a href="http://www.dcs.ed.ac.uk/home/lego/">LEGO</a> proof assistant</li>
+<li><a href="http://research.microsoft.com/en-us/projects/f7/">F7</a> – extension of F#'s type system with refinement types, dependent types and π-calculus-style concurrency</li>
+<li><a href="https://www.fstar-lang.org/">F*</a> – &quot;a new higher order, effectful programming language designed with program verification in mind&quot;</li>
+<li><a href="http://www.eff-lang.org/">Eff</a> – functional language with first-class effects and native handling of all kinds of computatinal effects without touching monads</li>
+<li><a href="http://twelf.org/wiki/Main_Page">Twelf</a></li>
+<li><a href="https://clf.github.io/celf/">Celf</a></li>
+<li><a href="http://abella-prover.org/">Abella</a></li>
+<li><a href="http://complogic.cs.mcgill.ca/beluga/">Beluga</a></li>
+<li><a href="https://www.cs.unm.edu/~mccune/prover9/">Prover9 and Mace4</a> – and automated theorem prover for FOL and searchr for counterexamples, respectively</li>
+<li><a href="http://www.leancop.de/">leanCOP</a> – tiny automated theorem prover for classical first-order logic implemented in Prolog</li>
+<li><a href="http://pvs.csl.sri.com/">PVS</a></li>
+</ul>
+<h3 id="model-checkers">Model checkers</h3>
+<ul>
+<li><a href="http://spinroot.com/spin/whatispin.html">SPIN</a></li>
+<li><a href="https://divine.fi.muni.cz/index.html">DIVINE</a> – parallel, distributed-memory explicit-state LTL checker</li>
+<li><a href="http://www.uppaal.org/">UPPAAL</a></li>
+<li><a href="http://research.microsoft.com/en-us/um/people/lamport/tla/tla.html">TLA+</a></li>
+<li><a href="http://nusmv.fbk.eu/">NuSMV</a> – symbolic model checker</li>
+<li><a href="https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/?ui=tool&amp;tool=automizer">Ultimate Automizer</a> – model checker based on an automata approach</li>
+<li><a href="http://fmt.cs.utwente.nl/tools/ltsmin/">LTSmin</a> – language-agnostic</li>
+<li><a href="http://www.prismmodelchecker.org/">PRISM</a> – probabilistic model checker</li>
+<li><a href="https://www3.cs.stonybrook.edu/~lmc/mmc/">MMC</a> – explicit-state model checker for π-calculus</li>
+<li><a href="http://www.cprover.org/cbmc/">CBMC</a> – bounded model checking</li>
+<li><a href="http://www.esbmc.org/">ESBMC</a> – context-bounded model checking</li>
+</ul>
+<h3 id="sat-smt-solvers">SAT &amp; SMT solvers</h3>
+<ul>
+<li><a href="http://minisat.se/">MiniSat</a></li>
+<li><a href="http://fmv.jku.at/picosat">PicoSAT</a></li>
+<li><a href="https://github.com/Z3Prover/z3">Z3</a></li>
+<li><a href="http://cvc4.cs.nyu.edu/web/">CVC4</a></li>
+<li><a href="http://alt-ergo.ocamlpro.com/">Alt-Ergo</a> (<a href="http://alt-ergo.lri.fr/">academic page</a>)</li>
+<li><a href="http://yices.csl.sri.com/">Yices</a> (non-free licence)</li>
+<li><a href="http://mathsat.fbk.eu/">MathSAT 5</a></li>
+<li><a href="http://fmv.jku.at/boolector/">Boolector</a></li>
+<li><a href="http://fmv.jku.at/lingeling/">Lingeling, Plingeling and Treengeling</a></li>
+<li><a href="http://www.msoos.org/cryptominisat2/">CryptoMiniSat 2</a></li>
+<li><a href="http://www.informatik.uni-bremen.de/agbs/florian/sonolar/">SONOLAR</a> – Solver for Non-Linear Arithmetic</li>
+<li><a href="http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/~alanmi/abc/">ABC</a> – &quot;A System for Sequential Synthesis and Verification&quot;</li>
+<li><a href="https://hackage.haskell.org/package/funsat">funsat</a> – &quot;a modern DPLL-style SAT solver&quot; written in Haskell</li>
+<li><a href="http://www.well-typed.com/blog/103/"><em>Simple SMT solver for use in an optimizing compiler</em></a></li>
+<li><a href="http://www.satcompetition.org/">SAT Competitions</a></li>
+<li>Configurable SAT Solver Challenge (CSSC) <a href="http://aclib.net/cssc2014/">2014</a></li>
+<li>Model Checking Contest (MCC)</li>
+</ul>
+<h3 id="other-tools">Other tools</h3>
+<ul>
+<li><a href="http://why3.lri.fr/">Why3</a> – platform for deductive reasoning on programs with support for many external provers
+<ul>
+<li><a href="http://toccata.lri.fr/gallery/">Gallery of verified programs</a></li>
+<li><a href="http://research.microsoft.com/en-us/um/people/moskal/boogie2011/boogie2011_pg53.pdf"><em>Shepherd Your Herd of Provers</em></a> (2011)</li>
+</ul></li>
+<li><a href="http://alloy.mit.edu/alloy/index.html">Alloy</a> – &quot;a language and tool for relational models&quot;</li>
+<li><a href="http://research.microsoft.com/en-us/projects/boogie/">Boogie</a> – intermediate verification language</li>
+<li><a href="http://research.microsoft.com/en-us/projects/verifierq/">Q Program Verifier</a> – collection of tools for a source–IR–IVL translation and subsequent verification
+<ul>
+<li><a href="https://github.com/smackers/smack">SMACK</a> – bounded verification via LLVM to Boogie translation</li>
+</ul></li>
+<li><a href="http://research.microsoft.com/en-us/projects/dafny/">Dafny</a> – &quot;a language and program verifier for functional correctness&quot;</li>
+<li><a href="http://vvt.forsyte.at/">Vienna Verification Toolkit</a></li>
+<li><a href="http://users.ecs.soton.ac.uk/gp4/cseq/cseq.html">CSeq</a></li>
+<li><a href="http://ti.arc.nasa.gov/opensource/ikos/">IKOS</a> – &quot;library designed to facilitate the development of sound static analyzers based on Abstract Interpretation&quot;</li>
+<li><a href="https://github.com/seahorn/crab">Crab</a> – &quot;language agnostic engine to perform static analysis based on abstract interpretation&quot;</li>
+<li><a href="https://seahorn.github.io/">Seahorn</a> – &quot;fully automated verification framework for LLVM-based languages&quot;</li>
+<li><a href="http://rise4fun.com/">rise4fun</a> – a collection of numerous tools, i.a. for program and algorithm analysis and verification, by Microsoft Research, CMU and others that you can try right on the web page</li>
+<li><a href="http://chaudhuri.info/software/profound/">Profound</a> – &quot;an experiment in subformula linking as an interaction method&quot;
+<ul>
+<li>K. Chaudhuri: <a href="http://chaudhuri.info/papers/itp13link.pdf"><em>Subformula Linking as an Interaction Method</em></a> (2013)</li>
+</ul></li>
+<li><a href="http://s2e.epfl.ch/">S²E</a> – &quot;A Platform for In-Vivo Analysis of Software Systems&quot;</li>
+<li><a href="https://klee.github.io/">KLEE</a> – symbolic execution VM</li>
+</ul>
+<h3 id="formal-methods-in-practice">Formal methods in practice</h3>
+<ul>
+<li><a href="http://sel4.systems/">seL4</a> – first fully verified and open-sourced OS kernel</li>
+<li><a href="http://muen.sk/">Muen Separation Kernel</a> – first open-source kernel verified for absence of runtime errors (<a href="https://www.reddit.com/r/programming/comments/1sjyop/the_muen_separation_kernel_is_the_worlds_first/">Reddit discussion</a>)</li>
+<li><a href="http://flint.cs.yale.edu/certikos/">CertiKOS</a> – &quot;advanced development of certified OS kernels&quot;</li>
+<li><a href="https://galois.com">Galois, Inc.</a> and anything they do</li>
+</ul>
+<h3 id="learning-resources">Learning resources</h3>
+<p>Courses, textbooks, papers, theses, competitions, influential figures in the field.</p>
+<ul>
+<li><a href="http://www.cs.ru.nl/~freek/qed/qed.html">The QED Manifesto</a>, some more details <a href="http://www.rbjones.com/rbjpub/logic/qedres00.htm">here</a></li>
+<li><a href="http://www.cs.ru.nl/~freek/100/index.html">Formalizing 100 Theorems</a></li>
+<li><a href="http://vscomp.org/">Verified Software Competition</a></li>
+<li><a href="http://www.verifythis.org/">VerifyThis</a> – a competition and collection of problems in formal verification of algorithms and software</li>
+<li><a href="http://sv-comp.sosy-lab.org/">Competition on Software Verification</a> (SV-COMP)</li>
+<li><p><a href="https://www.cs.uoregon.edu/research/summerschool/">Oregon Programming Languages Summer School</a> – videos of <em>awesome</em> lectures on type theory, provers, logic, etc.; earlier editions only have lectures notes and slides published</p>
+<p><a href="https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html">2015</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html">2014</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html">2013</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer12/curriculum.html">2012</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html">2011</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer10/curriculum.html">2010</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer09/curriculum.html">2009</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer08/curriculum.html">2008</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer07/curriculum.html">2007</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer06/curriculum.html">2006</a>, <a href="https://www.cs.uoregon.edu/research/summerschool/summer05/curriculum.html">2005</a></p></li>
+<li><p><a href="https://github.com/type-theory/type-theory-study-group-2015">Type Theory Study Group 2015</a></p></li>
+</ul>
+<h2 id="type-theory">Type theory</h2>
+<p>Danny Gratzer's <a href="https://github.com/jozefg/learn-tt">learn-tt</a> is a fantastic resource for those interested in type and category theory. He presents all the terrific tools, textbooks, and papers that deal with both of these in a sensible and logical way, which is a quality that my repository will never have.</p>
+<p>I'll only list here resources which he doesn't mention and which I personally find interesting.</p>
+<p>Check out the <a href="http://lists.seas.upenn.edu/mailman/listinfo/types-list">TYPES</a> mailing list as well.</p>
+<h3 id="dependent-types">Dependent types</h3>
+<ul>
+<li>A. Bove, P. Dybjer: <a href="http://www.cse.chalmers.se/~peterd/papers/DependentTypesAtWork.pdf"><em>Dependent Types at Work</em></a> – introduction to programming with dependent types in Agda</li>
+<li>C. McBride: <a href="http://cs.ru.nl/~freek/courses/tt-2010/tvftl/epigram-notes.pdf"><em>Epigram: Practical Programming with Dependent Types</em></a></li>
+</ul>
+<h2 id="copyright">Copyright</h2>
+<p>Written in 2015 by Matěj Grabovský <matej.grabovsky at gmail></p>
+<p>To the extent possible under law, the author has dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.</p>
+<p>You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see <a href="http://creativecommons.org/publicdomain/zero/1.0/" class="uri">http://creativecommons.org/publicdomain/zero/1.0/</a>.</p>
+</body>
+</html>
