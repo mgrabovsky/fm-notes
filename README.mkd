@@ -38,7 +38,7 @@ information contained herein.
 
 ## On Coq
 
-Coq is an interactive theorem prover and proof assistant based on an intensinoal
+Coq is an interactive theorem prover and proof assistant based on an intensional
 intuitionistic type theory. The underlying formalism is called Calculus of
 Constructions (CoC) which is a dependently-typed λ-calculus and an intuitionistic
 higher-order logic. Its core is written in OCaml.
