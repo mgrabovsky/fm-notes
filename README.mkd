@@ -512,11 +512,26 @@ interesting.
 Check out the [TYPES](http://lists.seas.upenn.edu/mailman/listinfo/types-list)
 mailing list as well.
 
-### Dependent types
+**Dependent types**
 
+-   C\. McBride: [_Epigram: Practical Programming with Dependent Types_](http://cs.ru.nl/~freek/courses/tt-2010/tvftl/epigram-notes.pdf) (2010)
 -   A\. Bove, P. Dybjer: [_Dependent Types at Work_](http://www.cse.chalmers.se/~peterd/papers/DependentTypesAtWork.pdf)
     – introduction to programming with dependent types in Agda
--   C\. McBride: [_Epigram: Practical Programming with Dependent Types_](http://cs.ru.nl/~freek/courses/tt-2010/tvftl/epigram-notes.pdf)
+
+**Observational Type Theory**
+
+-   T\. Altenkirch, C. McBride: ["Towards Observational Type Theory"](http://strictlypositive.org/ott.pdf) (2006)
+-   F\. Mazzoli: ["Bertus: Implementing Observational Equality"](http://www.doc.ic.ac.uk/teaching/distinguished-projects/2013/f.mazzoli.pdf) (2013)
+
+**Cubical Type Theory**
+
+-   M\. Bezen, T. Coquand, S. Huber: ["A model of type theory in cubical sets"](http://www.cse.chalmers.se/~coquand/mod1.pdf) (2014)
+-   D\. Licata: ["A Cubical Type Theory"](http://dlicata.web.wesleyan.edu/pubs/lb14cubical/lb14cubes-oxford.pdf) (2014; slides)
+-   A\. Kaposi, T. Altenkirch: ["A syntax for cubical type theory"](http://mazzo.li/dump/aim-kaposi-pres.pdf) (2014; slides)
+-   T\. Coquand: ["A Cubical Type Theory"](http://www.cse.chalmers.se/~coquand/cork.pdf) (2015; slides)
+-   T\. Coquand: ["A cubical type theory"](http://www.cse.chalmers.se/~coquand/stockholm2015.pdf) (2015; slides)
+-   C\. Cohen, T. Coquand, S. Huber, A. Mörtberg: ["Cubical Type Theory: a constructive interpretation of the univalence axiom"](http://www.cse.chalmers.se/~coquand/cubicaltt.pdf) (2016)
+    -   [mortberg/cubicaltt](https://github.com/mortberg/cubicaltt) – a Haskell implementation of the type theory presented in this paper
 
 ## Copyright
 
