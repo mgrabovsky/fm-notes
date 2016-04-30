@@ -205,6 +205,7 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 († denotes open-access journals)
 
 -   [_Logical Methods in Computer Science_](http://lmcs-online.org/index.php)&thinsp;†
+-   [_Electronic Proceedings in Theoretical Computer Science_](http://eptcs.web.cse.unsw.edu.au/) (EPTCS)&thinsp;†
 -   [_LIPIcs: Leibniz International Proceedings in Informatics_](http://www.dagstuhl.de/en/publications/lipics/)&thinsp;†
 -   _International Journal of Foundations of Computer Science_
 -   [_Information and Computation_](http://www.journals.elsevier.com/information-and-computation)
@@ -242,6 +243,7 @@ categories.
 -   International Symposium on Mathematical Foundations of Computer Science (MFCS)
 -   SICSA Summer School on Practical Types
 -   [Workshop on Type-Directed Development](https://tyde2016.github.io/) (TyDe)
+-   Workshop on Mathematically Structured Functional Programming (MSFP)
 
 **Logic, theorem proving and automated reasoning**
 
@@ -283,6 +285,7 @@ categories.
 -   [Formal Structures for Computation and Deduction](http://fscdconference.org/) (FSCD)
 -   Computer Security Foundations Symposium (CSF)
 -   International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+-   International Workshop on Formal Engineering Approaches to Software Components and Architectures (FESCA)
 -   [International Symposia on Formal Methods for Components and Objects](http://liacs.leidenuniv.nl/~bonsanguemm/fmco/) (FMCO)
 -   Summer School on Formal Techniques [2015](http://fm.csl.sri.com/SSFT15/)
 
@@ -517,7 +520,7 @@ mailing list as well.
 
 ## Copyright
 
-Written in 2015--2016 by Matěj Grabovský <matej.grabovsky at gmail>
+Written in 2015–2016 by Matěj Grabovský <matej.grabovsky at gmail>
 
 To the extent possible under law, the author has dedicated all copyright and related
 and neighboring rights to this software to the public domain worldwide. This software
