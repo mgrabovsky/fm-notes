@@ -47,10 +47,7 @@
 <li><a href="#formal-methods-in-practice">Formal methods in practice</a></li>
 <li><a href="#learning-resources">Learning resources</a></li>
 </ul></li>
-<li><a href="#type-theory">Type theory</a>
-<ul>
-<li><a href="#dependent-types">Dependent types</a></li>
-</ul></li>
+<li><a href="#type-theory">Type theory</a></li>
 <li><a href="#copyright">Copyright</a></li>
 </ul>
 <h2 id="on-coq">On Coq</h2>
@@ -201,6 +198,7 @@
 <p>(† denotes open-access journals)</p>
 <ul>
 <li><a href="http://lmcs-online.org/index.php"><em>Logical Methods in Computer Science</em></a> †</li>
+<li><a href="http://eptcs.web.cse.unsw.edu.au/"><em>Electronic Proceedings in Theoretical Computer Science</em></a> (EPTCS) †</li>
 <li><a href="http://www.dagstuhl.de/en/publications/lipics/"><em>LIPIcs: Leibniz International Proceedings in Informatics</em></a> †</li>
 <li><em>International Journal of Foundations of Computer Science</em></li>
 <li><a href="http://www.journals.elsevier.com/information-and-computation"><em>Information and Computation</em></a></li>
@@ -234,6 +232,7 @@
 <li>International Symposium on Mathematical Foundations of Computer Science (MFCS)</li>
 <li>SICSA Summer School on Practical Types</li>
 <li><a href="https://tyde2016.github.io/">Workshop on Type-Directed Development</a> (TyDe)</li>
+<li>Workshop on Mathematically Structured Functional Programming (MSFP)</li>
 </ul>
 <p><strong>Logic, theorem proving and automated reasoning</strong></p>
 <ul>
@@ -275,6 +274,7 @@
 <li><a href="http://fscdconference.org/">Formal Structures for Computation and Deduction</a> (FSCD)</li>
 <li>Computer Security Foundations Symposium (CSF)</li>
 <li>International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)</li>
+<li>International Workshop on Formal Engineering Approaches to Software Components and Architectures (FESCA)</li>
 <li><a href="http://liacs.leidenuniv.nl/~bonsanguemm/fmco/">International Symposia on Formal Methods for Components and Objects</a> (FMCO)</li>
 <li>Summer School on Formal Techniques <a href="http://fm.csl.sri.com/SSFT15/">2015</a></li>
 </ul>
@@ -342,7 +342,7 @@
 <li><a href="https://github.com/JonPRL/sml-red-jonprl">Red JonPRL</a> – yet another reincarnation by Jon Sterling</li>
 </ul></li>
 <li><a href="http://metaprl.org/default.html">MetaPRL</a></li>
-<li><a href="https://isabelle.in.tum.de/">Isabelle</a> – great <a href="http://afp.sourceforge.net/">Archive of Formal Proofs</a>; small trusted meta-logical core, usually used along with HOL
+<li><a href="https://github.com/jozefg/miniprl">miniprl</a> – a minimal implementation of PRL in Standard ML</li>
 <li><a href="https://isabelle.in.tum.de/">Isabelle</a> – great <a href="http://afp.sourceforge.net/">Archive of Formal Proofs</a>; small trusted meta-logical core, usually used along with HOL
 <ul>
 <li><a href="https://isabelle.in.tum.de/haskabelle.html">Haskabelle</a></li>
@@ -460,10 +460,27 @@
 <p>Danny Gratzer's <a href="https://github.com/jozefg/learn-tt">learn-tt</a> is a fantastic resource for those interested in type and category theory. He presents all the terrific tools, textbooks, and papers that deal with both of these in a sensible and logical way, which is a quality that my repository will never have.</p>
 <p>I'll only list here resources which he doesn't mention and which I personally find interesting.</p>
 <p>Check out the <a href="http://lists.seas.upenn.edu/mailman/listinfo/types-list">TYPES</a> mailing list as well.</p>
-<h3 id="dependent-types">Dependent types</h3>
+<p><strong>Dependent types</strong></p>
 <ul>
+<li>C. McBride: <a href="http://cs.ru.nl/~freek/courses/tt-2010/tvftl/epigram-notes.pdf"><em>Epigram: Practical Programming with Dependent Types</em></a> (2010)</li>
 <li>A. Bove, P. Dybjer: <a href="http://www.cse.chalmers.se/~peterd/papers/DependentTypesAtWork.pdf"><em>Dependent Types at Work</em></a> – introduction to programming with dependent types in Agda</li>
-<li>C. McBride: <a href="http://cs.ru.nl/~freek/courses/tt-2010/tvftl/epigram-notes.pdf"><em>Epigram: Practical Programming with Dependent Types</em></a></li>
+</ul>
+<p><strong>Observational Type Theory</strong></p>
+<ul>
+<li>T. Altenkirch, C. McBride: <a href="http://strictlypositive.org/ott.pdf">&quot;Towards Observational Type Theory&quot;</a> (2006)</li>
+<li>F. Mazzoli: <a href="http://www.doc.ic.ac.uk/teaching/distinguished-projects/2013/f.mazzoli.pdf">&quot;Bertus: Implementing Observational Equality&quot;</a> (2013)</li>
+</ul>
+<p><strong>Cubical Type Theory</strong></p>
+<ul>
+<li>M. Bezen, T. Coquand, S. Huber: <a href="http://www.cse.chalmers.se/~coquand/mod1.pdf">&quot;A model of type theory in cubical sets&quot;</a> (2014)</li>
+<li>D. Licata: <a href="http://dlicata.web.wesleyan.edu/pubs/lb14cubical/lb14cubes-oxford.pdf">&quot;A Cubical Type Theory&quot;</a> (2014; slides)</li>
+<li>A. Kaposi, T. Altenkirch: <a href="http://mazzo.li/dump/aim-kaposi-pres.pdf">&quot;A syntax for cubical type theory&quot;</a> (2014; slides)</li>
+<li>T. Coquand: <a href="http://www.cse.chalmers.se/~coquand/cork.pdf">&quot;A Cubical Type Theory&quot;</a> (2015; slides)</li>
+<li>T. Coquand: <a href="http://www.cse.chalmers.se/~coquand/stockholm2015.pdf">&quot;A cubical type theory&quot;</a> (2015; slides)</li>
+<li>C. Cohen, T. Coquand, S. Huber, A. Mörtberg: <a href="http://www.cse.chalmers.se/~coquand/cubicaltt.pdf">&quot;Cubical Type Theory: a constructive interpretation of the univalence axiom&quot;</a> (2016)
+<ul>
+<li><a href="https://github.com/mortberg/cubicaltt">mortberg/cubicaltt</a> – a Haskell implementation of the type theory presented in this paper</li>
+</ul></li>
 </ul>
 <h2 id="copyright">Copyright</h2>
 <p>Written in 2015–2016 by Matěj Grabovský <matej.grabovsky at gmail></p>
