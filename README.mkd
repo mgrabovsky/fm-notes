@@ -33,7 +33,6 @@ information contained herein.
     -   [Formal methods in practice](#formal-methods-in-practice)
     -   [Learning resources](#learning-resources)
 -   [Type theory](#type-theory)
-    -   [Dependent types](#dependent-types)
 -   [Copyright](#copyright)
 
 ## On Coq
