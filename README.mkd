@@ -112,6 +112,7 @@ this discourage you.
     theories and plugins that may be useful in other Coq developments"
 -   [Equations](http://www.pps.univ-paris-diderot.fr/~sozeau/research/coq/equations.en.html)
     – dependent pattern matching
+-   [coqrel](https://github.com/CertiKOS/coqrel) – binary logical relations library
 -   [Mtac](http://plv.mpi-sws.org/mtac/) – "a monad for typed tactic programming in Coq"
 -   [cases plug-in](https://github.com/pilki/cases) – extended support for `S*Case`
     as featured in _Software Foundations_
@@ -139,9 +140,10 @@ this discourage you.
         on the Gagallium blog on verifying complexity
 -   [TLC](http://www.chargueraud.org/softs/tlc/): "a non-constructive library for Coq"
     – extensionality as an axiom, classical logic by default, etc.
--   [Verified Software Toolchain](http://vst.cs.princeton.edu/)
+-   [Verified Software Toolchain](http://vst.cs.princeton.edu/) (VST)
     -   tons of articles around this
-    -   A\. W. Appel: [_Verified Software Toolchain_](https://www.cs.princeton.edu/~appel/papers/vst.pdf)
+    -   A\. W. Appel: [_Verified Software Toolchain_](https://www.cs.princeton.edu/~appel/papers/vst.pdf) (2011)
+    -   A\. W. Appel: [_Verification of a Cryptographic Primitive: SHA-256_](http://www.cs.princeton.edu/~appel/papers/verif-sha-2.pdf) (2016)
 -   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned?)
     -   A\. Chlipala: [_The Bedrock Structured Programming System: Combining
         Generative Metaprogramming and Hoare Logic in an Extensible Program
