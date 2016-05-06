@@ -484,8 +484,9 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
 -   [Competition on Software Verification](http://sv-comp.sosy-lab.org/) (SV-COMP)
 -   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) –
     videos of _awesome_ lectures on type theory, provers, logic, etc.; earlier
-    editions only have lectures notes and slides published
+    editions only have lecture notes and slides published
 
+    [2016](https://www.cs.uoregon.edu/research/summerschool/summer16/curriculum.php),
     [2015](https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html),
     [2014](https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html),
     [2013](https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html),
