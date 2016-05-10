@@ -1,0 +1,118 @@
+I've divided the events into a few disjoint categories, although, naturally, there
+will be a significant overlap in the topics covered by events in two different
+categories.
+
+**Coq**
+
+-   International Workshop on Coq for PL (CoqPL)
+-   [Coq Workshop](https://coq.inria.fr/coq-workshop)
+
+**Type theory and foundations**
+
+-   Workshop on Homotopy Type Theory and Univalent Foundations of Mathematics
+-   International Conference on Types for Proofs and Programs (TYPES)
+-   [International Conference on Typed Lambda Calculi and Applications](http://www.mimuw.edu.pl/tlca/) (TLCA)
+-   Conference on Algebra and Coalgebra in Computer Science (CALCO)
+-   International Symposium on Theoretical Aspects of Computer Science (STACS)
+-   International Colloquium on Theoretical Aspects of Computing (ICTAC)
+-   [Symposium on Foundations of Computer Science](http://ieee-focs.org) (FOCS)
+-   International Conference on Foundations of Software Science and Computation Structures (FoSSaCS)
+-   International Symposium on Mathematical Foundations of Computer Science (MFCS)
+-   SICSA Summer School on Practical Types
+-   [Workshop on Type-Directed Development](https://tyde2016.github.io/) (TyDe)
+-   Workshop on Mathematically Structured Functional Programming (MSFP)
+
+**Logic, theorem proving and automated reasoning**
+
+-   Federated Logic Conference (FLoC)
+-   IEEE Symposium on Logic in Computer Science (LICS)
+-   Annual Conference on Computer Science Logic (CSL)
+-   International Conference on Logic Programming (ICLP)
+-   [Conference on Theory and Applications of Satisfiability Testing](http://www.satisfiability.org/) (SAT)
+-   [International Workshop on Classical Logic and Computation](http://www.di.unito.it/~stefano/CL&C/CL&C.htm) (CL&C)
+-   Conference on Automated Reasoning with Analytic Tableaux and Related Methods (TABLEAUX)
+-   Conference on Automated Deduction (CADE)
+-   International Joint Conference on Automated Reasoning (IJCAR)
+-   [Artificial Intelligence and Theorem Proving](http://colo12-c703.uibk.ac.at/) (AITP)
+-   Interactive Theorem Proving (ITP) [2015](http://www.inf.kcl.ac.uk/staff/urbanc/itp-2015/)
+-   Theorem Proving in Higher Order Logics (TPHOLs)
+-   [International Workshop on Satisfiability Modulo Theories](http://smt-workshop.cs.uiowa.edu/) (SMT)
+-   SAT/SMT Summer School [2015](http://smt2015.csl.sri.com/school/)
+-   [Journal of Formalized Reasoning](http://jfr.unibo.it/)
+-   Workshop on Proofs, Justifications and Certificates
+-   [International Workshop on Hammers for Type Theories](http://hatt2016.inria.fr/) (HaTT)
+
+**Formal methods**
+
+-   International Symposium on Formal Methods (FM)
+-   NASA Formal Methods Symposium (NFM)
+-   International Conference on Software Engineering and Formal Methods (SEFM)
+-   Conference on Certified Programs and Proofs (CPP)
+-   Conference on Automated Verification (CAV)
+-   International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)
+-   International SPIN symposium on Model Checking of Software (SPIN)
+-   International Symposium on Automated Technology for Verification and Analysis (ATVA)
+-   International Workshop on Formal Methods for Industrial Critical Systems (FMICS)
+-   [International Workshop on Automated Verification of Critical Systems](http://www.cs.swan.ac.uk/avocs/) (AVoCS)
+-   International Workshop on Parallel and Distributed Methods in verifiCation (PDMC)
+-   International Conference on Formal Engineering Methods (ICFEM)
+-   Higher-Dimensional Rewriting and Applications (HDRA)
+-   International Conference on Rewriting, Deduction, and Programming (RDP)
+-   [International Conference on Rewriting Techniques and Applications](http://rewriting.loria.fr/rta/) (RTA)
+-   International Conference on Applications and Theory of Petri Nets and Concurrency (PN)
+-   International Conference on Applications of Concurrency to System Design (ACSD)
+-   [Formal Structures for Computation and Deduction](http://fscdconference.org/) (FSCD)
+-   Computer Security Foundations Symposium (CSF)
+-   International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+-   International Workshop on Formal Engineering Approaches to Software Components and Architectures (FESCA)
+-   [International Symposia on Formal Methods for Components and Objects](http://liacs.leidenuniv.nl/~bonsanguemm/fmco/) (FMCO)
+-   Summer School on Formal Techniques [2015](http://fm.csl.sri.com/SSFT15/)
+-   IFIP Working Conference on Verified Software: Theories, Tools, and Experiments (VSTTE)
+-   [International Symposium On Leveraging Applications of Formal Methods, Verification and Validation](http://www.isola-conference.org/) (ISoLA)
+
+**Programming languages**
+
+This includes compilers and related stuff, too.
+
+-   Symposium on Principles of Programming Languages (POPL)
+-   Summit on Advances in Programming Languages (SNAPL)
+    -   [1st proceedings in PDF](http://drops.dagstuhl.de/opus/volltexte/lipics-complete/lipics-vol32-snapl2015-complete.pdf) (2015)
+-   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
+    -   [CUFP](http://cufp.org/) workshop
+-   International Colloquium on Automata, Languages and Programming (ICALP)
+-   International Conference on Language and Automata Theory and Applications (LATA)
+-   International Conference on Compiler Construction (CC)
+-   European Symposium on Programming (ESOP)
+-   Programming Language Design and Implementation (PLDI)
+-   [European Conference on Object-Oriented Programming](http://ecoop.org/) (ECOOP)
+-   [International Symposium on Memory Management](http://www.sigplan.org/Conferences/ISMM/) (ISMM)
+-   [Programming Language Design and Implementation](http://www.sigplan.org/Conferences/PLDI/) (PLDI)
+-   [Languages, Compilers, Tools and Theory for Embedded Systems](http://lctes2015.lctes.org/) (LCTES)
+-   [Dynamic Languages Symposium](http://www.dynamic-languages-symposium.org/) (DLS)
+-   Practical Aspects of Declarative Languages (PADL)
+-   Mathematical Foundations of Programming Semantics (MFPS)
+-   [C◦mp◦se :: Conference](http://www.composeconference.org/)
+-   [Curry On!](http://www.curry-on.org/) conference
+-   Summer School on DSL Design and Implementation [2015](https://vjovanov.github.io/dsldi-summer-school/)
+-   [Central-European Functional Programming School](http://people.inf.elte.hu/cefp/) (CEFP)
+-   Workshop on Probabilistic Programming Semantics (PPS)
+-   Symposium on Trends in Functional Programming (TFP)
+-   Approaches and Applications of Inductive Programming (AAIP)
+-   [Syntax and Semantics of Low Level Languages](http://lola.cse.buffalo.edu/) (LOLA)
+
+**General/other**
+
+This includes software engineering, security and tons of other fields.
+
+-   [European Joint Conferences on Theory and Practice of Software](http://www.etaps.org/) (ETAPS)
+-   International Conference on Fundamental Approaches to Software Engineering (FASE)
+-   [Doctoral Workshop on Mathematical and Engineering Methods in Computer Science](http://www.memics.cz/) (MEMICS)
+-   International Conference on Principles of Security and Trust (POST)
+-   [Conference on Intelligent Computer Mathematics](http://www.cicm-conference.org/) (CICM)
+
+**Meta**
+
+-   [Computer Science Conferences](http://csconf.net) website
+-   Microsoft Academic Search – [Top conferences in CS](http://academic.research.microsoft.com/?SearchDomain=2&entitytype=3)
+-   [Top Crypto and Security Conferences Ranking](http://icsd.i2r.a-star.edu.sg/staff/jianying/conference-ranking.html)
+
