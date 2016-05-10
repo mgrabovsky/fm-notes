@@ -101,8 +101,8 @@ this discourage you.
 ## Libraries and plug-ins
 
 -   [Ssreflect and MathComp](http://ssr.msr-inria.inria.fr/)
-    -   [_A Small Scale Reflection Extension for the Coq system_](https://hal.inria.fr/inria-00258384/en)
-    -   [_Computing with Univalence_](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf)
+    -   ["A Small Scale Reflection Extension for the Coq system"](https://hal.inria.fr/inria-00258384/en)
+    -   ["Computing with Univalence"](http://dlicata.web.wesleyan.edu/pubs/lh122tttalks/lh12hdact-slides.pdf)
         (2008; slides)
 -   [CoLoR](http://color.inria.fr/) – "a Coq Library on rewriting and termination"
 -   [GeoCoq](https://geocoq.github.io/GeoCoq/) – formalization of geometry based on
@@ -123,7 +123,7 @@ this discourage you.
     library for multinomials
 -   [finset](https://github.com/aspiwack/finset) – finite sets of countable types in Coq
 -   [Coquelicot](http://coquelicot.saclay.inria.fr/) – library for real analysis
-    -   C\. Lelay (2015): [_How to express convergence for analysis in Coq_](https://hal.inria.fr/hal-01169321)
+    -   C\. Lelay (2015): ["How to express convergence for analysis in Coq"](https://hal.inria.fr/hal-01169321)
 -   [domain theory in Coq](http://rwd.rdockins.name/domains/)
 -   [Coq.io](http://coq.io/) and others by [Guillaume Claret](http://claret.me/)
     ([GitHub](https://github.com/clarus))
@@ -141,15 +141,15 @@ this discourage you.
     – extensionality as an axiom, classical logic by default, etc.
 -   [Verified Software Toolchain](http://vst.cs.princeton.edu/) (VST)
     -   tons of articles around this
-    -   A\. W. Appel: [_Verified Software Toolchain_](https://www.cs.princeton.edu/~appel/papers/vst.pdf) (2011)
-    -   A\. W. Appel: [_Verification of a Cryptographic Primitive: SHA-256_](http://www.cs.princeton.edu/~appel/papers/verif-sha-2.pdf) (2016)
+    -   A\. W. Appel: ["Verified Software Toolchain"](https://www.cs.princeton.edu/~appel/papers/vst.pdf) (2011)
+    -   A\. W. Appel: ["Verification of a Cryptographic Primitive: SHA-256"](http://www.cs.princeton.edu/~appel/papers/verif-sha-2.pdf) (2016)
 -   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned?)
-    -   A\. Chlipala: [_The Bedrock Structured Programming System: Combining
+    -   A\. Chlipala: ["The Bedrock Structured Programming System: Combining
         Generative Metaprogramming and Hoare Logic in an Extensible Program
-        Verifier_](http://adam.chlipala.net/papers/BedrockICFP13/BedrockICFP13.pdf)
+        Verifier"](http://adam.chlipala.net/papers/BedrockICFP13/BedrockICFP13.pdf)
 -   [Ynot](http://ynot.cs.harvard.edu/) (abandoned)
-    -   A\. Chlipala et al.: [_Effective Interactive Proofs for Higher-Order
-        Imperative Programs_](http://ynot.cs.harvard.edu/papers/icfp09.pdf)
+    -   A\. Chlipala et al.: ["Effective Interactive Proofs for Higher-Order
+        Imperative Programs"](http://ynot.cs.harvard.edu/papers/icfp09.pdf)
 -   ["Category Theory in Coq 8.5"](http://arxiv.org/abs/1505.06430) ([Bitbucket](https://bitbucket.org/amintimany/categories/); Coq Workshop 2014)
 -   [CH2O](http://robbertkrebbers.nl/research/ch2o/) – formalization of ISO C11
     by [Rober Krebbers](http://robbertkrebbers.nl/thesis.html)
@@ -160,29 +160,28 @@ this discourage you.
 ## Applications
 
 -   [CertiCrypt](http://certicrypt.gforge.inria.fr/) – Computer-Aided Cryptographic Proofs in Coq
-    -   [_Formal certification of ElGamal encryption_](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.220.6617) (2008)
+    -   ["Formal certification of ElGamal encryption"](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.220.6617) (2008)
 -   [CompCert](http://compcert.inria.fr/) – verified optimising compiler of
     a substantial subset of C99
 -   [Verasco](http://compcert.inria.fr/verasco/) – verified static analyser
 -   [JSCert: Certified JavaScript](http://jscert.org)
-    -   [_A Trusted Machnised JavaScript Specification_](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
+    -   ["A Trusted Machnised JavaScript Specification"](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
         (2014; [slides](http://jscert.org/popol14))
 -   [Cosa](https://github.com/aspiwack/cosa) – Coq-verified Shape Analysis
--   [_A Machine-Checked Proof of the Odd Order Theorem_](http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf)
--   [_A Reflexive Formalization of a SAT Solver in Coq_](https://www.lri.fr/~conchon/publis/lescuyer-conchon-tphols08.pdf)
+-   ["A Machine-Checked Proof of the Odd Order Theorem"](http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf)
+-   ["A Reflexive Formalization of a SAT Solver in Coq"](https://www.lri.fr/~conchon/publis/lescuyer-conchon-tphols08.pdf)
     (2008)
--   [_Towards an effective formally certfied constraint solver_](http://cp2014.a4cp.org/sites/default/files/uploads/DuboisGotlieb-slides.pdf)
+-   ["Towards an effective formally certfied constraint solver"](http://cp2014.a4cp.org/sites/default/files/uploads/DuboisGotlieb-slides.pdf)
     (2014; slides)
 
 ### Papers and articles
 
 -   [Heq: a Coq library for Heterogeneous Equality](http://sf.snu.ac.kr/gil.hur/Heq/)
--   [_Inductive-inductive definitions_](http://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/thesis/thesis.pdf)
--   [_Gradual Certified programming in Coq_](http://arxiv.org/abs/1506.04205)
--   [_An intro to (co)algebra and
-    (co)induction_](http://homepages.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf)
--   [_Canonical Structures for the Working Coq User_](https://www.reddit.com/r/Coq/comments/3erkgv/canonical_structures_for_the_working_coq_user/)
--   [_Foundational Property-Based Testing_](https://hal.inria.fr/hal-01162898)
+-   ["Inductive-inductive definitions"](http://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/thesis/thesis.pdf)
+-   ["Gradual Certified programming in Coq"](http://arxiv.org/abs/1506.04205)
+-   ["An intro to (co)algebra and (co)induction"](http://homepages.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf)
+-   ["Canonical Structures for the Working Coq User"](https://www.reddit.com/r/Coq/comments/3erkgv/canonical_structures_for_the_working_coq_user/)
+-   ["Foundational Property-Based Testing"](https://hal.inria.fr/hal-01162898)
     – _QuickChick_, a port of _QuickCheck_ to Coq
 -   J\. Gross: ["Coq Bug Minimizer"](https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/bug-minimizer.pdf)
     (CoqPL 2015; [GitHub](https://github.com/JasonGross/coq-tools))
@@ -191,12 +190,11 @@ this discourage you.
 
 ## Related languages, tools and stuff
 
-Numerous journals, conferences and workshops, for instance, the _Journal of Automated
-Reasoning_, POPL, and CoqPL. For tools, see also [page on the Coq website](https://coq.inria.fr/related-tools).
+For tools, see also [page on the Coq website](https://coq.inria.fr/related-tools).
 
 -   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
     -   [Coq for Homotopy Type Theory](http://tabareau.fr/coqhott) – a dedicated research project
--   [UniMath](https://github.com/UniMath/UniMath) (_Univalent Foundations_)
+-   [UniMath](https://github.com/UniMath/UniMath) (Univalent Foundations)
 
 Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 [SIGLOG](http://siglog.org/) and [SIGACT](http://www.sigact.org/).
@@ -316,7 +314,7 @@ _See the [standalone file](conferences.mkd)._
 -   [ABC](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/~alanmi/abc/) – "A System for Sequential Synthesis and Verification"
 -   [funsat](https://hackage.haskell.org/package/funsat) – "a modern DPLL-style SAT
     solver" written in Haskell
--   [_Simple SMT solver for use in an optimizing compiler_](http://www.well-typed.com/blog/103/)
+-   ["Simple SMT solver for use in an optimizing compiler"](http://www.well-typed.com/blog/103/)
 -   [SAT Competitions](http://www.satcompetition.org/)
 -   Configurable SAT Solver Challenge (CSSC) [2014](http://aclib.net/cssc2014/)
 -   Model Checking Contest (MCC)
@@ -326,7 +324,7 @@ _See the [standalone file](conferences.mkd)._
 -   [Why3](http://why3.lri.fr/) – platform for deductive reasoning on programs with
     support for many external provers
     -   [Gallery of verified programs](http://toccata.lri.fr/gallery/)
-    -   [_Shepherd Your Herd of Provers_](http://research.microsoft.com/en-us/um/people/moskal/boogie2011/boogie2011_pg53.pdf) (2011)
+    -   ["Shepherd Your Herd of Provers"](http://research.microsoft.com/en-us/um/people/moskal/boogie2011/boogie2011_pg53.pdf) (2011)
 -   [Alloy](http://alloy.mit.edu/alloy/index.html) – "a language and tool for relational models"
 -   [Boogie](http://research.microsoft.com/en-us/projects/boogie/) – intermediate verification language
 -   [Q Program Verifier](http://research.microsoft.com/en-us/projects/verifierq/)
@@ -348,7 +346,7 @@ _See the [standalone file](conferences.mkd)._
     others that you can try right on the web page
 -   [Profound](http://chaudhuri.info/software/profound/) – "an experiment in
     subformula linking as an interaction method"
-    -   K\. Chaudhuri: [_Subformula Linking as an Interaction Method_](http://chaudhuri.info/papers/itp13link.pdf) (2013)
+    -   K\. Chaudhuri: ["Subformula Linking as an Interaction Method"](http://chaudhuri.info/papers/itp13link.pdf) (2013)
 -   [S²E](http://s2e.epfl.ch/) – "A Platform for In-Vivo Analysis of Software Systems"
 -   [KLEE](https://klee.github.io/) – symbolic execution VM
 
@@ -372,8 +370,8 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
     problems in formal verification of algorithms and software
 -   [Competition on Software Verification](http://sv-comp.sosy-lab.org/) (SV-COMP)
 -   [Oregon Programming Languages Summer School](https://www.cs.uoregon.edu/research/summerschool/) –
-    videos of _awesome_ lectures on type theory, provers, logic, etc.; earlier
-    editions only have lecture notes and slides published
+    video recordings of _awesome_ lectures on type theory, provers, logic, etc.;
+    earlier editions only have lecture notes and slides published
 
     [2016](https://www.cs.uoregon.edu/research/summerschool/summer16/curriculum.php),
     [2015](https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html),
@@ -413,6 +411,10 @@ mailing list as well.
 
 -   T\. Altenkirch, C. McBride: ["Towards Observational Type Theory"](http://strictlypositive.org/ott.pdf) (2006)
 -   F\. Mazzoli: ["Bertus: Implementing Observational Equality"](http://www.doc.ic.ac.uk/teaching/distinguished-projects/2013/f.mazzoli.pdf) (2013)
+
+**Univalent Foundations and Homotopy Type Theory**
+
+-   P\. Aczel: ["On Voevodsky's Univalence Axiom"](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf) (2011; slides)
 
 **Cubical Type Theory**
 
