@@ -7,6 +7,8 @@ a, a:link { color: #c03767; text-decoration: none; transition: .1s ease-out colo
 a:visited { color: #857086; }
 a:hover { color: #e081a2; }
 h1, h2, h3 { font-family: Roboto, sans-serif; }
+h1 { border-bottom: 10px solid #efd2dc; font-size: 60px; line-height: 1em;
+	text-transform: lowercase; }
 h2 { border-top: 5px solid #ccc; padding-top: .8em; }
 #toc, #toc ul { list-style: none; }
 
