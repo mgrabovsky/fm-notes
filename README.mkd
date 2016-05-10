@@ -263,6 +263,8 @@ categories.
 -   [International Workshop on Satisfiability Modulo Theories](http://smt-workshop.cs.uiowa.edu/) (SMT)
 -   SAT/SMT Summer School [2015](http://smt2015.csl.sri.com/school/)
 -   [Journal of Formalized Reasoning](http://jfr.unibo.it/)
+-   Workshop on Proofs, Justifications and Certificates
+-   [International Workshop on Hammers for Type Theories](http://hatt2016.inria.fr/) (HaTT)
 
 **Formal methods**
 
@@ -289,6 +291,8 @@ categories.
 -   International Workshop on Formal Engineering Approaches to Software Components and Architectures (FESCA)
 -   [International Symposia on Formal Methods for Components and Objects](http://liacs.leidenuniv.nl/~bonsanguemm/fmco/) (FMCO)
 -   Summer School on Formal Techniques [2015](http://fm.csl.sri.com/SSFT15/)
+-   IFIP Working Conference on Verified Software: Theories, Tools, and Experiments (VSTTE)
+-   [International Symposium On Leveraging Applications of Formal Methods, Verification and Validation](http://www.isola-conference.org/) (ISoLA)
 
 **Programming languages**
 
@@ -318,6 +322,7 @@ This includes compilers and related stuff, too.
 -   Workshop on Probabilistic Programming Semantics (PPS)
 -   Symposium on Trends in Functional Programming (TFP)
 -   Approaches and Applications of Inductive Programming (AAIP)
+-   [Syntax and Semantics of Low Level Languages](http://lola.cse.buffalo.edu/) (LOLA)
 
 **General/other**
 
