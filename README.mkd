@@ -115,6 +115,8 @@ this discourage you.
 -   [Mtac](http://plv.mpi-sws.org/mtac/) – "a monad for typed tactic programming in Coq"
 -   [cases plug-in](https://github.com/pilki/cases) – extended support for `S*Case`
     as featured in _Software Foundations_
+-   [coq-dpdgraph](https://github.com/karmaki/coq-dpdgraph) – plug-in for exploring
+    dependencies between Coq objects
 -   [wilcoxjay/tactics](https://github.com/wilcoxjay/tactics) – some useful tactics
     by James Wilcox
 -   ["A Formal Library for Elliptic Curves in the Coq Proof Assistant"](https://dx.doi.org/10.1007/978-3-319-08970-6_6)
@@ -143,7 +145,7 @@ this discourage you.
     -   tons of articles around this
     -   A\. W. Appel: ["Verified Software Toolchain"](https://www.cs.princeton.edu/~appel/papers/vst.pdf) (2011)
     -   A\. W. Appel: ["Verification of a Cryptographic Primitive: SHA-256"](http://www.cs.princeton.edu/~appel/papers/verif-sha-2.pdf) (2016)
--   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned?)
+-   [Bedrock](http://plv.csail.mit.edu/bedrock/) (abandoned)
     -   A\. Chlipala: ["The Bedrock Structured Programming System: Combining
         Generative Metaprogramming and Hoare Logic in an Extensible Program
         Verifier"](http://adam.chlipala.net/papers/BedrockICFP13/BedrockICFP13.pdf)
@@ -163,6 +165,7 @@ this discourage you.
     -   ["Formal certification of ElGamal encryption"](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.220.6617) (2008)
 -   [CompCert](http://compcert.inria.fr/) – verified optimising compiler of
     a substantial subset of C99
+    -   X\. Leroy _et al._: ["CompCert – A Formally Verified Optimizing Compiler"](https://hal.inria.fr/LORIA-FM/hal-01238879) (2016)
 -   [Verasco](http://compcert.inria.fr/verasco/) – verified static analyser
 -   [JSCert: Certified JavaScript](http://jscert.org)
     -   ["A Trusted Machnised JavaScript Specification"](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
@@ -242,6 +245,7 @@ _See the [standalone file](conferences.mkd)._
         reincarnation by Jon Sterling
 -   [MetaPRL](http://metaprl.org/default.html)
 -   [miniprl](https://github.com/jozefg/miniprl) – a minimal implementation of PRL in Standard ML
+    -   [cha](https://github.com/thsutton/cha) – an implementation in Haskell
 -   [Isabelle](https://isabelle.in.tum.de/) – great [Archive of Formal Proofs](http://afp.sourceforge.net/);
     small trusted meta-logical core, usually used along with HOL
     -   [Haskabelle](https://isabelle.in.tum.de/haskabelle.html)

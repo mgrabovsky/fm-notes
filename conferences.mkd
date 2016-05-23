@@ -99,6 +99,7 @@ This includes compilers and related stuff, too.
 -   Symposium on Trends in Functional Programming (TFP)
 -   Approaches and Applications of Inductive Programming (AAIP)
 -   [Syntax and Semantics of Low Level Languages](http://lola.cse.buffalo.edu/) (LOLA)
+-   Workshop on Implementation, Compilation, Optimization of Object-Oriented Languages, Programs and Systems (ICOOOLPS)
 
 **General/other**
 
@@ -116,3 +117,4 @@ This includes software engineering, security and tons of other fields.
 -   Microsoft Academic Search – [Top conferences in CS](http://academic.research.microsoft.com/?SearchDomain=2&entitytype=3)
 -   [Top Crypto and Security Conferences Ranking](http://icsd.i2r.a-star.edu.sg/staff/jianying/conference-ranking.html)
 
+<!-- vim: set et ts=4 sw=4: -->
