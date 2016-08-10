@@ -10,6 +10,7 @@ categories.
 **Type theory and foundations**
 
 -   Workshop on Homotopy Type Theory and Univalent Foundations of Mathematics
+-   [Workshop on Homotopy Type Theory / Univalent Foundations](http://hott-uf.gforge.inria.fr/)
 -   International Conference on Types for Proofs and Programs (TYPES)
 -   [International Conference on Typed Lambda Calculi and Applications](http://www.mimuw.edu.pl/tlca/) (TLCA)
 -   Conference on Algebra and Coalgebra in Computer Science (CALCO)
@@ -110,6 +111,7 @@ This includes software engineering, security and tons of other fields.
 -   [Doctoral Workshop on Mathematical and Engineering Methods in Computer Science](http://www.memics.cz/) (MEMICS)
 -   International Conference on Principles of Security and Trust (POST)
 -   [Conference on Intelligent Computer Mathematics](http://www.cicm-conference.org/) (CICM)
+-   International Congress on Mathematical Software (ICMS)
 
 **Meta**
 

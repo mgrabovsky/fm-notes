@@ -167,6 +167,8 @@ this discourage you.
     a substantial subset of C99
     -   X\. Leroy _et al._: ["CompCert – A Formally Verified Optimizing Compiler"](https://hal.inria.fr/LORIA-FM/hal-01238879) (2016)
 -   [Verasco](http://compcert.inria.fr/verasco/) – verified static analyser
+-   [DopCert](http://dopcert.cs.washington.edu/) – framework for formally verifiyng database query optimizations; uses HoTT
+    -   S\. Chu, K. Weitz, A. Cheung, D. Suciu: ["HoTTSQL: Proving Query Rewrites with Univalent SQL Semantics"](https://arxiv.org/abs/1607.04822) (2016)
 -   [JSCert: Certified JavaScript](http://jscert.org)
     -   ["A Trusted Machnised JavaScript Specification"](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
         (2014; [slides](http://jscert.org/popol14))
@@ -212,6 +214,7 @@ Related ACM Special Interest Groups: [SIGPLAN](http://www.sigplan.org/),
 -   _International Journal of Foundations of Computer Science_
 -   [_Information and Computation_](http://www.journals.elsevier.com/information-and-computation)
 -   [_Journal of Automated Reasoning_](https://www.springer.com/computer/theoretical+computer+science/journal/10817)
+-   [_Studies in Logic, Grammar and Rhetoric_](http://logika.uwb.edu.pl/studies/index.php)&nbsp;†
 -   Springer's [_Lecture Notes in Computer Science_](http://link.springer.com/bookseries/558) series
 
 **Meta**
@@ -252,6 +255,8 @@ _See the [standalone file](conferences.mkd)._
     -   [Isar](https://isabelle.in.tum.de/Isar/)
     -   Isabelle/HOLCF – [paper](https://www21.in.tum.de/~nipkow/pubs/jfp99.html),
         [tutorial](https://isabelle.in.tum.de/library/HOL/HOLCF-Tutorial/document.pdf)
+    -   [Archive of Formal Proofs](https://www.isa-afp.org) – an extensive collection
+        of proof libraries for Isabelle
 -   [HOL](https://hol-theorem-prover.org/) by Michael Gordon et al. – the
     original system for interactive theorem proving in higher-order logic
     -   [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/) – small trusted core
@@ -356,11 +361,13 @@ _See the [standalone file](conferences.mkd)._
 
 ### Formal methods in practice
 
--   [seL4](http://sel4.systems/) – first fully verified and open-sourced OS kernel
 -   [Muen Separation Kernel](http://muen.sk/) – first open-source kernel verified for
     absence of runtime errors ([Reddit discussion](https://www.reddit.com/r/programming/comments/1sjyop/the_muen_separation_kernel_is_the_worlds_first/))
 -   [CertiKOS](http://flint.cs.yale.edu/certikos/) – "advanced development of certified OS kernels"
--   [Galois, Inc.](https://galois.com) and anything they do
+-   [Galois, Inc.](https://galois.com)
+-   [Software Systems Research Group](https://ssrg.nicta.com.au) (SSRG) at NICTA – tons of exciting projects
+    -   [seL4](http://sel4.systems/) – first fully verified and open-sourced OS kernel
+    -   [Cogent](https://ssrg.nicta.com.au/projects/TS/cogent.html) – cogeneration of proofs and C code in Isabelle
 
 ### Learning resources
 
