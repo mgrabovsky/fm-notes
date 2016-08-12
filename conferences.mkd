@@ -76,10 +76,14 @@ categories.
 This includes compilers and related stuff, too.
 
 -   Symposium on Principles of Programming Languages (POPL)
+    -   [preprints](https://github.com/gasche/popl2016-papers) – list of links to
+        preprints of accepted papers with links to previous years as well
 -   Summit on Advances in Programming Languages (SNAPL)
     -   [1st proceedings in PDF](http://drops.dagstuhl.de/opus/volltexte/lipics-complete/lipics-vol32-snapl2015-complete.pdf) (2015)
 -   [The International Conference on Functional Programming](http://icfpconference.org/) (ICFP)
     -   [CUFP](http://cufp.org/) workshop
+    -   [preprints](https://github.com/gasche/icfp2016-papers) – list of links to
+        preprints of accepted papers with links to previous years as well
 -   International Colloquium on Automata, Languages and Programming (ICALP)
 -   International Conference on Language and Automata Theory and Applications (LATA)
 -   International Conference on Compiler Construction (CC)
