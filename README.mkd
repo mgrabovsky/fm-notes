@@ -286,8 +286,12 @@ _See the [standalone file](conferences.mkd)._
 -   [Celf](https://clf.github.io/celf/)
 -   [Abella](http://abella-prover.org/)
 -   [Beluga](http://complogic.cs.mcgill.ca/beluga/)
+-   Delphin
+    -   C\. Schürmann, R. Fontana, Y. Liao: ["Delphin: Functional Programming with Deductive Systems"](http://www.itu.dk/people/carsten/papers/delphin.pdf)
+-   [Andromeda](https://andromedans.github.io/andromeda/) – type theory with equality reflection
+    -   Andrej Bauer's [Leeds workshop slides](http://math.andrej.com/2016/07/28/the-andromeda-proof-assistant-leeds-workshop-slides/) and some interesting discussion in the comments below
 -   [Prover9 and Mace4](https://www.cs.unm.edu/~mccune/prover9/) – and automated
-    theorem prover for FOL and searchr for counterexamples, respectively
+    theorem prover for FOL and searcher for counterexamples, respectively
 -   [leanCOP](http://www.leancop.de/) – tiny automated theorem prover for classical
     first-order logic implemented in Prolog
 -   [PVS](http://pvs.csl.sri.com/)
@@ -323,6 +327,8 @@ _See the [standalone file](conferences.mkd)._
 -   [ABC](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/~alanmi/abc/) – "A System for Sequential Synthesis and Verification"
 -   [funsat](https://hackage.haskell.org/package/funsat) – "a modern DPLL-style SAT
     solver" written in Haskell
+-   versat
+    -   D\. Oe, A. Stump, C. Oliver, K. Clancy: ["versat: A Verified Modern SAT Solver"](http://homepage.cs.uiowa.edu/~astump/papers/vmcai12.pdf) (2011)
 -   ["Simple SMT solver for use in an optimizing compiler"](http://www.well-typed.com/blog/103/)
 -   [SAT Competitions](http://www.satcompetition.org/)
 -   Configurable SAT Solver Challenge (CSSC) [2014](http://aclib.net/cssc2014/)
