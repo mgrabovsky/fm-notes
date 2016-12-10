@@ -22,6 +22,7 @@ categories.
 -   SICSA Summer School on Practical Types
 -   [Workshop on Type-Directed Development](https://tyde2016.github.io/) (TyDe)
 -   Workshop on Mathematically Structured Functional Programming (MSFP)
+-   International Workshop on Fixed Points in Computer Science (FICS)
 
 **Logic, theorem proving and automated reasoning**
 
@@ -105,6 +106,7 @@ This includes compilers and related stuff, too.
 -   Approaches and Applications of Inductive Programming (AAIP)
 -   [Syntax and Semantics of Low Level Languages](http://lola.cse.buffalo.edu/) (LOLA)
 -   Workshop on Implementation, Compilation, Optimization of Object-Oriented Languages, Programs and Systems (ICOOOLPS)
+-   Workshop on Partial Evaluation and Program Manipulation (PEPM)
 
 **General/other**
 

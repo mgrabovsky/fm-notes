@@ -295,6 +295,9 @@ _See the [standalone file](conferences.mkd)._
 -   [leanCOP](http://www.leancop.de/) – tiny automated theorem prover for classical
     first-order logic implemented in Prolog
 -   [PVS](http://pvs.csl.sri.com/)
+-   [Guru](https://code.google.com/archive/p/guru-lang/)
+    -   A\. Stump, et al.: ["Verified Programming in
+        Guru"](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8D1BE79D192DB10400D2E668D7B4729C?doi=10.1.1.588.9316&rep=rep1&type=pdf)
 
 ### Model checkers
 
@@ -325,6 +328,7 @@ _See the [standalone file](conferences.mkd)._
 -   [CryptoMiniSat 2](http://www.msoos.org/cryptominisat2/)
 -   [SONOLAR](http://www.informatik.uni-bremen.de/agbs/florian/sonolar/) – Solver for Non-Linear Arithmetic
 -   [ABC](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/~alanmi/abc/) – "A System for Sequential Synthesis and Verification"
+-   [Vampire](http://vprover.org/index.cgi)
 -   [funsat](https://hackage.haskell.org/package/funsat) – "a modern DPLL-style SAT
     solver" written in Haskell
 -   versat
