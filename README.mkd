@@ -197,6 +197,7 @@ this discourage you.
 
 For tools, see also [page on the Coq website](https://coq.inria.fr/related-tools).
 
+-   [DeepSpec: The Science of Deep Specification](http://www.deepspec.org/) – an NSF-funded initiative aiming to unify existing tools at the specification level and develop new ways to write "good" specifications
 -   [_Homotopy Type Theory_](http://homotopytypetheory.org/) – the book and [the library](https://github.com/HoTT/HoTT)
     -   [Coq for Homotopy Type Theory](http://tabareau.fr/coqhott) – a dedicated research project
 -   [UniMath](https://github.com/UniMath/UniMath) (Univalent Foundations)
