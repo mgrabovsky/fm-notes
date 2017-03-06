@@ -192,6 +192,7 @@ this discourage you.
     (CoqPL 2015; [GitHub](https://github.com/JasonGross/coq-tools))
 -   C\. Doczkal, J.-O. Kaiser, G. Smolka: ["A Constructive Theory of Regular Languages in Coq"](https://www.mpi-sws.org/~janno/publications/DBLP:conf/cpp/DoczkalKS13.pdf)
 -   F\. Chyzak, A. Mahboubi, T. Sibut-Pinote, E. Tassi: ["A Computer-Algebra-Based Formal Proof of the Irrationality of ζ(3)"](https://hal.inria.fr/hal-00984057)
+-   HAL Loria Archive, (Department 2: Formal Methods](https://hal.inria.fr/LORIA-FM/index/index)
 
 ## Related languages, tools and stuff
 
@@ -330,6 +331,7 @@ _See the [standalone file](conferences.mkd)._
 -   [SONOLAR](http://www.informatik.uni-bremen.de/agbs/florian/sonolar/) – Solver for Non-Linear Arithmetic
 -   [ABC](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/~alanmi/abc/) – "A System for Sequential Synthesis and Verification"
 -   [Vampire](http://vprover.org/index.cgi)
+-   [zChaff](https://www.princeton.edu/~chaff/zchaff.html)
 -   [funsat](https://hackage.haskell.org/package/funsat) – "a modern DPLL-style SAT
     solver" written in Haskell
 -   versat
