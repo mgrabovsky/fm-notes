@@ -2,7 +2,7 @@
     <https://homes.cs.washington.edu/~jrw12/InductionExercises.html>
  *)
 
-Require Import List Arith Omega.
+Require Import List Arith.
 Import ListNotations.
 
 Section SummingLists.
@@ -237,11 +237,8 @@ End ArithExpr.
 Section Fibonacci.
 Fixpoint fib n :=
   match n with
-  | 0    => 1
-  | S n' => match n' with
-            | 0     => 1
-            | S n'' => fib n' + fib n''
-            end
+  | 0 | 1           => 1
+  | S (S n'' as n') => fib n' + fib n''
   end.
 
 Fixpoint fib_tail' n a b :=
@@ -260,7 +257,7 @@ Proof.
     cbn.
     rewrite IHn.
     rewrite Nat.add_1_r.
-    (* TODO: Could use Omega some Setoid rewriting *)
+    (* TODO: Could use some Setoid rewriting? *)
     rewrite !Nat.add_succ_r, Nat.add_0_r.
     rewrite (Nat.add_comm (fib (S n)) (fib n)).
     reflexivity.
@@ -277,7 +274,7 @@ Proof.
     unfold fib_tail'; fold fib_tail'.
     rewrite IHn.
     (* RHS *)
-    (* TODO: Could use Omega or some Setoid rewriting *)
+    (* TODO: Could use some Setoid rewriting? *)
     rewrite plus_Snm_nSm, fib_step.
     rewrite Nat.mul_add_distr_l, Nat.mul_add_distr_r.
     rewrite <- Nat.add_assoc, (Nat.add_comm _ (a * fib n)), Nat.add_assoc.
