@@ -58,21 +58,21 @@ Qed.
 (* The block *)
 Variable bloom_filter : Type.
 Record block_header : Type := mkBlock_header
-    { parent_hash : hash256
-    ; ommers_hash : hash256
-    ; beneficiary : address
-    ; state_root : hash256
+    { parent_hash       : hash256
+    ; ommers_hash       : hash256
+    ; beneficiary       : address
+    ; state_root        : hash256
     ; transactions_root : hash256
-    ; receipts_root : hash256
-    ; logs_bloom : bloom_filter
-    ; difficulty : nat
-    ; block_number : nat
-    ; block_gas_limit : nat
-    ; block_gas_used : nat
-    ; timestamp : nat
-    ; extra_data : byte_array
-    ; mix_hash : hash256
-    ; block_nonce : Vector.t bit 64
+    ; receipts_root     : hash256
+    ; logs_bloom        : bloom_filter
+    ; difficulty        : nat
+    ; block_number      : nat
+    ; block_gas_limit   : nat
+    ; block_gas_used    : nat
+    ; timestamp         : nat
+    ; extra_data        : byte_array
+    ; mix_hash          : hash256
+    ; block_nonce       : Vector.t bit 64
     }.
 
 Definition block : Type := block_header * list block_header * list transaction.
