@@ -170,7 +170,7 @@ this discourage you.
 -   [DopCert](http://dopcert.cs.washington.edu/) – framework for formally verifiyng database query optimizations; uses HoTT
     -   S\. Chu, K. Weitz, A. Cheung, D. Suciu: ["HoTTSQL: Proving Query Rewrites with Univalent SQL Semantics"](https://arxiv.org/abs/1607.04822) (2016)
 -   [JSCert: Certified JavaScript](http://jscert.org)
-    -   ["A Trusted Machnised JavaScript Specification"](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
+    -   ["A Trusted Mechanised JavaScript Specification"](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
         (2014; [slides](http://jscert.org/popol14))
 -   [Cosa](https://github.com/aspiwack/cosa) – Coq-verified Shape Analysis
 -   ["A Machine-Checked Proof of the Odd Order Theorem"](http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf)
