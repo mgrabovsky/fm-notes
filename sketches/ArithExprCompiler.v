@@ -127,7 +127,7 @@ Proof.
     now rewrite IHp.
 Qed.
 
-Lemma run_correct : forall e s, run (compile e) s = eval_expr e :: s.
+Lemma compile_correct' : forall e s, run (compile e) s = eval_expr e :: s.
 Proof.
   induction e.
   - reflexivity.
@@ -146,5 +146,5 @@ Qed.
 
 Theorem compile_correct : forall e, run (compile e) [] = [eval_expr e].
 Proof.
-  now intro; rewrite run_correct.
+  now intro; rewrite compile_correct'.
 Qed.
