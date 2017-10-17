@@ -107,6 +107,7 @@ This includes compilers and related stuff, too.
 -   [Syntax and Semantics of Low Level Languages](http://lola.cse.buffalo.edu/) (LOLA)
 -   Workshop on Implementation, Compilation, Optimization of Object-Oriented Languages, Programs and Systems (ICOOOLPS)
 -   Workshop on Partial Evaluation and Program Manipulation (PEPM)
+-   Workshop on Higher-Order Programming with Effects (HOPE)
 
 **General/other**
 
