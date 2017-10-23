@@ -1,5 +1,5 @@
 (** Source: https://golem.ph.utexas.edu/category/2015/06/semigroup_puzzles.html *)
-From mathcomp Require Import ssreflect.
+Require Import ssreflect.
 
 Section puzzles.
   Variable A : Type.
