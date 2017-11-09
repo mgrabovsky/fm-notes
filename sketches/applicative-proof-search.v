@@ -93,6 +93,7 @@ Module Type CTL.
   Inductive CT :=
     At : L * Sigma -> Suspended (list CT) -> CT.
 
+  Require FunInd.
   Function follow dia s {measure length (delta dia s)} :=
     let followAll := fix followAll dia xs {struct xs} :=
       match xs with
