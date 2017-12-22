@@ -12,12 +12,24 @@ Proof.
   destruct i; eauto.
 Defined.
 
+Lemma vector_case : forall {A n} (v : Vector.t A n),
+  match n return Vector.t A n -> Type with
+  | 0   => fun _ => unit
+  | S _ => fun v => exists x xs, v = x :: xs
+  end v.
+Proof.
+  destruct v; [ constructor | eauto ].
+Defined.
+
 Lemma replace_fact1 {A n} (xs : Vector.t A n) i x : (replace xs i x)[@i] = x.
 Proof.
+  induction i; destruct (vector_case xs) as [? [? ?]]; subst; firstorder.
+  (* Proof by induction on the vector instead:
   induction xs; [ inversion i | ].
   destruct (fin_case i).
   - subst. auto.
   - firstorder; subst; cbn; auto.
+  *)
 Qed.
 
 Lemma replace_fact2 {A n} (xs : Vector.t A n) x i k : k <> i -> (replace xs i x)[@k] = xs[@k].
