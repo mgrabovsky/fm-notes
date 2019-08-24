@@ -1,16 +1,20 @@
-This repository serves as a log of my endeavour to learn to use and understand
-the [Coq](https://coq.inria.fr/) proof assistant. It may contain proofs, attempts
-at proofs, links to related resources (blogs, articles, papers, books), notes on
-logic, type theory, formal verification, theorem proving, automated reasoning, and
-much more.
+This repository was originally inteded as a log of my learning of the
+[Coq](https://coq.inria.fr/) proof assistant. My interests have since grown
+enormously in breadth and so the repo has surpassed its original scope. At this
+moment, I'd like this place to collect and categorise interesting and useful
+resources on the theory and applications of various methods of formal verification.
+This includes topics like theorem proving, higher-order logic, lambda calculus, type
+theory, model checking, automated reasoning and so on.
 
+<!--
 I will try to only include things that seem useful, informative, interesting or cool,
 things that I forget, and tips and warnings regarding the subtleties of Coq.
 Therefore, if you want to learn Coq from scratch, I suggest you try one of the
 resources listed [below](#useful-resources).
+-->
 
-I do not claim completeness, correctness, consistency or usefulness of any
-information contained herein.
+I do not yet claim completeness, correctness, consistency or usefulness of any
+of information contained herein.
 
 ![](http://i.creativecommons.org/p/zero/1.0/80x15.png)
 
@@ -42,7 +46,7 @@ intuitionistic type theory. The underlying formalism is called Calculus of
 Constructions (CoC) which is a dependently-typed λ-calculus and an intuitionistic
 higher-order logic. Its core is written in OCaml.
 
-<!-- *TODO:* Slap some papers on the formal stuff around here -->
+<!-- TODO: Slap some papers on the formal stuff around here -->
 
 ## Tactics
 
