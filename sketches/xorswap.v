@@ -12,7 +12,8 @@ Lemma xor_commut : forall n x y, @xor n x y = xor y x.
 Proof.
   intros.
   unfold xor, BVxor.
-  apply (Vector.rect2 (fun m v1 v2 => @Vector.map2 _ _ _ xorb m v1 v2 = Vector.map2 xorb v2 v1)).
+  apply (Vector.rect2 (fun m v1 v2 =>
+    Vector.map2 (n:=m) xorb v1 v2 = Vector.map2 xorb v2 v1)).
   - reflexivity.
   - intros; cbn.
     now rewrite xorb_comm, H.
@@ -22,9 +23,10 @@ Lemma xor_assoc : forall n x y z, @xor n x (xor y z) = xor (xor x y) z.
 Proof.
   intros.
   unfold xor, BVxor.
+  (* TODO: Finish this proof. *)
 Admitted.
 
-Lemma xor_nilpotent : forall n x, @xor n x x = @Bvect_false n.
+Lemma xor_nilpotent : forall n x, xor x x = Bvect_false n.
 Proof.
   intros.
   unfold xor, BVxor, Bvect_false.
@@ -33,19 +35,15 @@ Proof.
   - now cbn; rewrite IHx, xorb_nilpotent.
 Qed.
 
-Lemma xor_false_r : forall n x, @xor n x (@Bvect_false n) = x.
+Lemma xor_false_r : forall n x, xor x (Bvect_false n) = x.
 Proof.
-  intros.
-  unfold xor, BVxor, Bvect_false.
   induction x.
   - reflexivity.
   - now cbn; rewrite IHx, xorb_false_r.
 Qed.
 
-Lemma xor_false_l : forall n x, @xor n (@Bvect_false n) x = x.
+Lemma xor_false_l : forall n x, xor (Bvect_false n) x = x.
 Proof.
-  intros.
-  unfold xor, BVxor, Bvect_false.
   induction x.
   - reflexivity.
   - cbn; rewrite IHx.
