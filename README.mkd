@@ -20,8 +20,6 @@ of information contained herein.
 
 ---
 
--   [On Coq](#on-coq)
--   [Tactics](#tactics)
 -   [Useful resources](#useful-resources)
     -   [Blogs](#blogs)
 -   [Libraries and plug-ins](#libraries-and-plug-ins)
@@ -38,28 +36,6 @@ of information contained herein.
     -   [Learning resources](#learning-resources)
 -   [Type theory](#type-theory)
 -   [Copyright](#copyright)
-
-## On Coq
-
-Coq is an interactive theorem prover and proof assistant based on an intensional
-intuitionistic type theory. The underlying formalism is called Calculus of
-Constructions (CoC) which is a dependently-typed λ-calculus and an intuitionistic
-higher-order logic. Its core is written in OCaml.
-
-<!-- TODO: Slap some papers on the formal stuff around here -->
-
-## Tactics
-
-Standard Coq contains many tactics for working with the proof state, some of which
-may be confused easily. The documentation on tactics may be the most informative and
-thorough part of the Coq reference manual, so it's worth a read if you're looking for
-a way to make your proofs more concise. See the [Tactics Index](https://coq.inria.fr/distrib/current/refman/tactic-index.html)
-and [Chapter 8: Tactics](https://coq.inria.fr/distrib/current/refman/Reference-Manual010.html)
-in the reference manual.
-
-The Ssreflect libary (see below) contains a more sensible and consistent set of
-tactics. Although its syntax is very different from the Coq standard, don't let
-this discourage you.
 
 ## Useful resources
 
@@ -304,6 +280,14 @@ _See the [standalone file](conferences.mkd)._
 -   [Guru](https://code.google.com/archive/p/guru-lang/)
     -   A\. Stump, et al.: ["Verified Programming in
         Guru"](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8D1BE79D192DB10400D2E668D7B4729C?doi=10.1.1.588.9316&rep=rep1&type=pdf)
+
+<dl>
+<dt>Coq</dt>
+<dd>Coq is an interactive theorem prover and proof assistant based on an intensional
+intuitionistic type theory -- the Calculus of Inductive Constructions (CIC). It is
+a dependently-typed λ-calculus and (by the Curry-Howard isomorphism) an
+intuitionistic higher-order logic. It is written in OCaml.</dd>
+</dl>
 
 ### Model checkers
 
