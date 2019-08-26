@@ -3,23 +3,25 @@
 Set Implicit Arguments.
 Unset Strict Implicit.
 
-Require Import List PeanoNat.
-Import ListNotations Nat.
+Require Import List.
+Require Import PeanoNat.
+Import ListNotations.
+Import Nat.
 
 (** Syntax definition *)
 Inductive expr : Type :=
-| Const  : nat -> expr
-| Plus   : expr -> expr -> expr
-| Times  : expr -> expr -> expr
-| Modulo : expr -> expr -> expr
-| Ble    : expr -> expr -> expr
-| Beq    : expr -> expr -> expr.
+| Const  (_   : nat)
+| Plus   (_ _ : expr)
+| Times  (_ _ : expr)
+| Modulo (_ _ : expr)
+| Ble    (_ _ : expr)
+| Beq    (_ _ : expr).
 
-Infix "%+"  := Plus (left associativity, at level 50).
-Infix "%*"  := Times (left associativity, at level 45).
-Infix "%%"   := Modulo (left associativity, at level 51).
-Infix "%<=" := Ble (left associativity, at level 52).
-Infix "%="  := Beq (left associativity, at level 52).
+Infix "%+"  := Plus   (left associativity, at level 50).
+Infix "%*"  := Times  (left associativity, at level 45).
+Infix "%%"  := Modulo (left associativity, at level 51).
+Infix "%<=" := Ble    (left associativity, at level 52).
+Infix "%="  := Beq    (left associativity, at level 52).
 
 (** Reference evaluator -- denotational semantics *)
 Fixpoint eval_expr e :=
@@ -81,31 +83,37 @@ Definition stack := list nat.
 Fixpoint run (p : prog) (s : stack) : stack :=
   match p with
   | []      => s
-  | i :: p' => let s' := match i with
-                         | Push n => n :: s
-                         | Add    => match s with
-                                     | n1 :: n2 :: s' => n1 + n2 :: s'
-                                     | _              => s
-                                     end
-                         | Mul    => match s with
-                                     | n1 :: n2 :: s' => n1 * n2 :: s'
-                                     | _              => s
-                                     end
-                         | Mod    => match s with
-                                     | n1 :: n2 :: s' => modulo n1 n2 :: s'
-                                     | _              => s
-                                     end
-                         | Le     => match s with
-                                     | n1 :: n2 :: s' =>
-                                        (if n1 <=? n2 then 1 else 0) :: s'
-                                     | _              => s
-                                     end
-                         | Eq     => match s with
-                                     | n1 :: n2 :: s' =>
-                                        (if n1 =? n2 then 1 else 0) :: s'
-                                     | _              => s
-                                     end
-                         end in
+  | i :: p' => let s' :=
+                  match i with
+                  | Push n => n :: s
+                  | Add =>
+                    match s with
+                    | n1 :: n2 :: s' => n1 + n2 :: s'
+                    | _              => s
+                    end
+                  | Mul =>
+                    match s with
+                    | n1 :: n2 :: s' => n1 * n2 :: s'
+                    | _              => s
+                    end
+                  | Mod =>
+                    match s with
+                    | n1 :: n2 :: s' => modulo n1 n2 :: s'
+                    | _              => s
+                    end
+                  | Le =>
+                    match s with
+                    | n1 :: n2 :: s' =>
+                      (if n1 <=? n2 then 1 else 0) :: s'
+                    | _              => s
+                              end
+                  | Eq =>
+                    match s with
+                    | n1 :: n2 :: s' =>
+                      (if n1 =? n2 then 1 else 0) :: s'
+                    | _              => s
+                    end
+                  end in
                run p' s'
   end.
 
@@ -149,11 +157,15 @@ Proof.
   now intro; rewrite compile_correct'.
 Qed.
 
-(** Operation small-step semantics for the language *)
+(** Operational small-step semantics for the language *)
 Reserved Infix "==>" (at level 60).
 Inductive step_expr : expr -> expr -> Prop :=
-(*| Step_Const : forall n, (* TODO: Should we have this? See also note below on [step_deterministic] *)
-    Const n ==> Const n*)
+(* TODO: Should we have this rule in the relation?
+ * See also note below on [step_deterministic].
+
+| Step_Const : forall n, 
+    Const n ==> Const n
+*)
 
 | Step_Plus1 : forall e1 e1' e2,
     e1 ==> e1' ->
@@ -211,7 +223,7 @@ Lemma step_deterministic : forall e, exists! n, e ==>* Const n.
 Proof.
   induction e.
   - exists n.
-    split; [ constructor; constructor | ].
+    split; [ constructor | ].
     inversion_clear 1; [ reflexivity | inversion H0 ].
   - destruct IHe1 as [n1 [Hstep1 Hinv1]], IHe2 as [n2 [Hstep2 Hinv2]].
     exists (n1 + n2).
@@ -220,4 +232,6 @@ Proof.
       * econstructor; [ apply Step_Plus3 | constructor ].
       * econstructor; [ apply Step_Plus2; eassumption | ].
         fold step_expr_star in *.
+        (* TODO: Quite tedious... Automate this! *)
+Admitted.
 
