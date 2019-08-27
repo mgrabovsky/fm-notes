@@ -1,6 +1,6 @@
 .PHONY: clean
 
 clean:
-	-$(RM) *.{vo,glob,v\#} .*.aux
+	-$(RM) *.{v\#,vo,glob} .*.aux
 	-$(RM) -r .coq-native/
 
