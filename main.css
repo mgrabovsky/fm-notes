@@ -14,4 +14,5 @@ h2 { border-top: 5px solid #ccc; padding-top: .8em; }
 #toc { position: fixed; left: 0; top: 1em; font-size: .95em; line-height: 1.4em;
     font-family: Roboto; }
 #toc .active { font-weight: bold; }
+.warning { margin-bottom: 2.5rem; padding: 2rem 1.8rem; background: #f7f0d5; }
 
