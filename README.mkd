@@ -1,10 +1,10 @@
-This repository was originally inteded as a log of my learning of the
+This repository was originally intended as a log of my learning of the
 [Coq](https://coq.inria.fr/) proof assistant. My interests have since grown
-enormously in breadth and so the repo has surpassed its original scope. At this
+enormously in breadth and so the document has surpassed its original scope. At this
 moment, I'd like this place to collect and categorise interesting and useful
 resources on the theory and applications of various methods of formal verification.
-This includes topics like theorem proving, higher-order logic, lambda calculus, type
-theory, model checking, automated reasoning and so on.
+This includes topics such as theorem proving, higher-order logic, lambda calculus,
+type theory, model checking, automated reasoning and so on.
 
 <!--
 I will try to only include things that seem useful, informative, interesting or cool,
@@ -41,7 +41,7 @@ of information contained herein.
 
 -   [Official Coq documentation](https://coq.inria.fr/documentation)
     -   The official documentation is OK, quite comprehensive. The description of
-        tactics is very good, there are few undocuments points.
+        tactics is very good, there are few undocumented points.
     -   [Reference Manual](https://coq.inria.fr/distrib/current/files/Reference-Manual.pdf)
     -   [Tutorial](https://coq.inria.fr/distrib/current/files/Tutorial.pdf)
         -   A simple and straightforward introduction to basics of proofs using Coq
@@ -57,7 +57,7 @@ of information contained herein.
 -   [/r/coq](https://www.reddit.com/r/coq)
 -   [Coq in a Hurry](https://cel.archives-ouvertes.fr/file/index/docid/475807/filename/coq-hurry.pdf)
 -   [Introduction to the Coq proof-assistant for practical software
-    verication](https://www.lri.fr/~paulin/LASER/course-notes.pdf) course notes
+    verification](https://www.lri.fr/~paulin/LASER/course-notes.pdf) course notes
     -   Another tutorial, slightly more interesting; possibly outdated
 -   [Coq'Art](http://www.labri.fr/perso/casteran/CoqArt/index.html) – the first ever
     book on Coq and CoC
@@ -147,7 +147,7 @@ of information contained herein.
     a substantial subset of C99
     -   X\. Leroy _et al._: ["CompCert – A Formally Verified Optimizing Compiler"](https://hal.inria.fr/LORIA-FM/hal-01238879) (2016)
 -   [Verasco](http://compcert.inria.fr/verasco/) – verified static analyser
--   [DopCert](http://dopcert.cs.washington.edu/) – framework for formally verifiyng database query optimizations; uses HoTT
+-   [DopCert](http://dopcert.cs.washington.edu/) – framework for formally verifying database query optimizations; uses HoTT
     -   S\. Chu, K. Weitz, A. Cheung, D. Suciu: ["HoTTSQL: Proving Query Rewrites with Univalent SQL Semantics"](https://arxiv.org/abs/1607.04822) (2016)
 -   [JSCert: Certified JavaScript](http://jscert.org)
     -   ["A Trusted Mechanised JavaScript Specification"](http://www.doc.ic.ac.uk/~gds/jscert_popl14.pdf)
@@ -156,7 +156,7 @@ of information contained herein.
 -   ["A Machine-Checked Proof of the Odd Order Theorem"](http://www.cs.unibo.it/~asperti/PAPERS/odd_order.pdf)
 -   ["A Reflexive Formalization of a SAT Solver in Coq"](https://www.lri.fr/~conchon/publis/lescuyer-conchon-tphols08.pdf)
     (2008)
--   ["Towards an effective formally certfied constraint solver"](http://cp2014.a4cp.org/sites/default/files/uploads/DuboisGotlieb-slides.pdf)
+-   ["Towards an effective formally certified constraint solver"](http://cp2014.a4cp.org/sites/default/files/uploads/DuboisGotlieb-slides.pdf)
     (2014; slides)
 
 ### Papers and articles
@@ -263,7 +263,7 @@ _See the [standalone file](conferences.mkd)._
 -   [F\*](https://www.fstar-lang.org/) – "a new higher order, effectful programming
     language designed with program verification in mind"
 -   [Eff](http://www.eff-lang.org/) – functional language with first-class effects
-    and native handling of all kinds of computatinal effects without touching monads
+    and native handling of all kinds of computational effects without touching monads
 -   [Twelf](http://twelf.org/wiki/Main_Page)
 -   [Celf](https://clf.github.io/celf/)
 -   [Abella](http://abella-prover.org/)
@@ -440,7 +440,7 @@ mailing list as well.
 
 ## Copyright
 
-Written in 2015–2016 by Matěj Grabovský <matej.grabovsky at gmail>
+Written in 2015–2019 by Matěj Grabovský <matej at mgrabovsky net>
 
 To the extent possible under law, the author has dedicated all copyright and related
 and neighboring rights to this software to the public domain worldwide. This software
