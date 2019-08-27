@@ -4,29 +4,6 @@
     <meta charset="utf-8" />
     <title>Notes on formal methods</title>
     <link rel="stylesheet" href="main.css" />
-	<script>
-document.addEventListener('DOMContentLoaded', function() {
-    var headings = [].slice.call(document.querySelectorAll('h2, h3'));
-    document.addEventListener('scroll', function(ev) {
-        var offsets = headings.map(function(e) { return ev.pageY - e.offsetTop; });
-        var activeIndex = offsets.reduce(function(m, c, i) {
-            if (c >= -60) {
-                return i;
-            } else {
-                return m;
-            }
-        }, null);
-        var ac = document.querySelector('#toc .active')
-        if (ac) {
-            ac.setAttribute('class', null);
-        }
-        if (activeIndex !== null) {
-            ac = document.querySelector('#toc a[href="#' + headings[activeIndex].id + '"]')
-                .setAttribute('class', 'active');
-        }
-    });
-});
-	</script>
 </head>
 <body>
 <h1>fm-notes</h1>
@@ -389,5 +366,22 @@ document.addEventListener('DOMContentLoaded', function() {
 <p>Written in 2015–2016 by Matěj Grabovský <matej.grabovsky at gmail></p>
 <p>To the extent possible under law, the author has dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.</p>
 <p>You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see <a href="http://creativecommons.org/publicdomain/zero/1.0/" class="uri">http://creativecommons.org/publicdomain/zero/1.0/</a>.</p>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headings = Array.from(document.querySelectorAll('h2, h3'));
+    document.addEventListener('scroll', (ev) => {
+      const offsets = headings.map((e) => ev.pageY - e.offsetTop);
+      const activeIndex = offsets.reduce((m, c, i) => ((c >= -60) ? i : m), null);
+      let ac = document.querySelector('#toc .active')
+      if (ac) {
+        ac.setAttribute('class', null);
+      }
+      if (activeIndex !== null) {
+        ac = document.querySelector(`#toc a[href="#${headings[activeIndex].id}"]`)
+            .setAttribute('class', 'active');
+      }
+    });
+  });
+</script>
 </body>
 </html>
