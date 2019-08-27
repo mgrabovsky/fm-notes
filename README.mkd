@@ -21,11 +21,11 @@ of information contained herein.
 
 ---
 
--   [Useful resources](#useful-resources)
-    -   [Blogs](#blogs)
--   [Libraries and plug-ins](#libraries-and-plug-ins)
--   [Applications](#applications)
-    -   [Papers and articles](#papers-and-articles)
+-   [Useful resources on Coq](#useful-resources-on-coq)
+    -   [Coq-related blogs](#coq-related-blogs)
+-   [Libraries and plug-ins for Coq](#libraries-and-plug-ins-for-coq)
+-   [Applications of Coq](#applications-of-coq)
+    -   [Papers and articles using Coq](#papers-and-articles-using-coq)
 -   [Related languages, tools and stuff](#related-languages-tools-and-stuff)
     -   [Journals and book series](#journals-and-book-series)
     -   [Conferences and workshops](#conferences-and-workshops)
@@ -38,7 +38,7 @@ of information contained herein.
 -   [Type theory](#type-theory)
 -   [Copyright](#copyright)
 
-## Useful resources
+## Useful resources on Coq
 
 -   [Official Coq documentation](https://coq.inria.fr/documentation)
     -   The official documentation is OK, quite comprehensive. The description of
@@ -46,7 +46,7 @@ of information contained herein.
     -   [Reference Manual](https://coq.inria.fr/distrib/current/files/Reference-Manual.pdf)
     -   [Tutorial](https://coq.inria.fr/distrib/current/files/Tutorial.pdf)
         -   A simple and straightforward introduction to basics of proofs using Coq
--   [Cocorico!](https://coq.inria.fr/cocorico/Home) – official wiki
+-   [Official wiki](https://github.com/coq/coq/wiki) on GitHub
 -   The [coq-club](https://sympa.inria.fr/sympa/arc/coq-club) mailing list
 -   B\. C. Pierce et al.: [_Software Foundations_](http://www.cis.upenn.edu/~bcpierce/sf/current/)
     – probably the best introduction into Coq and theorem proving available
@@ -68,7 +68,7 @@ of information contained herein.
 -   the [nLab wiki](http://ncatlab.org/nlab/show/HomePage)
     -   [its page on Coq](http://ncatlab.org/nlab/show/Coq), for instance
 
-### Blogs
+### Coq-related blogs
 
 -   [Poleiro](http://poleiro.info/)
 -   [Gagallium](http://gallium.inria.fr/blog/) – blog of the [Gallium research team](http://gallium.inria.fr/) at Inria
@@ -79,7 +79,7 @@ of information contained herein.
         – an article on Coq's module system and universe polymorphism
 -   [The Type Theory Podcast](http://typetheorypodcast.com/)
 
-## Libraries and plug-ins
+## Libraries and plug-ins for Coq
 
 -   [Ssreflect and MathComp](http://ssr.msr-inria.inria.fr/)
     -   ["A Small Scale Reflection Extension for the Coq system"](https://hal.inria.fr/inria-00258384/en)
@@ -140,7 +140,7 @@ of information contained herein.
     -   ["Formalizing C in Coq"](https://coqpl.cs.washington.edu/wp-content/uploads/2014/12/ch2o.pdf)
         ([CoqPL 2015](https://coqpl.cs.washington.edu/))
 
-## Applications
+## Applications of Coq
 
 -   [CertiCrypt](http://certicrypt.gforge.inria.fr/) – Computer-Aided Cryptographic Proofs in Coq
     -   ["Formal certification of ElGamal encryption"](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.220.6617) (2008)
@@ -160,7 +160,7 @@ of information contained herein.
 -   ["Towards an effective formally certified constraint solver"](http://cp2014.a4cp.org/sites/default/files/uploads/DuboisGotlieb-slides.pdf)
     (2014; slides)
 
-### Papers and articles
+### Papers and articles using Coq
 
 -   [Heq: a Coq library for Heterogeneous Equality](http://sf.snu.ac.kr/gil.hur/Heq/)
 -   ["Inductive-inductive definitions"](http://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/thesis/thesis.pdf)
