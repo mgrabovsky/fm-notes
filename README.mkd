@@ -6,12 +6,13 @@ resources on the theory and applications of various methods of formal verificati
 This includes topics such as theorem proving, higher-order logic, lambda calculus,
 type theory, model checking, automated reasoning and so on.
 
-<!--
-I will try to only include things that seem useful, informative, interesting or cool,
-things that I forget, and tips and warnings regarding the subtleties of Coq.
-Therefore, if you want to learn Coq from scratch, I suggest you try one of the
-resources listed [below](#useful-resources).
--->
+During my adventures in the software verification land, I too often grieved that
+there was no single book or website that would concisely and eloquently describe some
+of the methods of the field, the software packages it employed, the jargon or
+connections to other fields of research. To the best of my knowledge, there is still
+no such book, survey article, podcast or any other resource. My vision is to fill
+this gap and provide a sort of signpost or handbook for readers who are new to this
+area and are eager to learn all of it.
 
 I do not yet claim completeness, correctness, consistency or usefulness of any
 of information contained herein.
