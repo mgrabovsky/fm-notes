@@ -340,6 +340,8 @@ intuitionistic higher-order logic. It is written in OCaml.</dd>
 -   [KLEE](https://klee.github.io/) – symbolic execution VM
 -   [CPAchecker](https://cpachecker.sosy-lab.org/)
 -   [Ultimate](https://monteverdi.informatik.uni-freiburg.de/tomcat/Website/)
+-   [K Framework](http://kframework.org/)
+-   [Lem](https://www.cl.cam.ac.uk/~pes20/lem/)
 
 ### Formal methods in practice
 
