@@ -5,7 +5,7 @@ Notation "{ x : A | P }" := (fun x : A => P).
 Definition comp {A} (u : P A) :=
   { x : A | ~u x }.
 
-Definition singleton {A} (x:A) := { y : A | x = y }.
+Definition singleton {A} (x : A) := { y : A | x = y }.
 
 Definition subset {A} (u v : P A) :=
   forall x, u x -> v x.
@@ -71,6 +71,9 @@ Definition preimage {A B} (f : A -> B) (S : P B) :=
 Definition continuous {A B} (U : topology A) (V : topology B) (f : A -> B) :=
   forall v, open _ V v -> open _ U (preimage f v).
 
+(*
 Lemma lem1 : forall A B (U : topology A) (V : topology B) f,
   continuous U V f ->
     forall U', U' <= U -> image f (comp U') <= comp (image f U').
+... getting a type error here
+*)
