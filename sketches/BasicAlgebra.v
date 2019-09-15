@@ -1,23 +1,21 @@
-Require Import Coq.Setoids.Setoid.
-Require Import Coq.Arith.Arith.
+Require Import NArith.
+Require Import Setoid.
 
-(** * Magmas *)
-Module Type magma.
-  (** Type of elements *)
-  Variable elt : Type.
-  (** The structure's binary operation *)
-  Variable op : elt -> elt -> elt.
+Set Implicit Arguments.
+Unset Strict Implicit.
+Generalizable All Variables.
 
-  Infix "*" := op (left associativity, at level 40).
-End magma.
+Class has_mul A :=
+  { mul : A -> A -> A }.
 
-(** * Semigroups *)
-Module Type semigroup.
-  Include magma.
+Infix "*" := mul (left associativity, at level 40).
 
-  (** Binary operation is associative in semigroups *)
-  Axiom assoc : forall a b c, a * b * c = a * (b * c).
-End semigroup.
+Class is_assoc {A} (r : A -> A -> A) :=
+  { assoc : `(r a (r b c) = r (r a b) c) }.
+
+Class semigroup `(has_mul A) `(is_assoc _ mul).
+
+(* TODO: Complete the following in the same vein. *)
 
 (** * Monoids *)
 Module Type monoid.
