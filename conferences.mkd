@@ -90,6 +90,7 @@ This includes compilers and related stuff, too.
 -   International Conference on Compiler Construction (CC)
 -   European Symposium on Programming (ESOP)
 -   Programming Language Design and Implementation (PLDI)
+-   Object-Oriented Programming, Systems, Language \& Applications (OOPSLA)
 -   [European Conference on Object-Oriented Programming](http://ecoop.org/) (ECOOP)
 -   [International Symposium on Memory Management](http://www.sigplan.org/Conferences/ISMM/) (ISMM)
 -   [Programming Language Design and Implementation](http://www.sigplan.org/Conferences/PLDI/) (PLDI)
