@@ -282,6 +282,7 @@ intuitionistic higher-order logic. It is written in OCaml.</dd>
 -   [MMC](https://www3.cs.stonybrook.edu/~lmc/mmc/) – explicit-state model checker for π-calculus
 -   [CBMC](http://www.cprover.org/cbmc/) – bounded model checking
 -   [ESBMC](http://www.esbmc.org/) – context-bounded model checking
+-   [Nidhugg](https://github.com/nidhugg/nidhugg)
 
 ### SAT & SMT solvers
 
