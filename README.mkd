@@ -17,7 +17,7 @@ area and are eager to learn all of it.
 I do not yet claim completeness, correctness, consistency or usefulness of any
 of information contained herein.
 
-![](http://i.creativecommons.org/p/zero/1.0/80x15.png)
+![](https://i.creativecommons.org/l/by/4.0/80x15.png)
 
 ---
 
@@ -424,13 +424,8 @@ mailing list as well.
 
 ## Copyright
 
-Written in 2015–2019 by Matěj Grabovský <matej at mgrabovsky net>
+Written in 2015–2020 by Matěj Grabovský <matej at mgrabovsky net>
 
-To the extent possible under law, the author has dedicated all copyright and related
-and neighboring rights to this software to the public domain worldwide. This software
-is distributed without any warranty.
-
-You should have received a copy of the CC0 Public Domain Dedication along with this
-software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+This work is licensed under a [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/) International License.
 
 <!-- vim: set et ts=4 sw=4: -->
