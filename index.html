@@ -375,16 +375,16 @@
   document.addEventListener('DOMContentLoaded', () => {
     const headings = Array.from(document.querySelectorAll('h2, h3'));
     document.addEventListener('scroll', (ev) => {
-      const offsets = headings.map((e) => ev.pageY - e.offsetTop);
+      const offsets = headings.map((el) => window.scrollY - el.offsetTop);
       const activeIndex = offsets.reduce((m, c, i) => ((c >= -60) ? i : m), null);
       let ac = document.querySelector('#toc .active')
-      if (ac) {
-        ac.setAttribute('class', null);
-      }
-      if (activeIndex !== null) {
-        ac = document.querySelector(`#toc a[href="#${headings[activeIndex].id}"]`)
-            .setAttribute('class', 'active');
-      }
+      if (ac)
+        ac.classList.remove('active');
+      if (activeIndex == null)
+        return;
+      ac = document.querySelector(`#toc a[href="#${headings[activeIndex].id}"]`);
+      if (ac)
+        ac.classList.add('active');
     });
   });
 </script>
