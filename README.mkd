@@ -259,6 +259,10 @@ _See the [standalone file](conferences.mkd)._
 -   [Guru](https://code.google.com/archive/p/guru-lang/)
     -   A\. Stump, et al.: ["Verified Programming in
         Guru"](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=8D1BE79D192DB10400D2E668D7B4729C?doi=10.1.1.588.9316&rep=rep1&type=pdf)
+-   [MMT](https://uniformal.github.io/) language and system
+
+See also: [Every proof assistant](http://math.andrej.com/category/every-proof-assistant/)
+series of lectures.
 
 <dl>
 <dt>Coq</dt>
