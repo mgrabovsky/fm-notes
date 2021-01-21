@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Roboto:400,700&subset=latin,greek);
-html { background: #fafafa; font-size: 14px; line-height: 1.6em; color: #444;
+html { background: #fafafa; font-size: 100%; line-height: 1.6em; color: #444;
     font-family: Merriweather, Georgia, 'Times New Roman', serif; }
-body { width: 40em; margin: 3em auto; }
+body { width: 66ch; margin: 3rem auto; }
 hr { border: none; border-bottom: 1px solid #aaa; }
 a, a:link { color: #c03767; text-decoration: none; transition: .1s ease-out color; }
 a:visited { color: #857086; }
@@ -9,10 +9,9 @@ a:hover { color: #e081a2; }
 h1, h2, h3 { font-family: Roboto, sans-serif; }
 h1 { border-bottom: 10px solid #efd2dc; font-size: 60px; line-height: 1em;
     text-transform: lowercase; }
-h2 { border-top: 5px solid #ccc; padding-top: .8em; }
+h2 { border-top: .3rem solid #ccc; padding-top: .8em; }
 #toc, #toc ul { list-style: none; }
-#toc { position: fixed; left: 0; top: 1em; font-size: .95em; line-height: 1.4em;
+#toc { position: fixed; left: 0; top: 1rem; font-size: .95em; line-height: 1.4em;
     font-family: Roboto; }
 #toc .active { font-weight: bold; }
 .warning { margin-bottom: 2.5rem; padding: 2rem 1.8rem; background: #f7f0d5; }
-
