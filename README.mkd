@@ -300,6 +300,7 @@ intuitionistic higher-order logic. It is written in OCaml.</dd>
 -   [Boolector](http://fmv.jku.at/boolector/)
 -   [Lingeling, Plingeling and Treengeling](http://fmv.jku.at/lingeling/)
 -   [CryptoMiniSat 2](http://www.msoos.org/cryptominisat2/)
+-   [CaDiCaL](http://fmv.jku.at/cadical/)
 -   [SONOLAR](http://www.informatik.uni-bremen.de/agbs/florian/sonolar/) – Solver for Non-Linear Arithmetic
 -   [ABC](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www-cad.eecs.berkeley.edu/~alanmi/abc/) – "A System for Sequential Synthesis and Verification"
 -   [Vampire](http://vprover.org/index.cgi)
