@@ -389,6 +389,7 @@ Courses, textbooks, papers, theses, competitions, influential figures in the fie
     [2005](https://www.cs.uoregon.edu/research/summerschool/summer05/curriculum.html)
 
 -   [Type Theory Study Group 2015](https://github.com/type-theory/type-theory-study-group-2015)
+-   Bryan Cook (2021): [A gentle introduction to automated reasoning](https://www.amazon.science/blog/a-gentle-introduction-to-automated-reasoning)
 
 ## Type theory
 
